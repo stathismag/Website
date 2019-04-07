@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Efstathios Magerakis"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -9,11 +9,11 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Ph.D. Student in Accounting and Finance"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ { name = "University of Patras", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include distributed robotics, mobile computing and programmable matter."
@@ -61,17 +61,22 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/GeorgeCushen"
+  link = "https://twitter.com/stathismag"
+  
+  [[social]]
+  icon = "instagram"
+  icon_pack = "fab"
+  link = "https://instagram.com/stathismag"
 
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+  link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ&hl"
 
 [[social]]
   icon = "github"
   icon_pack = "fab"
-  link = "https://github.com/gcushen"
+  link = "https://github.com/stathismag"
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -82,6 +87,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ph.D. Student in Accounting at the University of Patras with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Excellent knowledge of English language, both oral and written. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, STATA, Excel), business intelligence software (TARGIT), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (LATEX, Markdown).
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
