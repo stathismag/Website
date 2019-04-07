@@ -23,9 +23,12 @@ email = ""
 
 # List (academic) interests or hobbies
 interests = [
-  "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Cash Holdings",
+  "Managerial Discretion",
+  "Business Strategy",
+  "Managerial Ability",
+  "Policy Risk"
+  "Tax Aggressiveness"
 ]
 
 # Organizational groups that you belong to (for People widget)
