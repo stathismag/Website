@@ -13,10 +13,10 @@ role = "Ph.D. Student in Accounting and Finance"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Patras", url = "" } ]
+organizations = [ { name = "University of Patras", url = "" }, { name = "Department of Economics", url = "https://www.econ.upatras.gr/en"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "My primary research interests include financial policies, business strategies and CEO ability and discretion."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "smagerakis@upatras.gr"
@@ -38,19 +38,19 @@ user_groups = ["Researchers", "Visitors"]
   course = "PhD in Accounting"
   institution = "University of Patras"
   year = 2022 
-  
-  [[education.courses]]
-  course = "MEng in Artificial Intelligence"
+    
+[[education.courses]]
+  course = "Msc in Applied Economics and Data Analysis"
   institution = "University of Patras"
   year = 2017
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
+  
+ [[education.courses]]
+  course = "Master in Business Administartion (MBA)"
   institution = "University of Patras"
   year = 2015
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
+  course = "BSc in Economics"
   institution = "University of Patras"
   year = 2005
 
@@ -69,7 +69,7 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fab"
   link = "https://twitter.com/stathismag"
   
-  [[social]]
+ [[social]]
   icon = "instagram"
   icon_pack = "fab"
   link = "https://instagram.com/stathismag"
@@ -79,16 +79,15 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ&hl"
   
-  [[social]]
+ [[social]]
   icon = "researchgate"
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Efstathios_Magerakis"
   
-  [[social]]
+ [[social]]
   icon = "ssrn"
   icon_pack = "ai"
   link = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2448284"
-
 
 [[social]]
   icon = "github"
