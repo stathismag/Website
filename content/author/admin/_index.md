@@ -84,7 +84,7 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Efstathios_Magerakis"
   
-    [[social]]
+  [[social]]
   icon = "ssrn"
   icon_pack = "ai"
   link = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2448284"
