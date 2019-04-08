@@ -37,19 +37,24 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Accounting"
+  institution = "University of Patras"
+  year = 2022 (exp.)
+  
+  [[education.courses]]
+  course = "MEng in Artificial Intelligence"
+  institution = "University of Patras"
+  year = 2017
 
 [[education.courses]]
   course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  institution = "University of Patras"
+  year = 2015
 
 [[education.courses]]
   course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  institution = "University of Patras"
+  year = 2005
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -75,6 +80,11 @@ user_groups = ["Researchers", "Visitors"]
   icon = "google-scholar"
   icon_pack = "ai"
   link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ&hl"
+  
+  [[social]]
+  icon = "researchgate"
+  icon_pack = "ai"
+  link = "https://www.researchgate.net/profile/Efstathios_Magerakis"
 
 [[social]]
   icon = "github"
@@ -90,6 +100,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Ph.D. Student in Accounting at the University of Patras with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Excellent knowledge of English language, both oral and written. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, STATA, Excel), business intelligence software (TARGIT), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (LATEX, Markdown).
+Ph.D. Student in Accounting at the University of Patras with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Excellent knowledge of English language, both oral and written. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, STATA, Excel), business intelligence software (TARGIT), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (LATEX, Markdown).
