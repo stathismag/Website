@@ -16,7 +16,7 @@ role = "Ph.D. Student in Accounting and Finance"
 organizations = [ { name = "University of Patras", url = "" }, { name = "Department of Economics", url = "https://www.econ.upatras.gr/en"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My primary research interests include financial policies, business strategies and CEO ability and discretion."
+bio = "My primary research interests include financial accounting and management accounting."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "smagerakis@upatras.gr"
@@ -105,4 +105,4 @@ user_groups = ["Researchers", "Visitors"]
 
 Ph.D. Student in Accounting at the University of Patras with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
 
-Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Excellent knowledge of English language, both oral and written. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, STATA, Excel), business intelligence software (TARGIT), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (LATEX, Markdown).
+Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Highly proficient in spoken and written English. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, STATA, Excel), business intelligence software (TARGIT), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (LATEX, Markdown).
