@@ -27,7 +27,7 @@ interests = [
   "Managerial Discretion",
   "Business Strategy",
   "Managerial Ability",
-  "Policy Risk"
+  "Policy Risk",
   "Tax Aggressiveness"
 ]
 
