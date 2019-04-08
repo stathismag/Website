@@ -37,7 +37,7 @@ user_groups = ["Researchers", "Visitors"]
 [[education.courses]]
   course = "PhD in Accounting"
   institution = "University of Patras"
-  year = 2022 (exp.)
+  year = 2022 
   
   [[education.courses]]
   course = "MEng in Artificial Intelligence"
