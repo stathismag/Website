@@ -19,17 +19,15 @@ organizations = [ { name = "University of Patras", url = "" } ]
 bio = "My research interests include distributed robotics, mobile computing and programmable matter."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "smagerakis@upatras.gr"
 
 # List (academic) interests or hobbies
-interests = [
-  "Cash Holdings",
+interests = ["Cash Holdings",
   "Managerial Discretion",
   "Business Strategy",
   "Managerial Ability",
   "Policy Risk",
-  "Tax Aggressiveness"
-]
+  "Tax Aggressiveness"]
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
