@@ -16,7 +16,7 @@ baseurl = "https://smagerakis.netlify.com/"
 copyright = "&copy; {year} Efstathios Magerakis"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-138352684-1"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
