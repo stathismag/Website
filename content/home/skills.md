@@ -46,7 +46,7 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "excel"
+  icon = "chart-area"
   icon_pack = "fas"
   name = "Excel"
   description = ""
