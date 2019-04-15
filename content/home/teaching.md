@@ -12,20 +12,6 @@ subtitle = ""
 
 [content]
 
-+++
-
-Teaching Laboratory Classes and Workshops mostly including exercises and case studies. 
- 
-**Postgraduate Level**
-
-Financial Analysis and Company Valuation, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
-
-**Undergraduate Level**
- 
-Accounting, Department of Economics, Patras University of Economics & Business (Academic Year: 2017, Semester: Autumn).
-
-Accounting II, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
-
 
   # Page type to display. E.g. post, talk, or publication.
   page_type = "teaching"
@@ -81,3 +67,16 @@ Accounting II, Department of Economics, Patras University of Economics & Busines
  # CSS class.
  css_class = ""
 +++
+
+
+Teaching Laboratory Classes and Workshops mostly including exercises and case studies. 
+ 
+**Postgraduate Level**
+
+Financial Analysis and Company Valuation, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
+
+**Undergraduate Level**
+ 
+Accounting, Department of Economics, Patras University of Economics & Business (Academic Year: 2017, Semester: Autumn).
+
+Accounting II, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
