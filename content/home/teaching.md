@@ -23,9 +23,9 @@ Financial Analysis and Company Valuation, Department of Economics, Patras Univer
 **Undergraduate Level**
  
 Accounting, Department of Economics, Patras University of Economics & Business (Academic Year: 2017, Semester: Autumn).
+
 Accounting II, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
 
-+++
 
   # Page type to display. E.g. post, talk, or publication.
   page_type = "teaching"
