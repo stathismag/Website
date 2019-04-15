@@ -54,10 +54,28 @@ user_groups = ["Researchers", "Visitors"]
   institution = "University of Patras"
   year = 2005
 
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  # [[params.social]]
+  #   icon = "envelope"
+  #   icon_pack = "fa"
+  #   link = "mailto:flip.tanedo@ucr.edu"
 
 [[social]]
   icon = "envelope"
@@ -84,10 +102,20 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://www.researchgate.net/profile/Efstathios_Magerakis"
   
- [[social]]
-  icon = "ssrn"
-  icon_pack = "ai"
-  link = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2448284"
+  [[social]]
+    icon = "ideas-repec"
+    icon_pack = "ai"
+    link = "pma2713"
+ 	
+  [[social]]
+    icon = "mendeley"
+    icon_pack = "ai"
+    link = "https://www.mendeley.com/profiles/stathis-magerakis/"
+
+  [[social]]
+    icon = "publons"
+    icon_pack = "ai"
+    link = "https://publons.com/researcher/2901360/efstathios-magerakis/"
 
 [[social]]
   icon = "github"
@@ -96,7 +124,7 @@ user_groups = ["Researchers", "Visitors"]
   
  [[social]]
   icon = "orcid"
-  icon_pack = "fab"
+  icon_pack = "ai"
   link = "https://orcid.org/0000-0001-7977-0363"
 
 # Link to a PDF of your resume/CV from the About widget.
