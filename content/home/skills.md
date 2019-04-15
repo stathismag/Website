@@ -14,12 +14,19 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+
 [[feature]]
-  icon = "r-project"
-  icon_pack = "fab"
-  name = "R"
-  description = ""
-  
+  icon = "balance-scale"
+  icon_pack = "fas"
+  name = "Accounting"
+  description = ""  
+
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Finance"
+  description = ""    
+
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
@@ -27,15 +34,15 @@ subtitle = ""
   description = ""  
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = ""
-
-[[feature]]
   icon = "terminal"
   icon_pack = "fas"
   name = "Stata"
+  description = ""
+
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
   description = ""
 
 [[feature]]
@@ -60,6 +67,12 @@ subtitle = ""
   icon = "chart-pie"
   icon_pack = "fas"
   name = "Targit"
+  description = ""
+
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
+  name = "Lightroom"
   description = ""
 
 
