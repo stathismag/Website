@@ -23,7 +23,7 @@ subtitle = ""
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
+  name = "Econometrics"
   description = ""  
   
 [[feature]]
@@ -33,8 +33,34 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "camera-retro"
+  icon = "terminal"
   icon_pack = "fas"
   name = "Stata"
   description = ""
+
+[[feature]]
+  icon = "excel"
+  icon_pack = "fas"
+  name = "Excel"
+  description = ""
+
+[[feature]]
+  icon = "square-root-alt"
+  icon_pack = "fas"
+  name = "Latex"
+  description = ""
+
+[[feature]]
+  icon = "markdown"
+  icon_pack = "fas"
+  name = "Markdown"
+  description = ""
+
+[[feature]]
+  icon = "chart-pie"
+  icon_pack = "fas"
+  name = "Targit"
+  description = ""
+
+
 +++

@@ -82,6 +82,11 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fas"
   link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
+ [[social]]
+  icon = "linked-in"
+  icon_pack = "fab"
+  link = "https://www.linkedin.com/in/efstathiosmagerakis/"
+
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
@@ -105,7 +110,7 @@ user_groups = ["Researchers", "Visitors"]
   [[social]]
     icon = "ideas-repec"
     icon_pack = "ai"
-    link = "pma2713"
+    link = "https://authors.repec.org/profile-overview!dbbd9c892b1be0de6db4f3951e0cccea"
  	
   [[social]]
     icon = "mendeley"
