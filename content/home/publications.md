@@ -65,6 +65,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
 Click on the icon <img src="images/link.png"> to download pdf.
 
 * **E. Magerakis** & C. Siriopoulos & A. Tsagkanos (2015). Cash Holdings and Firm Characteristics: Evidence from UK Market, Journal of Risk & Control, Risk Market Journals, vol. 2(1), pages 19-43. [<img src="images/link.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
