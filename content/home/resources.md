@@ -2,10 +2,10 @@
 # A Projects section created with the Portfolio widget.
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Projects"
+title = "Resources"
 subtitle = ""
 
 [content]
@@ -76,14 +76,13 @@ subtitle = ""
 
 **Literature Links**
 
-[Google Scholar]   https://scholar.google.gr/
+[Google Scholar](https://scholar.google.gr/)
 
-[SSRN]  https://www.ssrn.com/index.cfm/en/ 
+[SSRN](https://www.ssrn.com/index.cfm/en/)
 
 [EconLit](https://www.aeaweb.org/econlit/)
 
 [NBER](https://www.nber.org/papers/)
-
 
 
 **Financial Data**
@@ -113,6 +112,8 @@ subtitle = ""
 [Markdown](http://markdownpad.com/)
 
 [Mendeley](https://www.mendeley.com)
+
+[Github](https://github.com/)
 
 
 **Finance News**
