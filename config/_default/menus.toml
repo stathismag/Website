@@ -21,7 +21,7 @@
   [[main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 60
+  weight = 40
   
 [[main]]
   name = "Resources"
