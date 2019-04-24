@@ -35,7 +35,7 @@ subtitle = ""
 
 [[feature]]
   icon = "markdown"
-  icon_pack = "fa"
+  icon_pack = "fas"
   name = "Markdown"
   description = ""
 
@@ -53,3 +53,28 @@ subtitle = ""
 
 
 +++
+
+
+[[feature]]
+  icon = "balance-scale"
+  icon_pack = "fas"
+  name = "Accounting"
+  description = ""  
+
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Finance"
+  description = ""    
+
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Econometrics"
+  description = "" 
+
+[[feature]]
+  icon = "chart-area"
+  icon_pack = "fas"
+  name = "Excel"
+  description = ""
