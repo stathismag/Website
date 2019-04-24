@@ -68,13 +68,16 @@ subtitle = ""
  css_class = ""
 +++
 
-* **Magerakis, E.** & Tzelepis, D., The Role of Business Strategy in Corporate Liquidity: Evidence from US Firms. In IMAEF 2018. Corfu, Greece, June 20-22, 2018.
+* Magerakis, E. & Tzelepis, D., 2018, "Making the Link: Cash Holdings, Managerial Ability and Discretion", 17th HFAA Conference, Athens, Greece, December 14-15. 
+[<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2018/12/program-HFAA-2018-web.pdf) 
 
-* **Magerakis, E.** & Tzelepis, D., The Determinants of Corporate Cash Holdings: Evidence from Greece. In 16th HFAA Conference. Athens, Greece, December 15-16, 2017.
+* Magerakis, E. & Tzelepis, D., 2018, "The Role of Business Strategy in Corporate Liquidity: Evidence from US Firms", 7th IMAEF, Corfu, Greece, June 20-22. [<img src="img/html.png">](http://www.econ.uoi.gr/imaef2018/imaef2018_scientific_programme.pdf)
 
-* **Magerakis, E.** & Loukopoulos, P., Cash Reserves and R&D Investment Effect: A UK Intra-Industry Overview. In 15th HFAA Conference. Athens, Greece, December 16-17, 2016.
+* Magerakis, E. & Tzelepis, D., 2017, “The Determinants of Corporate Cash Holdings: Evidence from Greece”, 16th HFAA Conference, Athens, Greece, December 15-16. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2017/12/program-HFAA-2017-web-final.pdf)
 
-* Magerakis, E., Leadership Ethics, CSR & Change management. In 12th Student Conference on Management Science and Technology, “Recent Trends in Management and New Entrepreneurship Perspectives” (pp. 178–187). Athens, Greece, May 14, 2015.
+* Magerakis, E. & Loukopoulos, P., 2016, "Cash Reserves and R&D Investment Effect: A UK Intra-Industry Overview", 15th HFAA Conference, Athens, Greece, December 16-17. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2016/12/program-HFAA-2016-final.pdf)
 
-* **Magerakis, E.**, Tsagkanos, A., & Siriopoulos, C., Corporate Liquidity, Firm Size and the Impact of Financial Crisis in UK Market. In 14th HFAA Conference. Athens, Greece, December 18-19, 2015.
+* Magerakis, E., 2015, "Leadership Ethics, CSR & Change management", 12th Student Conference on Management Science and Technology (pp. 178–187), Athens, Greece, May 14.[<img src="img/html.png">]
+
+* Magerakis, E., Tsagkanos, A., & Siriopoulos, C., 2015, "Corporate Liquidity, Firm Size and the Impact of Financial Crisis in UK Market", 14th HFAA Conference, Athens, Greece, December 18-19.[<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web-final.pdf)
 
