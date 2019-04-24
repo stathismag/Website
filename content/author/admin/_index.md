@@ -83,7 +83,7 @@ user_groups = ["Researchers", "Visitors"]
   link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
  [[social]]
-  icon = "linked-in"
+  icon = "linkedin"
   icon_pack = "fab"
   link = "https://www.linkedin.com/in/efstathiosmagerakis/"
 
