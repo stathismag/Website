@@ -34,8 +34,8 @@ subtitle = ""
   description = ""
 
 [[feature]]
-  icon = "markdown"
-  icon_pack = "fa"
+  icon = "fa-markdown"
+  icon_pack = "fab"
   name = "Markdown"
   description = ""
 
