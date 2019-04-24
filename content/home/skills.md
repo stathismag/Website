@@ -14,24 +14,6 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-
-[[feature]]
-  icon = "balance-scale"
-  icon_pack = "fas"
-  name = "Accounting"
-  description = ""  
-
-[[feature]]
-  icon = "chart-bar"
-  icon_pack = "fas"
-  name = "Finance"
-  description = ""    
-
-[[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Econometrics"
-  description = ""  
   
 [[feature]]
   icon = "terminal"
@@ -43,12 +25,6 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = ""
-
-[[feature]]
-  icon = "chart-area"
-  icon_pack = "fas"
-  name = "Excel"
   description = ""
 
 [[feature]]
@@ -77,3 +53,28 @@ subtitle = ""
 
 
 +++
+
+
+[[feature]]
+  icon = "balance-scale"
+  icon_pack = "fas"
+  name = "Accounting"
+  description = ""  
+
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
+  name = "Finance"
+  description = ""    
+
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Econometrics"
+  description = "" 
+
+[[feature]]
+  icon = "chart-area"
+  icon_pack = "fas"
+  name = "Excel"
+  description = ""
