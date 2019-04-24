@@ -69,7 +69,7 @@ subtitle = ""
 +++
 
 
-Teaching Laboratory Classes and Workshops mostly including exercises and case studies. 
+Teaching Assistant in Laboratory Classes and Workshops, mostly including problem reviews and case studies. 
  
 **Postgraduate Level**
 
