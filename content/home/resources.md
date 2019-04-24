@@ -88,5 +88,4 @@ subtitle = ""
 
 **Finance News**
 
-[Google Finance](https://www.google.com/finance) |	[Yahoo Finance](https://finance.yahoo.com/)	|	[Bloomberg](https://www.bloomberg.com/europe)	|	
-[WSJ](https://www.wsj.com/europe)
+[Google Finance](https://www.google.com/finance) |	[Yahoo Finance](https://finance.yahoo.com/)	|	[Bloomberg](https://www.bloomberg.com/europe)	|	[WSJ](https://www.wsj.com/europe)
