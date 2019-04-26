@@ -31,16 +31,6 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Foundations of Business Strategy"
-  url = ""
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/4W4JQTA62DRT"
-  date_start = "2017-12-09"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
   title = "Data-driven Decision Making"
   url = ""
   certificate_url = "https://www.coursera.org/account/accomplishments/verify/787EJUA2EFEE"
@@ -48,5 +38,24 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
 
-
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Foundations of Business Strategy"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/verify/4W4JQTA62DRT"
+  date_start = "2017-12-09"
+  date_end = ""
+  description = ""
+  
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "Framework for Data Collection and Analysis"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/verify/PJJQJ7FWC7RJ"
+  date_start = "2017-11-23"
+  date_end = ""
+  description = ""
+  
 +++
