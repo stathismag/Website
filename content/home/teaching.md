@@ -69,14 +69,8 @@ subtitle = ""
 +++
 
 
-Teaching Assistant in Laboratory Classes and Workshops, mostly including problem reviews and case studies. 
- 
-**Postgraduate Level**
+2019, Teaching Assistant, Business Financial Analysis (Msc, Spring Semester), University of Patras  
+2019, Teaching Assistant, Accounting II (BSc, Spring Semester), University of Patras   
+2017, Teaching Assistant, Accounting (BSc, Fall Semester), University of Patras  
+2007, Seminar Instructor, Developing Business Plan, Vocational Training SA  
 
-Financial Analysis and Company Valuation, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
-
-**Undergraduate Level**
- 
-Accounting, Department of Economics, Patras University of Economics & Business (Academic Year: 2017, Semester: Autumn).
-
-Accounting II, Department of Economics, Patras University of Economics & Business (Academic Year: 2019, Semester: Spring).
