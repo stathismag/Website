@@ -132,6 +132,17 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "ai"
   link = "https://orcid.org/0000-0001-7977-0363"
 
+  [[social]]
+    icon = "impactstory"
+    icon_pack = "ai"
+    link = "https://impactstory.org/u/0000-0001-7977-0363"
+
+  [[social]]
+    icon = "keybase"
+    icon_pack = "fab"
+    link = "https://keybase.io/stathismag"
+
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
