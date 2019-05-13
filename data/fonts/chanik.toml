@@ -17,6 +17,6 @@ mono_font = "Montserrat"
 # mono_font = "Roboto Mono"
 
 # Font size
-font_size = "17"
-font_size_small = "16"
+font_size = "16"
+font_size_small = "15"
 
