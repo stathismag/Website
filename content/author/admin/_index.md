@@ -37,7 +37,7 @@ user_groups = ["Researchers", "Visitors"]
 [[education.courses]]
   course = "PhD in Accounting"
   institution = "University of Patras"
-  year = 2022 
+  year = 2021 
     
 [[education.courses]]
   course = "Msc in Applied Economics and Data Analysis"
@@ -152,6 +152,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Ph.D. Student in Accounting at the University of Patras with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
+Ph.D. Student in Accounting at the [University of Patras](http://upatras.gr) with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
 
-Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Highly proficient in spoken and written English. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages (R, Stata, Excel), business intelligence software (Targit), accounting applications (SingularLogic Control, Galaxy, Genesis, OTS), typesetting and markup language (Latex, Markdown).
+Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Highly proficient in spoken and written English. Computer literate and excellent use of MS Office Suite. Proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)).
