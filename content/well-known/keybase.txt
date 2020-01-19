@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/stathismag
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://smagerakis.netlify.com
+  * I am stathismag (https://keybase.io/stathismag) on keybase.
+  * I have a public key ASBhjQoGYiSnOA1tvDTuDWklgZi8eGv2_DTIN0E7f_0BBQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201f01a53a9fd73848ea5035c9cb9fbdb390ccdf36b54095872639b8ae23898d3e0a",
+      "host": "keybase.io",
+      "kid": "0120618d0a066224a7380d6dbc34ee0d69258198bc786bf6fc34c837413b7ffd01050a",
+      "uid": "81d61e7b6251ee01ddeb5631cd373919",
+      "username": "stathismag"
+    },
+    "merkle_root": {
+      "ctime": 1557010456,
+      "hash": "7ee137e4681eb4a3d55ad7df91b9cf5320e5010522bd5f2d6f1003547c3421f2d76d9c505df31ab96933c3db88ae4640d373839606d146a59ac2bdc59ac340fb",
+      "hash_meta": "05648a9dcb55f83f5d9937bc286804a13f7442c78ad63ac90f7546ef5d9f4c81",
+      "seqno": 5297734
+    },
+    "service": {
+      "entropy": "UDexTI6EdohU2QZdzwuiQ8RO",
+      "hostname": "smagerakis.netlify.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.2.2"
+  },
+  "ctime": 1557010479,
+  "expire_in": 504576000,
+  "prev": "6eb2c0055faf045de93e47ac7846deaf7044d638eb316e09b64428509ef6dd6d",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgYY0KBmIkpzgNbbw07g1pJYGYvHhr9vw0yDdBO3/9AQUKp3BheWxvYWTESpcCCMQgbrLABV+vBF3pPkeseEber3BE1jjrMW4JtkQoUJ723W3EIIMoPbfzuoFb1Y4x4D7qlVf8YWCGwIsZme6Y/lv+cw7nAgHCo3NpZ8RAbAAqlGu4Sykf1OXq64mYv+kj/mu5yTxak06D5iu0tPZ3cc5kSGZohHMop4oYAzQWyHh/9hWz+XlPcLBtMvyBD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJAPSSQHDH8cSQBSiyRawyshpgA3Hon/eW05FnZT270co3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stathismag
+
+==================================================================
