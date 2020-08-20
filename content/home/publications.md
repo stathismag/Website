@@ -71,16 +71,16 @@ subtitle = ""
 
 * **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research*, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/JAAR-05-2019-0077
 
-* **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm Size Does Matter: New Evidence on the Determinants of Cash Holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. http://dx.doi.org/10.3390/jrfm13080163
+* **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. http://dx.doi.org/10.3390/jrfm13080163
 
-* **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. 2015. Cash Holdings and Firm Characteristics: Evidence from UK Market. *Journal of Risk & Control, 2*(1), 19-43. [<img src="img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
+* **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. 2015. Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk & Control, 2*(1), 19-43. [<img src="img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
 ### Working Papers
-* **Magerakis, E.** and Tzelepis D. (2019). Making the Link: Cash Holdings, Managerial Ability and Discretion. Available at *SSRN*: https://ssrn.com/abstract=3316109 or http://dx.doi.org/10.2139/ssrn.3316109. [<img src="img/pdf.png">](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3316109_code2448284.pdf?abstractid=3316109&mirid=1)
+* **Magerakis, E.** and Tzelepis D. (2019). Making the Link: Cash holdings, managerial ability and discretion. Available at *SSRN*: https://ssrn.com/abstract=3316109 or http://dx.doi.org/10.2139/ssrn.3316109. [<img src="img/pdf.png">](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3316109_code2448284.pdf?abstractid=3316109&mirid=1)
 
-* **Magerakis, E.** and Tzelepis D. (2019). Corruption, Cash Holdings and Firm Performance: Evidence from an Emerging Market.
+* **Magerakis, E.** and Tzelepis D. (2019). Corruption, cash Holdings and firm performance: Evidence from an emerging market.
 
 ### Other Publications
-* **Magerakis, E.** 2017. The Role of Business Strategy in Corporate Liquidity: Evidence from US Firms,  MSc Thesis, Department of Economics, University of Patras, Greece.  [<img src="img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+* **Magerakis, E.** 2017. The role of business strategy in corporate liquidity: Evidence from US firms,  MSc Thesis, Department of Economics, University of Patras, Greece.  [<img src="img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
-* **Magerakis, E.** 2015. Cash Holdings and Firm Characteristics: Evidence from UK Market, MBA Thesis, Department of Business Administration, University of Patras, Greece. [<img src="img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+* **Magerakis, E.** 2015. Cash holdings and firm characteristics: Evidence from UK market, MBA Thesis, Department of Business Administration, University of Patras, Greece. [<img src="img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
