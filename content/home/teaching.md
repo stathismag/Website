@@ -67,10 +67,10 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-
+2020, Teaching Assistant, Business Financial Analysis (Msc, Spring Semester), University of Patras  
+2019, Teaching Assistant, Accounting I (BSc, Fall Semester), University of Patras   
 2019, Teaching Assistant, Business Financial Analysis (Msc, Spring Semester), University of Patras  
 2019, Teaching Assistant, Accounting II (BSc, Spring Semester), University of Patras   
-2017, Teaching Assistant, Accounting (BSc, Fall Semester), University of Patras  
+2017, Teaching Assistant, Accounting I (BSc, Fall Semester), University of Patras  
 2007, Seminar Instructor, Developing Business Plan, Vocational Training SA  
 
