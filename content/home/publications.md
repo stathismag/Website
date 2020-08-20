@@ -81,6 +81,6 @@ subtitle = ""
 * **Magerakis, E.** and Tzelepis D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market.
 
 ### Other Publications
-* **Magerakis, E.** 2017. The role of business strategy in corporate liquidity: Evidence from US firms,  MSc Thesis, Department of Economics, University of Patras, Greece.  [<img src="img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+* **Magerakis, E.** (2017). The role of business strategy in corporate liquidity: Evidence from US firms.  MSc Thesis, Department of Economics, University of Patras, Greece.  [<img src="img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
-* **Magerakis, E.** 2015. Cash holdings and firm characteristics: Evidence from UK market, MBA Thesis, Department of Business Administration, University of Patras, Greece. [<img src="img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+* **Magerakis, E.** (2015). Cash holdings and firm characteristics: Evidence from UK market. MBA Thesis, Department of Business Administration, University of Patras, Greece. [<img src="img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
