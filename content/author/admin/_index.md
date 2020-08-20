@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Efstathios Magerakis"
+name = "Efstathios I. Magerakis"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -152,6 +152,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-Ph.D. Student in Accounting at the [University of Patras](http://upatras.gr) with a business background in Financial Reporting and Accounting. Experience in teaching both undergraduate and postgraduate level accounting courses in live settings. Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
+Efstathios (Stathis) is a Ph.D. Student in Accounting at the [University of Patras](http://upatras.gr) with a business background in Financial Reporting and Accounting. Experienced in teaching both undergraduate and postgraduate level accounting courses (in both live and online settings). Licensed Certified Accountant, experienced in accounting principles, tax legislation, and financial analysis. 
 
 Strong people skills and team-orientation. Ability to independently own decisions, balancing demands and deadlines. Proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)).
