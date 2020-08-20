@@ -68,15 +68,17 @@ subtitle = ""
  css_class = ""
 +++
 
-* **Magerakis, E.**, Tzelepis, D., 2018. Making the Link: Cash Holdings, Managerial Ability and Discretion. *17th HFAA Conference*, Athens, Greece, December 14-15. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2018/12/program-HFAA-2018-web.pdf) 
+* **Magerakis, E.** and Tzelepis, D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market. *18th HFAA Conference*, Athens, Greece, December 13-14. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2019/12/program-HFAA-2019-master_site.pdf ) 
 
-* **Magerakis, E.**, Tzelepis, D., 2018. The Role of Business Strategy in Corporate Liquidity: Evidence from US Firms. *7th IMAEF Meeting*, Corfu, Greece, June 20-22. [<img src="img/html.png">](http://www.econ.uoi.gr/imaef2018/imaef2018_scientific_programme.pdf)
+* **Magerakis, E.** and Tzelepis, D. (2018). Making the link: Cash holdings, managerial ability and discretion. *17th HFAA Conference*, Athens, Greece, December 14-15. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2018/12/program-HFAA-2018-web.pdf )
 
-* **Magerakis, E.**, Tzelepis, D., 2017. The Determinants of Corporate Cash Holdings: Evidence from Greece. *16th HFAA Conference*, Athens, Greece, December 15-16. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2017/12/program-HFAA-2017-web-final.pdf)
+* **Magerakis, E.** and Tzelepis, D. (2018). The role of business strategy in corporate liquidity: Evidence from US firms. *7th IMAEF Meeting*, Corfu, Greece, June 20-22. [<img src="img/html.png">](http://www.econ.uoi.gr/imaef2018/imaef2018_scientific_programme.pdf )
 
-* **Magerakis, E.**, Loukopoulos, P., 2016. Cash Reserves and R&D Investment Effect: A UK Intra-Industry Overview. *15th HFAA Conference*, Athens, Greece, December 16-17. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2016/12/program-HFAA-2016-final.pdf)
+* **Magerakis, E.** and Tzelepis, D. (2017). The determinants of corporate cash holdings: Evidence from Greece. *16th HFAA Conference*, Athens, Greece, December 15-16. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2017/12/program-HFAA-2017-web-final.pdf )
 
-* **Magerakis, E.**, 2015. Leadership Ethics, CSR & Change management. *12th Student Conference on Management Science and Technology*, pp. 178–187, Athens, Greece, May 14. [<img src="img/html.png">](https://www.dept.aueb.gr/en/dmst/content/12th-dmst-student-conference)
+* **Magerakis, E.** and Loukopoulos, P. (2016). Cash reserves and R&D investment effect: A UK intra-industry overview. *15th HFAA Conference*, Athens, Greece, December 16-17. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2016/12/program-HFAA-2016-final.pdf )
 
-* **Magerakis, E.**, Tsagkanos, A., Siriopoulos, C., 2015. Corporate Liquidity, Firm Size and the Impact of Financial Crisis in UK Market. *14th HFAA Conference*, Athens, Greece, December 18-19. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web.pdf)
+* **Magerakis, E.** (2015). Leadership ethics, CSR & change management. *12th Student Conference on Management Science and Technology*, pp. 178–187, Athens, Greece, May 14. [<img src="img/html.png">](https://www.dept.aueb.gr/en/dmst/content/12th-dmst-student-conference )
+
+* **Magerakis, E.**, Tsagkanos, A., and Siriopoulos, C. (2015). Corporate liquidity, firm size and the impact of financial crisis in UK market. *14th HFAA Conference*, Athens, Greece, December 18-19. [<img src="img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web.pdf )
 
