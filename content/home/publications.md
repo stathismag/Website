@@ -73,7 +73,7 @@ subtitle = ""
 
 * **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. http://dx.doi.org/10.3390/jrfm13080163
 
-* **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. 2015. Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
+* **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
 ### Working Papers
 * **Magerakis, E.** and Tzelepis D. (2019). Making the link: Cash holdings, managerial ability and discretion. Available at *SSRN*: https://ssrn.com/abstract=3316109 or http://dx.doi.org/10.2139/ssrn.3316109. [<img src="img/pdf.png">](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3316109_code2448284.pdf?abstractid=3316109&mirid=1)
