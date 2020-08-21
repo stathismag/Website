@@ -71,7 +71,9 @@ subtitle = ""
 
 * **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research*, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/JAAR-05-2019-0077
 
-* **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. http://dx.doi.org/10.3390/jrfm13080163
+* **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. https://doi.org/10.3390/jrfm13080163
+
+**Magerakis, E.** (2020). Corporate cash holdings and financial crisis: evidence from the emerging market of Greece. *International Journal of Managerial and Financial Accounting*, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1504/IJMFA.2020.10031398
 
 * **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
