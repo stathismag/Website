@@ -65,3 +65,13 @@ preserveTaxonomyNames = true
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 10
+  [languages.el]
+    contentDir = "content/greek"
+    languageName = "Ελληνικά"
+    weight = 20
