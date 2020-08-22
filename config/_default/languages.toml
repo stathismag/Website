@@ -7,6 +7,7 @@
   languageCode = "en-us"
   # contentDir = "content/english"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir = "content/english"
+    weight = 1
   [en.params]
     description = ""
     font_size = "L"
@@ -17,7 +18,8 @@
 [el]
   languageCode = "el"
   contentDir = "content/greek"
-  title = "ΛΟΓΟΣ"
+   # title = "ΛΟΓΟΣ"
+  weight = 2
   [el.params]
     description = ""
     font_size = "L"
