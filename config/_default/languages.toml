@@ -6,6 +6,65 @@
 [en]
   languageCode = "en-us"
 
+
+  #[en.params]
+
+[el]
+  languageCode = "el"
+  contentDir = "content/greek"
+  title = "ΛΟΓΟΣ"
+  [el.params]
+    description = ""
+    font_size = "L"
+    font = "greek_fonts"
+
+
+  [[el.menu.main]]
+ [[main]]
+  name = "Αρχική"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  name = "Δημοσιεύσεις"
+  url = "#publications"
+  weight = 20
+  
+  [[main]]
+  name = "Εισηγήσεις σε Συνέδρια"
+  url = "#talks"
+  weight = 30
+  
+  [[main]]
+  name = "Διδασκαλία"
+  url = "#teaching"
+  weight = 40
+  
+[[main]]
+  name = "Χρήσιμοι Σύνδεσμοι"
+  url = "#resources"
+  weight = 50
+
+[[main]]
+  name = "Επικοινωνία"
+  url = "#contact"
+  weight = 60
+
+
+# Uncomment the lines below to configure your website in a second language.
+#[zh]
+#  languageCode = "zh-Hans"
+#  contentDir = "content/zh"
+#  title = "Chinese website title..."
+#  [zh.params]
+#    description = "Site description in Chinese..."
+#  [[zh.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
+
+
+
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
 #  languageCode = "zh-Hans"
