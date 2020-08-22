@@ -3,8 +3,11 @@
 #   Refer to https://sourcethemes.com/academic/docs/language/
 
 # Configure the English version of the site.
+
+################################### English language #####################################
 [en]
-  languageCode = "en-us"
+ languageName = "En"
+ languageCode = "en-us"
   # contentDir = "content/english"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir = "content/english"
     weight = 1
@@ -13,9 +16,9 @@
     font_size = "L"
     font = "test"
 
-  #[en.params]
-
+################################### Greek language #####################################
 [el]
+languageName = "El"
   languageCode = "el"
   contentDir = "content/greek"
    # title = "ΛΟΓΟΣ"
