@@ -24,12 +24,9 @@ languageName = "El"
    title = "Ευστάθιος Ι. Μαγεράκης"
   weight = 2
   [el.params]
-    description = ""
-    font_size = "L"
-     font = "greek_fonts"
-
-
-
+#    description = ""
+ #   font_size = "L"
+   #  font = "greek_fonts"
 
 # Uncomment the lines below to configure your website in a second language.
 #[zh]
