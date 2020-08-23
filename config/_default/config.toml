@@ -34,8 +34,19 @@ enableGitInfo = false
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = true
 
+# Configure the English version of the website.
+defaultContentLanguageInSubdir = true
+[Languages]
+  [Languages.en]
+    contentDir = "content/english"
+    languageName = "English"
+    weight = 10
+  [Languages.el]
+    contentDir = "content/greek"
+    languageName = "Ελληνικά"
+    weight = 20
+	
 paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -66,12 +77,3 @@ preserveTaxonomyNames = true
   publication_type = "publication_types"
   author = "authors"
 
-[languages]
-  [languages.en]
-    contentDir = "content/english"
-    languageName = "English"
-    weight = 10
-  [languages.el]
-    contentDir = "content/greek"
-    languageName = "Ελληνικά"
-    weight = 20

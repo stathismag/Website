@@ -21,7 +21,7 @@
 languageName = "El"
   languageCode = "el"
   contentDir = "content/greek"
-   # title = "ΛΟΓΟΣ"
+   title = "Ευστάθιος Ι. Μαγεράκης"
   weight = 2
   [el.params]
     description = ""
@@ -59,20 +59,6 @@ languageName = "El"
   name = "Επικοινωνία"
   url = "#contact"
   weight = 60
-
-
-# Uncomment the lines below to configure your website in a second language.
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
-
 
 
 # Uncomment the lines below to configure your website in a second language.
