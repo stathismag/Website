@@ -12,9 +12,9 @@
   contentDir = "content/english"
     weight = 1
   [en.params]
-    description = ""
-    font_size = "L"
-    font = "test"
+  #   description = ""
+   #  font_size = "L"
+    # font = "test"
 
 ################################### Greek language #####################################
 [el]
@@ -26,7 +26,7 @@ languageName = "El"
   [el.params]
     description = ""
     font_size = "L"
-    font = "greek_fonts"
+     font = "greek_fonts"
 
 
 
