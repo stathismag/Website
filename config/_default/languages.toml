@@ -29,36 +29,6 @@ languageName = "El"
     font = "greek_fonts"
 
 
-  [[el.menu.main]]
- [[main]]
-  name = "Αρχική"
-  url = "#about"
-  weight = 10
-
-[[main]]
-  name = "Δημοσιεύσεις"
-  url = "#publications"
-  weight = 20
-  
-  [[main]]
-  name = "Εισηγήσεις σε Συνέδρια"
-  url = "#talks"
-  weight = 30
-  
-  [[main]]
-  name = "Διδασκαλία"
-  url = "#teaching"
-  weight = 40
-  
-[[main]]
-  name = "Χρήσιμοι Σύνδεσμοι"
-  url = "#resources"
-  weight = 50
-
-[[main]]
-  name = "Επικοινωνία"
-  url = "#contact"
-  weight = 60
 
 
 # Uncomment the lines below to configure your website in a second language.
