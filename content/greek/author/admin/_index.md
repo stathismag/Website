@@ -35,22 +35,22 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "PhD in Accounting"
+  course = "Διδακτορικό στην Λογιστική"
   institution = "Πανεπιστήμιο Πατρών"
   year = 2021 
     
 [[education.courses]]
-  course = "Msc in Applied Economics and Data Analysis"
+  course = "Μεταπτυχιακό στην Εφαρμοσμένη Οικονομική και Ανάλυση Δεδομένων"
   institution = "Πανεπιστήμιο Πατρών"
   year = 2017
   
  [[education.courses]]
-  course = "Master in Business Administartion (MBA)"
+  course = "Μεταπτυχιακό στην Διοίκηση Επιχειρήσεων (MBA)"
   institution = "Πανεπιστήμιο Πατρών"
   year = 2015
 
 [[education.courses]]
-  course = "BSc in Economics"
+  course = "Πτυχίο στην Οικονομική Επιστήμη"
   institution = "Πανεπιστήμιο Πατρών"
   year = 2005
 
