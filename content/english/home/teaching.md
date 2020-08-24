@@ -67,10 +67,12 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-2020, Teaching Assistant, Business Financial Analysis (Msc, Spring Semester), University of Patras  
-2019, Teaching Assistant, Accounting I (BSc, Fall Semester), University of Patras   
-2019, Teaching Assistant, Business Financial Analysis (Msc, Spring Semester), University of Patras  
-2019, Teaching Assistant, Accounting II (BSc, Spring Semester), University of Patras   
-2017, Teaching Assistant, Accounting I (BSc, Fall Semester), University of Patras  
-2007, Seminar Instructor, Developing Business Plan, Vocational Training SA  
+
+Teaching Assistant in Undergraduate Program of Department of Economics, University of Patras. 
+ECO_131: Accounting I(https://www.econ.upatras.gr/en/undergraduate/courses/logistiki-i)
+ECO_132: Accounting II (https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii)
+
+Teaching Assistant in Postgraduate Program of Department of Economics, University of Patras. 
+ECO_06: Business Financial Analysis (http://postgrad.econ.upatras.gr/en/msc/courses/business-financial-analysis)
+
 
