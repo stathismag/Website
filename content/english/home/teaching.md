@@ -70,7 +70,7 @@ subtitle = ""
 
 Teaching Assistant in Undergraduate Program of Department of Economics, University of Patras. 
 
-ECO_131: [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/logistiki-i)
+ECO_131: [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i)
 
 ECO_132: [Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii)
 
