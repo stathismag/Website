@@ -75,5 +75,5 @@ subtitle = ""
 
 Βοηθός διδασκαλίας στο Μεταπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών.
 
-ΕΦΟ_06: [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/business-financial-analysis)
+ΕΦΟ_06: [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon)
 
