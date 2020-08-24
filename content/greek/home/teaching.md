@@ -69,11 +69,11 @@ subtitle = ""
 +++
 Βοηθός διδασκαλίας στο Προπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών.
 
-ΕΦO_131: [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i)
+* ΕΦO_131: [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i)
 
-ΕΦO_132: [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii)
+* ΕΦO_132: [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii)
 
 Βοηθός διδασκαλίας στο Μεταπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών.
 
-ΕΦΟ_06: [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon)
+* ΕΦΟ_06: [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon)
 
