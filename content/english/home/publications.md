@@ -69,7 +69,7 @@ subtitle = ""
 
 ### Peer-Reviewed Journal Articles
 
-* **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research*, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/JAAR-05-2019-0077
+* **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research, 21*(4), 677-699. https://doi.org/10.1108/JAAR-05-2019-0077
 
 * **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. https://doi.org/10.3390/jrfm13080163
 
