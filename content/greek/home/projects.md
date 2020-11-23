@@ -76,19 +76,51 @@ subtitle = ""
 
 **Literature Links**
 
-[Τμήμα Λογοθεραπείας - Πανεπιστήμιο Πατρών] http://logoth.upatras.gr/
+[Google Scholar]   https://scholar.google.gr/
 
-[Σύλλογος Επιστημόνων Λογοπαθολόγων Λογοθεραπευτών Ελλάδος] https://www.selle.gr/
+[SSRN]  https://www.ssrn.com/index.cfm/en/ 
 
-[Ελληνικός Σύλλογος για την Aφασία] http://www.aphasia.gr/
+[EconLit](https://www.aeaweb.org/econlit/)
 
-[Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων] https://autismgreece.gr/
+[NBER](https://www.nber.org/papers/)
 
-[Ελληνική Εταιρία Προστασίας και Αποκατάστασης Αναπήρων Παίδων] https://elepap.gr/
 
-[Ελληνική Εταιρία Δυσλεξίας] https://www.dyslexia.gr/
 
-[Υπουργείο Υγείας] https://www.moh.gov.gr/
+**Financial Data**
 
-[Υπουργείο Εθνικής Παιδείας και Θρησκευμάτων] https://www.minedu.gov.gr/
- 
+[Economic Data FRED](https://fred.stlouisfed.org/)
+
+[Fama/French's Data Library](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)
+
+[Hoberg-Phillips Text-based Industry Classifications](http://hobergphillips.tuck.dartmouth.edu/)
+
+[Baker, Bloom and Davis' Policy Uncertainty Index](http://www.policyuncertainty.com/)
+
+[Demerjian, Lev, and McVay's Managerial Ability](http://faculty.washington.edu/pdemerj/data.html)
+
+
+
+**Programming and Tools**
+
+[Stata](https://www.stata.com/)
+
+[R-Project](https://www.r-project.org/)
+
+[Latex Project](https://www.latex-project.org/)
+
+[Overleaf](https://www.overleaf.com/)
+
+[Markdown](http://markdownpad.com/)
+
+[Mendeley](https://www.mendeley.com)
+
+
+**Finance News**
+
+[Google Finance](https://www.google.com/finance)
+
+[Yahoo Finance](https://finance.yahoo.com/)
+
+[Bloomberg](https://www.bloomberg.com/europe)
+
+[WSJ](https://www.wsj.com/europe)
