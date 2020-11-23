@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "Ευστάθιος Ι. Μαγεράκης"
+name = "Κέντρο Λογοθεραπείας Κωνσταντίνα Χρ. Κανδρή"
 
 # Username (this should match the folder name)
 authors = ["admin"]
@@ -19,7 +19,7 @@ organizations = [ { name = "Πανεπιστήμιο Πατρών", url = "" }, 
 bio = "Τα κύρια ερευνητικά μου ενδιαφέροντα περιλαμβάνουν τη χρηματοοικονομική και τη διοικητική λογιστική."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = "smagerakis@upatras.gr"
+email = "konnakandri@gmail.com"
 
 # List (academic) interests or hobbies
 interests = ["Cash Holdings",
@@ -34,24 +34,10 @@ interests = ["Cash Holdings",
 user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "Διδακτορικό στην Λογιστική"
-  institution = "Πανεπιστήμιο Πατρών"
-  year = 2021 
-    
-[[education.courses]]
-  course = "Μεταπτυχιακό στην Εφαρμοσμένη Οικονομική και Ανάλυση Δεδομένων"
-  institution = "Πανεπιστήμιο Πατρών"
-  year = 2017
-  
- [[education.courses]]
-  course = "Μεταπτυχιακό στην Διοίκηση Επιχειρήσεων (MBA)"
-  institution = "Πανεπιστήμιο Πατρών"
-  year = 2015
 
 [[education.courses]]
-  course = "Πτυχίο στην Οικονομική Επιστήμη"
-  institution = "Πανεπιστήμιο Πατρών"
+  course = "Πτυχίο στην Λοθο"
+  institution = "Α.Τ.Ε.Ι Πατρών"
   year = 2005
 
   # Social/Academic Networking
@@ -82,66 +68,27 @@ user_groups = ["Researchers", "Visitors"]
   icon_pack = "fas"
   link = "#contact"  # For a direct email link, use "mailto:test@example.org".
 
+  [[social]]
+    icon = "facebook"
+    icon_pack = "fab"
+    link = "https://el-gr.facebook.com/logotherapeia.pyrgos/"
+	
  [[social]]
   icon = "linkedin"
   icon_pack = "fab"
-  link = "https://www.linkedin.com/in/efstathiosmagerakis/"
+  link = "https://www.linkedin.com/in/kandri/"
 
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/stathismag"
+  link = "https://twitter.com/logotherapeia.pyrgos"
   
  [[social]]
   icon = "instagram"
   icon_pack = "fab"
-  link = "https://instagram.com/stathismag"
+  link = "https://instagram.com/logotherapeia.pyrgos"
 
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ&hl"
-  
- [[social]]
-  icon = "researchgate"
-  icon_pack = "ai"
-  link = "https://www.researchgate.net/profile/Efstathios_Magerakis"
-  
-  [[social]]
-    icon = "ideas-repec"
-    icon_pack = "ai"
-    link = "https://authors.repec.org/profile-overview!dbbd9c892b1be0de6db4f3951e0cccea"
- 	
-  [[social]]
-    icon = "mendeley"
-    icon_pack = "ai"
-    link = "https://www.mendeley.com/profiles/stathis-magerakis/"
-
-  [[social]]
-    icon = "publons"
-    icon_pack = "ai"
-    link = "https://publons.com/researcher/2901360/efstathios-magerakis/"
-
-[[social]]
-  icon = "github"
-  icon_pack = "fab"
-  link = "https://github.com/stathismag"
-  
- [[social]]
-  icon = "orcid"
-  icon_pack = "ai"
-  link = "https://orcid.org/0000-0001-7977-0363"
-
-  [[social]]
-    icon = "impactstory"
-    icon_pack = "ai"
-    link = "https://impactstory.org/u/0000-0001-7977-0363"
-
-  [[social]]
-    icon = "keybase"
-    icon_pack = "fab"
-    link = "https://keybase.io/stathismag"
-
+ 
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -151,8 +98,15 @@ user_groups = ["Researchers", "Visitors"]
 #   link = "files/cv.pdf"
 
 +++
+Το Κέντρο Λογοθεραπείας ΚΑΝΔΡΗ ΧΡ. ΚΩΝΣΤΑΝΤΙΝΑ αποτελεί ένα σύγχρονο Κέντρο Πρόληψης, Διάγνωσης, Θεραπείας και Αποκατάστασης. Ξεκίνησε να λειτουργεί το 2010 στον Πύργο Ηλείας, ως ιδιωτικό Κέντρο που απευθύνεται σε παιδιά, εφήβους και ενήλικες με Διαταραχές Επικοινωνίας, Λόγου, Ομιλίας, Φωνής και Μάθησης. Μέσα από την εξειδικευμένη γνώση, την εμπειρία και σε συνεργασία με τις απαραίτητες ειδικότητες όπως νηπιαγωγούς, ειδικούς παιδαγωγούς, εργοθεραπευτή, φυσικοθεραπευτή, ψυχολόγο κ.ά., αλλά και με ιατρικές ειδικότητες, όπως παιδίατρο – αναπτυξιολόγο, παιδονευρολόγο, παιδοψυχίατρο κ.ά., αντιμετωπίζουμε τηναντιμετωπίζουμε κάθε περίπτωση με υπευθυνότητα και ευαισθησία, στοχεύοντας στο καλύτερο δυνατό αποτέλεσμα.
 
-Ο Ευστάθιος (Στάθης) Μαγεράκης είναι Υποψήφιος Διδάκτορας και βοηθός διδασκαλίας στη Λογιστική στο Τμήμα Οικονομικών Επιστημών, [Πανεπιστήμιο Πατρών](http://upatras.gr) στην Ελλάδα. Είναι κάτοχος πτυχίου Οικονομικών και μεταπτυχιακού στη Διοίκηση Επιχειρήσεων (MBA) από το Πανεπιστήμιο Πατρών. Έχει επίσης αποκτήσει μεταπτυχιακό τίτλο στην Εφαρμοσμένη Οικονομία και Ανάλυση Δεδομένων από το Πανεπιστήμιο της Πάτρας, με διάκριση. Τα κύρια ερευνητικά του ενδιαφέροντα βρίσκονται στη διασταύρωση της  λογιστικής και της εταιρικής χρηματοοικονομικής, με έμφαση στις επιπτώσεις της επιχειρηματικής στρατηγικής στις εταιρικές χρηματοοικονομικές πολιτικές.
+Τα προγράμματα που σχεδιάζουμε είναι ευέλικτα και εξατομικευμένα, χρησιμοποιώντας τις πιο αποτελεσματικές θεραπευτικές και εκπαιδευτικές μεθόδους. Επιπλέον, το Κέντρο μας συνεργάζεται και ενημερώνει συνεχώς και συστηματικά τους νηπιαγωγούς και δασκάλους των παιδιών, με στόχο την καλύτερη δυνατή ένταξη του παιδιού τόσο στο σχολικό αλλά και κοινωνικό περιβάλλον.
 
-Ο Ευστάθιος έχει εμπειρία στη διδασκαλία της λογιστικής και της χρηματοοικονομικής ανάλυσης σε προπτυχιακό και μεταπτυχιακό επίπεδο (δια ζώσης και εξ αποστάσεως). Διαθέτει επίσης περισσότερα από 12 χρόνια εμπειρίας ως λογιστής και οικονομικός σύμβουλος. Είναι αδειοδοτημένος πιστοποιημένος λογιστής, έμπειρος στις λογιστικές αρχές και την κείμενη φορολογική νομοθεσία, με ευχέρεια σε πακέτα ανάλυσης στατιστικών δεδομένων ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), λογισμικό επιχειρηματικής ευφυΐας ([Targit](https://www.targit.com/en)), λογιστικής διαχείρισης ([SingularLogic](https://portal.singularlogic.eu/en) και [OTS](https://ots.gr/?lang=en) ομάδα εφαρμογών), γλώσσες στοιχειοθεσίας και σήμανσης
- ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)).
+Το Πρότυπο Κέντρο Λογοθεραπείας παρέχει εξειδικευμένα λογοθεραπευτικά προγράμματα σε παιδιά και ενήλικες. Κάθε παιδί και κάθε γονιός είναι μοναδικοί, μέσα σε ένα άνετο και φιλικό περιβάλλον προσαρμοσμένο στις ανάγκες των παιδιών και των γονέων, όπου παρέχονται οι πλέον κατάλληλες υπηρεσίες για μια σύντομη, επιτυχή και αποτελεσματική αποκατάσταση.
+
+Στόχος του Κέντρου Λογοθεραπείας είναι η παροχή ολοκληρωμένων υπηρεσιών λογοθεραπείας σε παιδιά και ενήλικες και επιτυγχάνεται μέσα από την εξειδικευμένη γνώση και την άριστη συνεργασία μας με γονείς, παιδιά, συναδέλφους και συναφείς ειδικότητες.
+
+
+
+
+Ακολουθήστε μας!
