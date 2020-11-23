@@ -1,6 +1,6 @@
 # [Website](https://github.com/stathismag/Website)
 
-As of April 2019, I started from a clean version of Hugo Academic [Hugo Academic Theme](https://themes.gohugo.io/academic/) to design my Personal Academic [Website](https://github.com/stathismag/Website).
+As of April 2019, I started from a clean version of Hugo Academic [Hugo Academic Theme](https://themes.gohugo.io/academic/) to design my Personal Academic [Website](https://www.smagerakis.gr).
 
 I have set up [Hugo](https://gohugo.io/getting-started/quick-start/), a **static website generator** using the quick start guide. Flip Tanedo perfectly summarized its' advantages: easy updates to content due to markdown, less redundant coding and the obility of scaling up to a group or a department. [Here's an example](https://biaslab.github.io) with [source](https://github.com/biaslab/hugo-academic-group).
 
