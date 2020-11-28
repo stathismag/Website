@@ -90,7 +90,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/stathismag"
+  link = "https://twitter.com/smager9"
   
  [[social]]
   icon = "instagram"
