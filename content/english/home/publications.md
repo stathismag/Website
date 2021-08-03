@@ -68,6 +68,11 @@ subtitle = ""
 +++
 
 ### Peer-Reviewed Journal Articles
+* **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research*, 1-42. https://doi.org/10.1007/s12351-021-00660-3
+
+* **Magerakis, E.**, & Habib, A. (2021). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance*. https://doi.org/10.1111/irfi.12355
+
+* **Magerakis, E.**, & Habib, A. (2021). Business strategy and environmental inefficiency. *Journal of Cleaner Production, 302*, 127014. https://doi.org/10.1016/j.jclepro.2021.127014
 
 * **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research, 21*(4), 677-699. https://doi.org/10.1108/JAAR-05-2019-0077 
 
