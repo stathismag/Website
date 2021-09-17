@@ -68,6 +68,8 @@ subtitle = ""
  css_class = ""
 +++
 
+* **Magerakis, E.** & Tzelepis, D. (2021). Corruption, cash holdings and firm performance: Evidence from an emerging market. European Accounting Association 2020 Conference, Bucharest, Romania  (postponed), Brussels, Belgium, Virtual Congress, 26 - 28 May 2021. [<img src="/img/html.png">](https://eaa2021.virtual.eaacongress.org/UserFiles/EAA%202021%20Programme%20book%202%20June%202021.pdf)
+
 * **Magerakis, E.** and Tzelepis, D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market. *18th HFAA Conference*, Athens, Greece, December 13-14. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2019/12/program-HFAA-2019-master_site.pdf ) 
 
 * **Magerakis, E.** and Tzelepis, D. (2018). Making the link: Cash holdings, managerial ability and discretion. *17th HFAA Conference*, Athens, Greece, December 14-15. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2018/12/program-HFAA-2018-web.pdf )
