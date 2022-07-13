@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Ph.D. Student in Accounting and Finance"
+role = "Ph.D. in Accounting and Finance"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -37,7 +37,7 @@ user_groups = ["Researchers", "Visitors"]
 [[education.courses]]
   course = "PhD in Accounting"
   institution = "University of Patras"
-  year = 2021 
+  year = 2022 
     
 [[education.courses]]
   course = "Msc in Applied Economics and Data Analysis"
