@@ -92,6 +92,6 @@ subtitle = ""
 ### Other Publications
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
 
-* **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms.* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+* **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
-* **Magerakis, E.** (2015). Cash holdings and firm characteristics: Evidence from UK market. (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+* **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
