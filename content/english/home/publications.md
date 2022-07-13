@@ -68,6 +68,8 @@ subtitle = ""
 +++
 
 ### Peer-Reviewed Journal Articles
+* **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision*. https://doi.org/10.1108/MD-07-2021-0991
+
 * **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research*, 1-42. https://doi.org/10.1007/s12351-021-00660-3
 
 * **Magerakis, E.**, & Habib, A. (2021). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance*. https://doi.org/10.1111/irfi.12355
@@ -83,11 +85,13 @@ subtitle = ""
 * **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
 ### Working Papers
-* **Magerakis, E.** and Tzelepis D. (2019). Making the link: Cash holdings, managerial ability and discretion. Available at *SSRN*: https://ssrn.com/abstract=3316109 or http://dx.doi.org/10.2139/ssrn.3316109. [<img src="/img/pdf.png">](https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID3316109_code2448284.pdf?abstractid=3316109&mirid=1)
+* **Magerakis, E.** and Tzelepis D. (2022). Corruption, cash holdings and firm performance: Evidence from an emerging market.
 
-* **Magerakis, E.** and Tzelepis D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market.
+* **Magerakis, E.** and Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
 
 ### Other Publications
-* **Magerakis, E.** (2017). The role of business strategy in corporate liquidity: Evidence from US firms.  MSc Thesis, Department of Economics, University of Patras, Greece.  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+* **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
 
-* **Magerakis, E.** (2015). Cash holdings and firm characteristics: Evidence from UK market. MBA Thesis, Department of Business Administration, University of Patras, Greece. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+* **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms.* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+
+* **Magerakis, E.** (2015). Cash holdings and firm characteristics: Evidence from UK market. (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
