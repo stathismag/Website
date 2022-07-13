@@ -9,7 +9,7 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Υποψήφιος Διδάκτορας Λογιστικής και Χρηματοοικονομικής Επιστήμης"
+role = "Διδάκτορας Οικονομικών Επιστημών"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -35,7 +35,7 @@ user_groups = ["Researchers", "Visitors"]
 
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Διδακτορικό στην Λογιστική"
+  course = "Διδακτορικό στην Οικονομική Επιστήμη"
   institution = "Πανεπιστήμιο Πατρών"
   year = 2021 
     
