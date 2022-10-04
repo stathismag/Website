@@ -68,6 +68,9 @@ subtitle = ""
 +++
 
 ### Peer-Reviewed Journal Articles
+
+* **Magerakis, E.** and Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
+
 * **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision*. https://doi.org/10.1108/MD-07-2021-0991
 
 * **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research*, 1-42. https://doi.org/10.1007/s12351-021-00660-3
@@ -76,7 +79,7 @@ subtitle = ""
 
 * **Magerakis, E.**, & Habib, A. (2021). Business strategy and environmental inefficiency. *Journal of Cleaner Production, 302*, 127014. https://doi.org/10.1016/j.jclepro.2021.127014
 
-* **Magerakis, E.** and Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research, 21*(4), 677-699. https://doi.org/10.1108/JAAR-05-2019-0077 
+* **Magerakis, E.** & Tzelepis, D. (2020). The impact of business strategy on corporate cash policy. *Journal of Applied Accounting Research, 21*(4), 677-699. https://doi.org/10.1108/JAAR-05-2019-0077 
 
 * **Magerakis, E.**, Gkillas, K., Tsagkanos, A., & Siriopoulos, C. (2020). Firm size does matter: New evidence on the determinants of cash holdings. *Journal of Risk and Financial Management, 13*(8), 163. MDPI AG. https://doi.org/10.3390/jrfm13080163
 
@@ -85,7 +88,7 @@ subtitle = ""
 * **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
 ### Working Papers
-* **Magerakis, E.** and Tzelepis D. (2022). Corruption, cash holdings and firm performance: Evidence from an emerging market.
+* **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
 
 * **Magerakis, E.** and Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
 
