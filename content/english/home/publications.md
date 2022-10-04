@@ -69,7 +69,7 @@ subtitle = ""
 
 ### Peer-Reviewed Journal Articles
 
-* **Magerakis, E.** and Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
+* **Magerakis, E.** & Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
 
 * **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision*. https://doi.org/10.1108/MD-07-2021-0991
 
@@ -85,12 +85,12 @@ subtitle = ""
 
 * **Magerakis, E.** (2020). Corporate cash holdings and financial crisis: Evidence from the emerging market of Greece. *International Journal of Managerial and Financial Accounting, 12*(2), 186-215. https://doi.org/10.1504/IJMFA.2020.10031398
 
-* **Magerakis, E.**, Siriopoulos, C., Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
+* **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
 ### Working Papers
 * **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
 
-* **Magerakis, E.** and Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
+* **Magerakis, E.** & Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
 
 ### Other Publications
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
