@@ -68,7 +68,6 @@ subtitle = ""
 +++
 
 ### Peer-Reviewed Journal Articles
-
 * **Magerakis, E.** (2022). Chief executive officer ability and cash holding decision. *Review of Accounting and Finance, 21*(5), 449-485. https://doi.org/10.1108/RAF-10-2021-0284
 
 * **Magerakis, E.** & Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
@@ -93,6 +92,9 @@ subtitle = ""
 * **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
 
 * **Magerakis, E.** & Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
+
+* Gkillas, K., Floros, C., & **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach.
+
 
 ### Other Publications
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
