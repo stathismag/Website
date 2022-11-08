@@ -69,6 +69,8 @@ subtitle = ""
 
 ### Peer-Reviewed Journal Articles
 
+* **Magerakis, E.** (2022). Chief executive officer ability and cash holding decision. *Review of Accounting and Finance, 21*(5), 449-485. https://doi.org/10.1108/RAF-10-2021-0284
+
 * **Magerakis, E.** & Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
 
 * **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision*. https://doi.org/10.1108/MD-07-2021-0991
