@@ -69,9 +69,9 @@ subtitle = ""
 +++ 
 
 * 2022-2023: Adjunct Lecturer, Department of Economics, University of Patras.
-[Financial Analysis and Management](https://www.econ.upatras.gr/en/undergraduate/courses/financial-analysis-and-management) |
 [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
-[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) 
+[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) | 
+[Financial Analysis and Management](https://www.econ.upatras.gr/en/undergraduate/courses/financial-analysis-and-management) 
 
 * 2017-2021: Teaching Assistant, Department of Economics, University of Patras (Bachelor). 
 [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
