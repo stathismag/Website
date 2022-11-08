@@ -66,11 +66,16 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++
-Βοηθός διδασκαλίας στο Προπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2017-2021).
-* ΕΦO_131: [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i)
-* ΕΦO_132: [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii)
++++ 
+Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2022-2023).
+* [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) 
+* [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
+* [Χρηματοοικονομική Ανάλυση και Διαχείριση](https://www.econ.upatras.gr/el/undergraduate/courses/hrimatooikonomiki-analysi-kai-diaheirisi) 
 
-Βοηθός διδασκαλίας στο Μεταπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2019-2020).
-* ΕΦΟ_06: [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon)
+Βοηθός διδασκαλίας στο  Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2017-2021). 
+* [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) 
+* [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
+
+Βοηθός διδασκαλίας στο Μεταπτυχιακό Πρόγραμμα του Τμήματος Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2019-2020). 
+* [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon) 
 
