@@ -66,14 +66,16 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++
++++ 
 
-Teaching Assistant in Undergraduate Program of Department of Economics, University of Patras (2017-2021). 
+* 2022-2023: Adjunct Lecturer, Department of Economics, University of Patras.
+[Financial Analysis and Management](https://www.econ.upatras.gr/en/undergraduate/courses/financial-analysis-and-management) |
+[Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
+[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) 
 
-* ECO_131: [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i)
+* 2017-2021: Teaching Assistant, Department of Economics, University of Patras (Bachelor). 
+[Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
+[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) 
 
-* ECO_132: [Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii)
-
-Teaching Assistant in Postgraduate Program of Department of Economics, University of Patras (2019-2020). 
-
-* ECO_06: [Business Financial Analysis](http://postgrad.econ.upatras.gr/en/msc/courses/business-financial-analysis)
+* 2019-2020: Teaching Assistant, Department of Economics, University of Patras (Master). 
+[Business Financial Analysis](http://postgrad.econ.upatras.gr/en/msc/courses/business-financial-analysis)
