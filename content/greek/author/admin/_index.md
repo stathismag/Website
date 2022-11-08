@@ -37,7 +37,7 @@ user_groups = ["Researchers", "Visitors"]
 [[education.courses]]
   course = "Διδακτορικό στην Οικονομική Επιστήμη"
   institution = "Πανεπιστήμιο Πατρών"
-  year = 2021 
+  year = 2022 
     
 [[education.courses]]
   course = "Μεταπτυχιακό στην Εφαρμοσμένη Οικονομική και Ανάλυση Δεδομένων"
