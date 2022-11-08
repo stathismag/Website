@@ -67,7 +67,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++ 
-Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2022-2023).
+
+Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (2022-2023). 
 * [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) 
 * [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
 * [Χρηματοοικονομική Ανάλυση και Διαχείριση](https://www.econ.upatras.gr/el/undergraduate/courses/hrimatooikonomiki-analysi-kai-diaheirisi) 
