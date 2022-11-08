@@ -68,7 +68,7 @@ subtitle = ""
  css_class = ""
 +++
 
-Teaching Assistant in Undergraduate Program of Department of Economics, University of Patras. 
+Teaching Assistant in Undergraduate Program of Department of Economics, University of Patras (2017-2021). 
 
 * ECO_131: [Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i)
 
