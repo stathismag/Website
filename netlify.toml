@@ -8,6 +8,3 @@
 
 [context.production.environment]
   HUGO_ENV = "production"
-
-[[plugins]]
-  package = "netlify-plugin-redirects"
