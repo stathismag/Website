@@ -1,0 +1,9 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "netlify-plugin-redirects": "^3.0.0"
+  }
+}
