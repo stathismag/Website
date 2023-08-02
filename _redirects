@@ -1,5 +1,0 @@
-# Redirect users from the English version of the site to the new URL
-/en/*  https://smagerakis.gr/:splat  302
-
-# Redirect users from the Greek version of the site to the new URL
-/el/*  https://smagerakis.gr/:splat  302

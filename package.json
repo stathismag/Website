@@ -1,5 +1,0 @@
-{
-  "dependencies": {
-    "netlify-plugin-redirects": "netlify/netlify-plugin-redirects#v3.0.0" 
-  }
-}
