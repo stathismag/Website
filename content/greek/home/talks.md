@@ -68,11 +68,11 @@ subtitle = ""
  css_class = ""
 +++
 
-* Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *12th National Conference of the Financial Engineering and Banking Society (FEBS)*, Athens, Greece, December 19-20.\*
+* Gkillas, K., Floros, C., and **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *12th National Conference of the Financial Engineering and Banking Society (FEBS)*, Athens, Greece, December 19-20.\*
 
-* Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *The 94th meeting of the EURO working group on Multiple Criteria Decision Aiding (EWG-MCDA 94)*, Agios Nikolaos, Greece, September 15-17.\*
+* Gkillas, K., Floros, C., and **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *The 94th meeting of the EURO working group on Multiple Criteria Decision Aiding (EWG-MCDA 94)*, Agios Nikolaos, Greece, September 15-17.\*
 
-* **Magerakis, E.** & Tzelepis, D. (2021). Corruption, cash holdings and firm performance: Evidence from an emerging market. *European Accounting Association 2020 Conference*, Bucharest, Romania  (postponed), Brussels, Belgium, Virtual Congress, 26 - 28 May 2021. [<img src="/img/html.png">](https://eaa2021.virtual.eaacongress.org/UserFiles/EAA%202021%20Programme%20book%202%20June%202021.pdf)
+* **Magerakis, E.** and Tzelepis, D. (2021). Corruption, cash holdings and firm performance: Evidence from an emerging market. *European Accounting Association 2020 Conference*, Bucharest, Romania  (postponed), Brussels, Belgium, Virtual Congress, 26 - 28 May 2021. [<img src="/img/html.png">](https://eaa2021.virtual.eaacongress.org/UserFiles/EAA%202021%20Programme%20book%202%20June%202021.pdf)
 
 * **Magerakis, E.** and Tzelepis, D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market. *18th HFAA Conference*, Athens, Greece, December 13-14. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2019/12/program-HFAA-2019-master_site.pdf ) 
 
@@ -87,6 +87,8 @@ subtitle = ""
 * **Magerakis, E.** (2015). Leadership ethics, CSR & change management. *12th Student Conference on Management Science and Technology*, pp. 178–187, Athens, Greece, May 14. [<img src="/img/html.png">](https://www.dept.aueb.gr/en/dmst/content/12th-dmst-student-conference )
 
 * **Magerakis, E.**, Tsagkanos, A., and Siriopoulos, C. (2015). Corporate liquidity, firm size and the impact of financial crisis in UK market. *14th HFAA Conference*, Athens, Greece, December 18-19. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web.pdf )
+
+* **Magerakis, Ε.**, Beretoulis, P., Karabagias, S., and Gavrilakis, N. (2009). The Greek reality of the Photovoltaic market: Future trends and incentives in energy development. Proceedings of the 2nd International Conference on Environmental Management, Engineering, Planning and Economics (CEMEPE 09) & SECOTOX Conference, pp. 667-673, Mykonos, Greece, 21-26 June, 2009./* [<img src="/img/html.png">](http://www.biblionet.gr/main.asp?page=results&Titlesid=147854)
 
 Note: “\*” indicates presentation by coauthor.
 
