@@ -68,15 +68,18 @@ subtitle = ""
 +++
 
 ### Peer-Reviewed Journal Articles
+
+* **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448
+
+* **Magerakis, E.** & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. https://doi.org/10.1108/JAAR-11-2021-0310
+
+* **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision, 60*(12), 3275-3303. https://doi.org/10.1108/MD-07-2021-0991
+  
 * **Magerakis, E.** (2022). Chief executive officer ability and cash holding decision. *Review of Accounting and Finance, 21*(5), 449-485. https://doi.org/10.1108/RAF-10-2021-0284
 
-* **Magerakis, E.** & Tzelepis, D. (2022). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research*. https://doi.org/10.1108/JAAR-11-2021-0310
+* **Magerakis, E.**, & Habib, A. (2022). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance, 22*(3), 402-432. https://doi.org/10.1111/irfi.12355
 
-* **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision*. https://doi.org/10.1108/MD-07-2021-0991
-
-* **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research*, 1-42. https://doi.org/10.1007/s12351-021-00660-3
-
-* **Magerakis, E.**, & Habib, A. (2021). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance*. https://doi.org/10.1111/irfi.12355
+* **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research, 22*, 3767–3808. https://doi.org/10.1007/s12351-021-00660-3
 
 * **Magerakis, E.**, & Habib, A. (2021). Business strategy and environmental inefficiency. *Journal of Cleaner Production, 302*, 127014. https://doi.org/10.1016/j.jclepro.2021.127014
 
@@ -87,6 +90,7 @@ subtitle = ""
 * **Magerakis, E.** (2020). Corporate cash holdings and financial crisis: Evidence from the emerging market of Greece. *International Journal of Managerial and Financial Accounting, 12*(2), 186-215. https://doi.org/10.1504/IJMFA.2020.10031398
 
 * **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
+
 
 ### Working Papers
 * **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
