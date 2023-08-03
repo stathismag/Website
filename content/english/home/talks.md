@@ -68,7 +68,11 @@ subtitle = ""
  css_class = ""
 +++
 
-* **Magerakis, E.** & Tzelepis, D. (2021). Corruption, cash holdings and firm performance: Evidence from an emerging market. European Accounting Association 2020 Conference, Bucharest, Romania  (postponed), Brussels, Belgium, Virtual Congress, 26 - 28 May 2021. [<img src="/img/html.png">](https://eaa2021.virtual.eaacongress.org/UserFiles/EAA%202021%20Programme%20book%202%20June%202021.pdf)
+* Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *12th National Conference of the Financial Engineering and Banking Society (FEBS)*, Athens, Greece, December 19-20.\*
+
+* Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *The 94th meeting of the EURO working group on Multiple Criteria Decision Aiding (EWG-MCDA 94)*, Agios Nikolaos, Greece, September 15-17.\*
+
+* **Magerakis, E.** & Tzelepis, D. (2021). Corruption, cash holdings and firm performance: Evidence from an emerging market. *European Accounting Association 2020 Conference*, Bucharest, Romania  (postponed), Brussels, Belgium, Virtual Congress, 26 - 28 May 2021. [<img src="/img/html.png">](https://eaa2021.virtual.eaacongress.org/UserFiles/EAA%202021%20Programme%20book%202%20June%202021.pdf)
 
 * **Magerakis, E.** and Tzelepis, D. (2019). Corruption, cash holdings and firm performance: Evidence from an emerging market. *18th HFAA Conference*, Athens, Greece, December 13-14. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2019/12/program-HFAA-2019-master_site.pdf ) 
 
@@ -84,3 +88,4 @@ subtitle = ""
 
 * **Magerakis, E.**, Tsagkanos, A., and Siriopoulos, C. (2015). Corporate liquidity, firm size and the impact of financial crisis in UK market. *14th HFAA Conference*, Athens, Greece, December 18-19. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web.pdf )
 
+Note: “\*” indicates presentation by coauthor.
