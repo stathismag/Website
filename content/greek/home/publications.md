@@ -68,7 +68,6 @@ subtitle = ""
 +++
 
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
-### Peer-Reviewed Journal Articles
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448
 
