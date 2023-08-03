@@ -91,14 +91,12 @@ subtitle = ""
 
 * **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
 
-
 ### Εργασίες σε Εξέλιξη
 * **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
 
 * **Magerakis, E.** & Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
 
 * Gkillas, K., Floros, C., & **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach.
-
 
 ### Λοιπές δημοσιεύσεις
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
