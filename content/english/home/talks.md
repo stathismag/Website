@@ -88,4 +88,6 @@ subtitle = ""
 
 * **Magerakis, E.**, Tsagkanos, A., and Siriopoulos, C. (2015). Corporate liquidity, firm size and the impact of financial crisis in UK market. *14th HFAA Conference*, Athens, Greece, December 18-19. [<img src="/img/html.png">](http://www.hfaa.gr/wp-content/uploads/2015/12/program-HFAA-2015-web.pdf )
 
+* **Magerakis, Ε.**, Beretoulis, P., Karabagias, S., and Gavrilakis, N. (2009). The Greek reality of the Photovoltaic market: Future trends and incentives in energy development. Proceedings of the 2nd International Conference on Environmental Management, Engineering, Planning and Economics (CEMEPE 09) & SECOTOX Conference, pp. 667-673, Mykonos, Greece, 21-26 June, 2009./* [<img src="/img/html.png">](http://www.biblionet.gr/main.asp?page=results&Titlesid=147854)
+  
 Note: “\*” indicates presentation by coauthor.
