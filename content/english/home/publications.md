@@ -89,7 +89,7 @@ subtitle = ""
 
 * **Magerakis, E.** (2020). Corporate cash holdings and financial crisis: Evidence from the emerging market of Greece. *International Journal of Managerial and Financial Accounting, 12*(2), 186-215. https://doi.org/10.1504/IJMFA.2020.10031398
 
-* **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](http://www.riskmarket.co.uk/jrc/journals-articles/issues/cash-holdings-and-firm-characteristics-evidence-from-uk-market/?download=attachment.pdf)
+* **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](https://www.scienpress.com/journal_focus.asp?main_id=139&Sub_id=IV&Issue=1568495)
 
 
 ### Working Papers
