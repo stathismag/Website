@@ -70,7 +70,7 @@ subtitle = ""
 ### Peer-Reviewed Journal Articles
 
 **Summary:** 
-AJG (2021):  One [ABS 4 ★★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].
+AJG (2021):  One [ABS 4 ★★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].  
 ABDC (2022):  One [A*], Two [A], Six [B],  One [C].
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448 *(IF: 6.1, ABS: 4, ABCD: A*)*.
