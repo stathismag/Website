@@ -69,7 +69,7 @@ subtitle = ""
 
 ### Peer-Reviewed Journal Articles
 
-**Summary:** 
+**Summary:**  
 AJG (2021):  One [ABS 4 ★★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].  
 ABDC (2022):  One [A*], Two [A], Six [B],  One [C].
 
