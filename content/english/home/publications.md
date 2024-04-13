@@ -74,7 +74,7 @@ AJG (2021):  One [ABS 4 ★★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].
 ABDC (2022):  One [A*], Two [A], Six [B],  One [C].
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448 *(IF: 6.1, ABS: 4, ABCD: A*)*.
-<button onclick="window.open('content/english/home/animated_choropleth_map_pai.html', '_blank')">View Animated Choropleth Map</button> 
+<button onclick="window.open('content/english/animated_choropleth_map_pai.html', '_blank')">View Animated Choropleth Map</button> 
 
 * **Magerakis, E.** & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. https://doi.org/10.1108/JAAR-11-2021-0310 *(IF: 3.0, ABS: 2, ABCD B)*.
 
