@@ -13,7 +13,7 @@
     weight = 1
   [en.params]
   #   description = ""
-     font_size = "M"
+     font_size = "L"
      font = "test"
 
 ################################### Greek language #####################################
