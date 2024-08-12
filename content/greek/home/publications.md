@@ -70,8 +70,10 @@ subtitle = ""
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
 **Σύνοψη:**  
-AJG (2021):  One [ABS 4 ★★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].  
-ABDC (2022):  One [A*], Two [A], Six [B],  One [C].
+AJG (2021):  One [ABS 4 ★★★★ ], One [ABS 3 ★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].  
+ABDC (2022):  One [A*], Three [A], Six [B],  One [C].
+
+* Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. https://doi.org/10.1007/s10479-024-06176-1 *(IF: 4.4, ABS: 3, ABCD: A)*.
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448 *(IF: 6.1, ABS: 4, ABCD: A*)*.
 
@@ -96,11 +98,12 @@ ABDC (2022):  One [A*], Two [A], Six [B],  One [C].
 * **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](https://www.scienpress.com/journal_focus.asp?main_id=139&Sub_id=IV&Issue=1568495)
 
 ### Εργασίες σε Εξέλιξη
-* **Magerakis, E.** (2022). Environmental uncertainty and firm performance: Unravelling the role of R&D investment.
+* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
 
-* **Magerakis, E.** & Tzelepis D. (2022). The impact of corruption on corporate financial policy: an emerging country perspective. 
+* **Magerakis, E.** & Theodoraki, C. (2024). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *(Under Review)*
 
-* Gkillas, K., Floros, C., & **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach.
+* **Magerakis, E.** (2024). Industry differences and their influence on why companies retain cash: The impact of the COVID-19 pandemic. *(Under Review)*
+
 
 ### Λοιπές δημοσιεύσεις
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
