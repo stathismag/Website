@@ -137,20 +137,6 @@ user_groups = ["Researchers", "Visitors"]
     icon_pack = "ai"
     link = "https://impactstory.org/u/0000-0001-7977-0363"
 
-<!-- Social buttons -->
-{{ with .Params.social }}
-<div class="social-icons">
-  {{ range . }}
-    <a href="{{ .link }}" class="social-icon">
-      <i class="{{ .icon_pack }} {{ .icon }}"></i>
-    </a>
-  {{ end }}
-</div>
-{{ end }}
-
-<!-- Include Google Scholar Metrics -->
-{{ partial "google_scholar_metrics.html" . }}
-
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[social]]
