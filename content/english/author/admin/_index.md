@@ -158,7 +158,7 @@ Stathis is a member of [European Accounting Association](http://www.eaa-online.o
 <table>
   <tr>
     <td colspan="3">
-      <iframe src="https://github.com/stathismag/Website/tree/master/content/english/author/admin/google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
+      <iframe src="google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
     </td>
   </tr>
 </table>
