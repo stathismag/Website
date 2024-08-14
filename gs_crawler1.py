@@ -1,25 +1,28 @@
-from serpapi import GoogleSearch
+from scholarly import scholarly
+from scholarly import ProxyGenerator
 import json
 import os
 
 def fetch_google_scholar_citations():
-    params = {
-        "engine": "google_scholar_author",
-        "author_id": "LxLY15EAAAAJ&hl",  # Replace with your actual author ID
-        "api_key": "69ae21c80d3652e44395934f0ef271cc26e6a13a8d287a01f55fc4ae02b8da23"   # Replace with your SerpApi key
-    }
+    # Set up a ProxyGenerator using Selenium
+    pg = ProxyGenerator()
+    success = pg.SeleniumWebDriver()
+    scholarly.use_proxy(pg)
 
-    search = GoogleSearch(params)
-    results = search.get_dict()
-
-    # Access the cited_by dictionary to get the citation metrics
-    if "cited_by" in results:
-        citations = results["cited_by"]["table"][0]["citations"]["all"]
-        h_index = results["cited_by"]["table"][1]["h_index"]["all"]
-        i10_index = results["cited_by"]["table"][2]["i10_index"]["all"]
-    else:
-        print("'cited_by' information not found in the response.")
+    # Search for the author
+    search_query = scholarly.search_author('Efstathios Magerakis')
+    try:
+        author = next(search_query)
+    except StopIteration:
+        print("Author not found.")
         return
+
+    author_filled = scholarly.fill(author)
+
+    # Fetch citation metrics
+    citations = author_filled.get('citedby', 'N/A')
+    h_index = author_filled.get('hindex', 'N/A')
+    i10_index = author_filled.get('i10index', 'N/A')
 
     # Prepare the metrics for display
     metrics = {
