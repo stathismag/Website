@@ -77,4 +77,5 @@ preserveTaxonomyNames = true
   publication_type = "publication_types"
   author = "authors"
 
-@import "custom";
+[params]
+  custom_css = ["custom.scss"]
