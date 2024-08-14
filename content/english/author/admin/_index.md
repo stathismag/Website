@@ -155,10 +155,4 @@ Stathis has experience teaching accounting and financial analysis at both underg
 
 Stathis is a member of [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economic Association](https://www.eeassoc.org/), [British Accounting & Finance Accociation](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).  
 
-<table>
-  <tr>
-    <td colspan="3">
-      <iframe src="google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
-    </td>
-  </tr>
-</table>
+<button onclick="window.open('google_scholar_metrics.html', '_blank')">View Google Scholar Metrics</button> 
