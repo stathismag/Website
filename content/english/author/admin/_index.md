@@ -137,7 +137,7 @@ user_groups = ["Researchers", "Visitors"]
     icon_pack = "ai"
     link = "https://impactstory.org/u/0000-0001-7977-0363"
 
-<iframe src="google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -154,3 +154,11 @@ Stathis' research interests sit at the intersection of accounting and finance, w
 Stathis has experience teaching accounting and financial analysis at both undergraduate and graduate levels in classroom and online formats. He is a licensed certified accountant, experienced in accounting principles, and tax legislation, with proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)). With professional experience as an accountant and financial consultant, he brings real-world insight into his teaching. 
 
 Stathis is a member of [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economic Association](https://www.eeassoc.org/), [British Accounting & Finance Accociation](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).  
+
+<table>
+  <tr>
+    <td colspan="3">
+      <iframe src="https://github.com/stathismag/Website/tree/master/content/english/author/admin/google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
+    </td>
+  </tr>
+</table>
