@@ -137,7 +137,7 @@ user_groups = ["Researchers", "Visitors"]
     icon_pack = "ai"
     link = "https://impactstory.org/u/0000-0001-7977-0363"
 
-<iframe src="google_scholar_metrics.html" width="100%" height="500px" frameborder="0"></iframe>
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -155,3 +155,4 @@ Stathis has experience teaching accounting and financial analysis at both underg
 
 Stathis is a member of [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economic Association](https://www.eeassoc.org/), [British Accounting & Finance Accociation](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).  
 
+<iframe src="google_scholar_metrics.html" width="100%" height="100px" frameborder="0"></iframe>
