@@ -1,0 +1,9 @@
+{{ $citations := getJSON "data/google_scholar_citations.json" }}
+<div class="google-scholar-citations">
+    <h3>Google Scholar Citations</h3>
+    <ul>
+        <li>Total Citations: {{ $citations.total_citations }}</li>
+        <li>h-index: {{ $citations.h_index }}</li>
+        <li>i10-index: {{ $citations.i10_index }}</li>
+    </ul>
+</div>
