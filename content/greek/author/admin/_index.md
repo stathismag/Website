@@ -155,3 +155,5 @@ user_groups = ["Researchers", "Visitors"]
  ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)).
 
 Ο Στάθης είναι μέλος σε [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economics Association](https://www.eeassoc.org/), [British Accounting & Finance Accociation](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).
+
+<iframe src="google_scholar_metrics.html" width="100%" height="145px" frameborder="0"></iframe>

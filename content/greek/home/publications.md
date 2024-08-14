@@ -76,6 +76,7 @@ ABDC (2022):  One [A*], Three [A], Six [B],  One [C].
 * Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. https://doi.org/10.1007/s10479-024-06176-1 *(IF: 4.4, ABS: 3, ABDC: A)*.
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448 *(IF: 6.1, ABS: 4, ABDC: A*)*.
+<button onclick="window.open('animated_choropleth_map_pai.html', '_blank')">View Animated Choropleth Map</button>
 
 * **Magerakis, E.** & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. https://doi.org/10.1108/JAAR-11-2021-0310 *(IF: 3.0, ABS: 2, ABDC B)*.
 
