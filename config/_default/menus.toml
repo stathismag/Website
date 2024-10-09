@@ -17,21 +17,26 @@
   name = "Talks"
   url = "#talks"
   weight = 30
+
+[[menu.main]]
+  name = "Audio"
+  url = "#audio"
+  weight = 40
   
   [[main]]
   name = "Teaching"
   url = "#teaching"
-  weight = 40
+  weight = 50
   
 [[main]]
   name = "Resources"
   url = "#resources"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
