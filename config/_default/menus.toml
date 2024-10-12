@@ -18,7 +18,7 @@
   url = "#talks"
   weight = 30
 
-[[menu.main]]
+[[main]]
   name = "Podcasts"
   url = "#podcasts"
   weight = 40
