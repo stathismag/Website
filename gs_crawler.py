@@ -6,7 +6,7 @@ def fetch_google_scholar_citations():
     params = {
         "engine": "google_scholar_author",
         "author_id": "LxLY15EAAAAJ&hl",  # Replace with your actual author ID
-        "api_key": "69ae21c80d3652e44395934f0ef271cc26e6a13a8d287a01f55fc4ae02b8da23"   # Replace with your SerpApi key
+        "api_key": ""   # Replace with your SerpApi key
     }
 
     search = GoogleSearch(params)
