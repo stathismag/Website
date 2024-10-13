@@ -51,6 +51,7 @@ paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
 preserveTaxonomyNames = true
 
 [outputs]
@@ -70,12 +71,12 @@ preserveTaxonomyNames = true
   quality = 90
   anchor = "center"  # Anchor for cropping. Options include Smart and Center.
 
+# Taxonomies.
 [taxonomies]
   tag = "tags"
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
-
 
 [params]
   custom_css = ["custom.scss"]
