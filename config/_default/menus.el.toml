@@ -19,12 +19,11 @@
   url = "#talks"
   weight = 30
 
-
 [[main]]
-  name = "Featured podcasts"
-  url = "#featured"
+  name = "Featured Podcasts"
+  url = "#featured-podcasts"
   weight = 40
-
+  
   
   [[main]]
   name = "Διδασκαλία"

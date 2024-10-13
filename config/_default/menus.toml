@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Featured Podcasts"
-  url = "#featured-podcasts.md"
+  url = "#featured-podcasts"
   weight = 40
   
 [[main]]
