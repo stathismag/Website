@@ -19,8 +19,8 @@
   weight = 30
 
 [[main]]
-  name = "Podcasts"
-  url = "#podcasts"
+  name = "Featured podcasts"
+  url = "#featured"
   weight = 40
   
 [[main]]
@@ -32,6 +32,11 @@
   name = "Resources"
   url = "#resources"
   weight = 60
+
+[[main]]
+  name = "Cloud tag"
+  url = "#tags"
+  weight = 70
 
 [[main]]
   name = "Contact"
