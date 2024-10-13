@@ -1,21 +1,18 @@
 +++
 # A Featured Podcasts section created with the Featured Content widget.
-# This section displays podcasts from `content/podcast/` which have
-# `featured = true` in their front matter.
-
 widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 80  # Order that this section will appear.
 
 title = "Featured Podcasts"
-subtitle = "Created with LLM Notebook"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "podcast"
   
-  # Choose how much pages you would like to display (0 = all pages)
+  # Choose how many pages you would like to display (0 = all pages)
   count = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
@@ -49,7 +46,7 @@ subtitle = "Created with LLM Notebook"
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
+  # image = "background.jpg"  # Name of image in `static/media/`.
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
