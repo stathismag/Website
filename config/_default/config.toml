@@ -70,6 +70,10 @@ preserveTaxonomyNames = true
   quality = 90
   anchor = "center"  # Anchor for cropping. Options include Smart and Center.
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
 [taxonomies]
   tag = "tags"
   category = "categories"
