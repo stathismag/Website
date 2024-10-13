@@ -19,8 +19,8 @@
   weight = 30
 
 [[main]]
-  name = "Featured podcasts"
-  url = "#featured"
+  name = "Featured Podcasts"
+  url = "#featured-podcasts.md"
   weight = 40
   
 [[main]]
@@ -41,7 +41,7 @@
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
