@@ -18,21 +18,26 @@
   name = "Εισηγήσεις σε Συνέδρια"
   url = "#talks"
   weight = 30
+
+  [[main]]
+  name = "Podcasts"
+  url = "#podcasts"
+  weight = 40
   
   [[main]]
   name = "Διδασκαλία"
   url = "#teaching"
-  weight = 40
+  weight = 50
   
 [[main]]
   name = "Χρήσιμοι Σύνδεσμοι"
   url = "#resources"
-  weight = 50
+  weight = 60
 
 [[main]]
   name = "Επικοινωνία"
   url = "#contact"
-  weight = 60
+  weight = 70
 
 
 # Link to a PDF of your resume/CV from the menu.
