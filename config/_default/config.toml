@@ -51,11 +51,7 @@ paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-
-[outputs]
-  home = [ "HTML", "CSS", "RSS", "JSON" ]
-  section = [ "HTML", "RSS" ]
+preserveTaxonomyNames = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
@@ -68,11 +64,7 @@ preserveTaxonomyNames = true
 [imaging]
   resampleFilter = "lanczos"
   quality = 90
-  anchor = "center"  # Anchor for cropping. Options include Smart and Center.
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  section = ["HTML", "RSS"]
+  anchor = "center"  # Anchor for cropping. Options include Smart and Center.
 
 [taxonomies]
   tag = "tags"
