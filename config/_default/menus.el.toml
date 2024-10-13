@@ -21,7 +21,7 @@
 
   [[main]]
   name = "Podcasts"
-  url = "#podcasts"
+  url = "/home/podcasts"
   weight = 40
   
   [[main]]

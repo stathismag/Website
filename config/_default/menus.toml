@@ -13,17 +13,17 @@
   url = "#publications"
   weight = 20
   
-  [[main]]
+[[main]]
   name = "Talks"
   url = "#talks"
   weight = 30
 
 [[main]]
   name = "Podcasts"
-  url = "#podcasts"
+  url = "/home/podcasts"
   weight = 40
   
-  [[main]]
+[[main]]
   name = "Teaching"
   url = "#teaching"
   weight = 50
