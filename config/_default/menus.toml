@@ -19,8 +19,8 @@
   weight = 30
 
 [[main]]
-  name = "Featured Podcasts"
-  url = "#featured-podcasts"
+  name = "Podcasts"
+  url = "/podcasts/"
   weight = 40
   
 [[main]]
