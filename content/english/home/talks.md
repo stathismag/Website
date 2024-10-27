@@ -68,6 +68,11 @@ subtitle = ""
  css_class = ""
 +++
 
+
+* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty: Does the quality of institutional governance matter? Paper presented at the International Conference on Business & Economics 2024, Hellenic Open University, Athens, Greece, September 27-28.
+
+* Seremetis, K., Dimitras, A. A., Peppas, G., & **Magerakis, E.** (2024). Cash flows, accruals and corporate returns. Paper presented at the International Conference on Business & Economics 2024, Hellenic Open University, Athens, Greece, September 27-28. \*
+
 * Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *12th National Conference of the Financial Engineering and Banking Society (FEBS)*, Athens, Greece, December 19-20.\*
 
 * Gkillas, K., Floros, C., **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *The 94th meeting of the EURO working group on Multiple Criteria Decision Aiding (EWG-MCDA 94)*, Agios Nikolaos, Greece, September 15-17.\*
