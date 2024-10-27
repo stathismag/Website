@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Podcasts"
-  url = "/english/podcasts/"
+  url = "/podcasts/"
   weight = 40
   
 [[main]]
