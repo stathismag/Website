@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Publications"
+title = "Podcasts"
 subtitle = ""
 
 [content]
@@ -77,4 +77,4 @@ Welcome to the audio versions of my papers and featured podcasts. Here you can l
 
 **Main Theme**: This study examines how a firm's proximity to political power, specifically its location within the US political landscape, influences its cash holding decisions. The authors argue that firms headquartered in states with a higher degree of political alignment with the President's party face elevated policy risk, leading them to adopt more conservative cash policies as a hedging mechanism.
 
-You can listen to the audio version of this paper [here](https://notebooklm.google.com/notebook/a4c4c113-a226-4bd9-a3f3-3bcae9e566d2/audio).
+You can listen to the audio version of this paper [here](https://podcasters.spotify.com/pod/show/stathis-magerakis/episodes/Episode-1-The-Effect-of-Proximity-to-Political-Power-on-Corporate-Cash-Policy-e2q8jui).
