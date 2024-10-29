@@ -15,17 +15,16 @@
   weight = 20
   
   [[main]]
-  name = "Εισηγήσεις σε Συνέδρια"
+  name = "Εισηγήσεις/ Συνέδρια"
   url = "#talks"
   weight = 30
 
 [[main]]
-  name = "Featured Podcasts"
-  url = "#featured-podcasts"
+  name = "Podcasts"
+  url = "podcasts"
   weight = 40
   
-  
-  [[main]]
+    [[main]]
   name = "Διδασκαλία"
   url = "#teaching"
   weight = 50
