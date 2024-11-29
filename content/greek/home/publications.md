@@ -70,8 +70,10 @@ subtitle = ""
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
 **Σύνοψη:**  
-AJG (2021):  One [ABS 4 ★★★★ ], One [ABS 3 ★★★ ],  Six [ABS 2 ★★],  One [ABS1 ★].  
-ABDC (2022):  One [A*], Three [A], Six [B],  One [C].
+AJG (2024):  One [ABS 4 ★★★★ ], Two [ABS 3 ★★★ ], Six [ABS 2 ★★],  One [ABS1 ★].  
+ABDC (2022):  One [A*], Four [A], Six [B],  One [C].
+
+* **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Journal of Accounting Literature, ahead-of-print* (ahead-of-print). https://doi.org/10.1108/JAL-03-2024-0036 *(IF: 1.1, ABS: 3, ABDC: A)*.
 
 * Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. https://doi.org/10.1007/s10479-024-06176-1 *(IF: 4.4, ABS: 3, ABDC: A)*.
 
