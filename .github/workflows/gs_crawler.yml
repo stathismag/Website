@@ -1,0 +1,38 @@
+name: Run gs_crawler.py on schedule
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # Runs every day at 06:00 UTC. Change as needed.
+  workflow_dispatch:       # Allows manual runs from GitHub UI
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run gs_crawler.py
+        run: python gs_crawler.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Auto-update from gs_crawler.py"
+          git push
+        env:
+          # This is required for pushing changes from within Actions
+          # The default GITHUB_TOKEN is automatically provided by Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
