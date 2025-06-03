@@ -100,7 +100,7 @@ user_groups = ["Researchers", "Visitors"]
 [[social]]
   icon = "google-scholar"
   icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ&hl"
+  link = "https://scholar.google.co.uk/citations?user=LxLY15EAAAAJ"
   
  [[social]]
   icon = "researchgate"
@@ -147,9 +147,9 @@ user_groups = ["Researchers", "Visitors"]
 #   link = "files/cv.pdf"
 
 +++
-Efstathios (Stathis) Magerakis is a teaching fellow at the Department of Economics of the [University of Patras](http://upatras.gr). He holds a holds a PhD in Economics from the same university, with dissertation title ["Essays in financial accounting and corporate finance](https://www.didaktorika.gr/eadd/handle/10442/51855). Following a Bachelor’s degree in Economics, he has also obtained an MBA and a Master’s degree in Applied Economics and Data Analysis from the University of Patras, both awarded with distinction. 
+Efstathios (Stathis) Magerakis is a teaching fellow at the Department of Economics of the [University of Patras](http://upatras.gr). He holds a PhD in Economics from the same university, with dissertation title ["Essays in financial accounting and corporate finance](https://www.didaktorika.gr/eadd/handle/10442/51855). Following a Bachelor’s degree in Economics, he has also obtained an MBA and a Master’s degree in Applied Economics and Data Analysis from the University of Patras, both awarded with distinction. 
 
-Stathis' research interests sit at the intersection of accounting and finance, with a focus on how institutional, managerial, or firm-specific factors influence corporate policies and performance outcomes. His work has been published in referred journals such as the Journal of Corporate Finance, Journal of Applied Accounting Research, International Review of Finance, and Journal of Cleaner Production. He presents his research at several conferences such as the European Accounting Association (EAA), Financial Engineering & Banking Society (FEBS), and Hellenic Finance and Accounting Association (HFAA).
+Stathis' research interests sit at the intersection of accounting and finance, with a focus on how institutional, managerial, or firm-specific factors influence corporate policies and performance outcomes. His work has been published in refereed journals, including the Journal of Corporate Finance, Journal of Applied Accounting Research, International Review of Finance, and Journal of Cleaner Production. He presents his research at several conferences, including the European Accounting Association (EAA), the Financial Engineering & Banking Society (FEBS), and the Hellenic Finance and Accounting Association (HFAA).
 
 Stathis has experience teaching accounting and financial analysis at both undergraduate and graduate levels in classroom and online formats. He is a licensed certified accountant, experienced in accounting principles, and tax legislation, with proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)). With professional experience as an accountant and financial consultant, he brings real-world insight into his teaching. 
 
