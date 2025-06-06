@@ -68,15 +68,18 @@ subtitle = ""
  css_class = ""
 +++ 
 
+* 2024-2025: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
+[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
+
 * 2022-2023: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
 [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) |
 [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
 [Χρηματοοικονομική Ανάλυση και Διαχείριση](https://www.econ.upatras.gr/el/undergraduate/courses/hrimatooikonomiki-analysi-kai-diaheirisi) 
 
-* 2017-2021: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (Προπτυχιακό).  
+* 2017-2021: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών.  
 [Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) |
 [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
 
-* 2019-2020: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών (Μεταπτυχιακό). 
+* 2019-2020: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
 [Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon) 
 
