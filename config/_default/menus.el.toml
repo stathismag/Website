@@ -15,7 +15,7 @@
   weight = 20
   
   [[main]]
-  name = "Εισηγήσεις/ Συνέδρια"
+  name = "Συνέδρια"
   url = "#talks"
   weight = 30
 
