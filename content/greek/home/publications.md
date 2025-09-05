@@ -84,8 +84,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 ---
 
-* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank"><img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/1acc09aa-7549-4477-90a6-99e73eea2ff4" />
-</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
+* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
 * **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
 
