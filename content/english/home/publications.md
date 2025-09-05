@@ -70,10 +70,14 @@ subtitle = ""
 ### Peer-Reviewed Journal Articles
 
 **Summary:**  
-AJG (2024):  One [ABS 4 ★★★★ ], Two [ABS 3 ★★★ ], Six [ABS 2 ★★],  One [ABS1 ★].  
-ABDC (2022):  One [A*], Four [A], Six [B],  One [C].
+AJG (2024):  One [ABS 4 ★★★★ ], Two [ABS 3 ★★★ ], Eight [ABS 2 ★★],  One [ABS1 ★].  
+ABDC (2022):  One [A*], Five [A], Six [B],  One [C].
 
-* **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Journal of Accounting Literature, ahead-of-print* (ahead-of-print). https://doi.org/10.1108/JAL-03-2024-0036 *(IF: 1.1, ABS: 3, ABDC: A)*.
+* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Forthcoming in Journal of Management Control*. https://doi.org/10.1007/s00187-025-00397-6 *(IF: 3.6, ABS: 2, ABDC: A)*.
+
+* **Magerakis, E.** & Theodoraki, C. (2024). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Forthcoming in Review of Managerial Science* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
+
+* **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Forthcoming in Journal of Accounting Literature*. https://doi.org/10.1108/JAL-03-2024-0036 *(IF: 1.1, ABS: 3, ABDC: A)*.
 
 * Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. https://doi.org/10.1007/s10479-024-06176-1 *(IF: 4.4, ABS: 3, ABDC: A)*.
 
@@ -104,10 +108,6 @@ ABDC (2022):  One [A*], Four [A], Six [B],  One [C].
 ### Working Papers
 
 * **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
-
-* **Magerakis, E.** & Theodoraki, C. (2024). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *(Under Review)*
-
-* **Magerakis, E.** (2024). Industry differences and their influence on why companies retain cash: The impact of the COVID-19 pandemic. *(Under Review)*
 
 
 ### Other Publications
