@@ -84,16 +84,16 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 ---
 
-* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Forthcoming in Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 DOI</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
+* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank"><img width="225" height="225" alt="image" src="https://github.com/user-attachments/assets/1acc09aa-7549-4477-90a6-99e73eea2ff4" />
+</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
-* **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Forthcoming in Review of Managerial Science.* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
+* **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
 
 * **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Forthcoming in Journal of Accounting Literature*. https://doi.org/10.1108/JAL-03-2024-0036 *(IF: 1.1, ABS: 3, ABDC: A)*.
 
 * Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. https://doi.org/10.1007/s10479-024-06176-1 *(IF: 4.4, ABS: 3, ABDC: A)*.
 
 * **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. https://doi.org/10.1016/j.jcorpfin.2023.102448 *(IF: 6.1, ABS: 4, ABDC: A*)*.
-<button onclick="window.open('animated_choropleth_map_pai.html', '_blank')">View Animated Choropleth Map</button>
 
 * **Magerakis, E.** & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. https://doi.org/10.1108/JAAR-11-2021-0310 *(IF: 3.0, ABS: 2, ABDC B)*.
 
@@ -135,6 +135,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
   <br>
   <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small>
 </div>
+
 
 
 
