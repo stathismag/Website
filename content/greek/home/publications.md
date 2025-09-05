@@ -70,12 +70,18 @@ subtitle = ""
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
 **Σύνοψη:**  
-AJG (2024):  One [ABS 4 ★★★★ ], Two [ABS 3 ★★★ ], Eight [ABS 2 ★★],  One [ABS1 ★].  
-ABDC (2022):  One [A*], Five [A], Six [B],  One [C].
+
+**Journal Rankings:**
+- **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★
+- **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
+
+**Σύνολο:** 15 δημοσιεύσεις σε διεθνή περιοδικά με κριτές
+
+---
 
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Forthcoming in Journal of Management Control*. https://doi.org/10.1007/s00187-025-00397-6 *(IF: 3.6, ABS: 2, ABDC: A)*.
 
-* **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Forthcoming in Review of Managerial Science* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
+* **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Forthcoming in Review of Managerial Science.* https://doi.org/10.1007/s11846-025-00923-9 *(IF: 9.6, ABS: 2)*.
 
 * **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Forthcoming in Journal of Accounting Literature*. https://doi.org/10.1108/JAL-03-2024-0036 *(IF: 1.1, ABS: 3, ABDC: A)*.
 
@@ -118,4 +124,5 @@ ABDC (2022):  One [A*], Five [A], Six [B],  One [C].
 * **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
 * **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+
 
