@@ -77,7 +77,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
 **Journal Rankings:**   
-- **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★
+- **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★   
 - **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
 
 **Σύνολο:** 15 δημοσιεύσεις σε διεθνή περιοδικά με κριτές
@@ -118,17 +118,23 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ### Εργασίες σε Εξέλιξη
 * **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
 
-* **Magerakis, E.** & Theodoraki, C. (2024). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *(Under Review)*
-
-* **Magerakis, E.** (2024). Industry differences and their influence on why companies retain cash: The impact of the COVID-19 pandemic. *(Under Review)*
-
-
 ### Λοιπές δημοσιεύσεις
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
 
 * **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
 * **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+
+## Διαδραστικές Οπτικοποιήσεις
+
+<div style="margin: 20px 0; text-align: center;">
+  <button onclick="window.open('animated_choropleth_map_pai.html', '_blank')" 
+          style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;">
+    📊 Διαδραστικός Χάρτης - Political Proximity Analysis
+  </button>
+  <br>
+  <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small>
+</div>
 
 
 
