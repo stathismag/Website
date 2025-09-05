@@ -1,77 +1,82 @@
 +++
-# A Recent Publications section created with the Pages widget.
-# This section displays recent blog posts from `content/publication/`.
-
-widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
-
+# Recent Publications section created with the Pages widget.
+widget = "pages"
+headless = true
+active = true
+weight = 40
 title = "Δημοσιεύσεις"
-subtitle = ""
+subtitle = "Επιστημονικά άρθρα και ερευνητικές εργασίες"
 
 [content]
-  # Page type to display. E.g. post, talk, or publication.
+  # Page type to display
   page_type = "publication"
-  
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 5
-  
+  # Show all publications
+  count = 0
   # Choose how many pages you would like to offset by
   offset = 0
-
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
-
+  
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
     category = ""
     publication_type = ""
     exclude_featured = false
-  
+
 [design]
   # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
-  view = 2
+  # 4 = Citation (publication only) - best for academic work
+  view = 4
   
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-    
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  # Keep clean background for academic content
 
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
 [advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
-
+  # Custom CSS for DOI icons
+  css_style = """
+    .doi-icon {
+      display: inline-block;
+      background-color: #FF6B35;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: bold;
+      margin-left: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .doi-icon:hover {
+      background-color: #E55A2B;
+      color: white;
+      text-decoration: none;
+    }
+    .preprint-icon {
+      display: inline-block;
+      background-color: #28A745;
+      color: white;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-decoration: none;
+      font-size: 11px;
+      font-weight: bold;
+      margin-left: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .preprint-icon:hover {
+      background-color: #218838;
+      color: white;
+      text-decoration: none;
+    }
+  """
+  # CSS class
+  css_class = ""
 +++
 
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
-**Σύνοψη:**  
-
-**Journal Rankings:**
+**Journal Rankings:**   
 - **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★
 - **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
 
@@ -124,5 +129,6 @@ subtitle = ""
 * **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
 * **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
+
 
 
