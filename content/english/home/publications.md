@@ -73,6 +73,8 @@ subtitle = ""
 - **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★   
 - **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
 
+**Total**: 15 publications in international peer-reviewed journals
+
 ---
 
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
