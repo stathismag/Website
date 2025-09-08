@@ -120,5 +120,5 @@ subtitle = ""
 
 * **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
 
-Interactive Visualizations
+## Interactive Visualizations
 <div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('animated_choropleth_map_pai.html', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 📊 Interactive Map - Political Proximity Analysis </button> <br> <small style="color: #666; font-size: 12px;">Related to: Magerakis et al. (2023), Journal of Corporate Finance</small> </div>
