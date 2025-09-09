@@ -30,13 +30,6 @@ This site is automatically deployed via [Netlify](https://www.netlify.com/).
 
 ---
 
-## 📸 Screenshots
-
-<!-- Add screenshots of your site here -->
-<!-- ![screenshot](static/images/screenshot.png) -->
-
----
-
 ## 🙏 Credits
 
 - [Hugo Academic Theme](https://github.com/gcushen/hugo-academic) by George Cushen
