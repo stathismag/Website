@@ -21,37 +21,6 @@ This website showcases my research, publications, talks, teaching materials, and
 
 ---
 
-## 🛠️ Technology Stack
-
-- **Framework:** [Hugo](https://gohugo.io/) + [Hugo Academic Theme](https://github.com/gcushen/hugo-academic)
-- **Deployment:** [Netlify](https://www.netlify.com/)
-- **Languages:** HTML, Markdown, YAML
-- **Other tools:** LaTeX, R, Stata, Targit
-
----
-
-## 📦 Getting Started
-
-To build and run this site locally:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/stathismag/Website.git
-   cd Website
-   ```
-
-2. **Install [Hugo](https://gohugo.io/getting-started/installing/)** (extended version recommended).
-
-3. **Serve the website locally:**
-   ```bash
-   hugo server
-   ```
-   Visit `http://localhost:1313` to view.
-
-4. **Customize your content** in the `content/` directory, configuration in `config/_default/`.
-
----
-
 ## 📝 Deployment
 
 This site is automatically deployed via [Netlify](https://www.netlify.com/).
@@ -85,7 +54,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Website: [smagerakis.gr](https://smagerakis.gr)
 - GitHub: [@stathismag](https://github.com/stathismag)
-- [Add your email or LinkedIn if desired]
+- LinkedIn: [Efstathios Magerakis](https://www.linkedin.com/in/efstathiosmagerakis/)
 
 ---
 
