@@ -126,14 +126,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 ## Διαδραστικές Οπτικοποιήσεις
 
-<div style="margin: 20px 0; text-align: center;">
-  <button onclick="window.open('animated_choropleth_map_pai.html', '_blank')" 
-          style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;">
-    📊 Διαδραστικός Χάρτης - Political Proximity Analysis
-  </button>
-  <br>
-  <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small>
-</div>
+<div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('animated_choropleth_map_pai.html', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 📊 Διαδραστικός Χάρτης - Political Proximity Analysis </button> <br> <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small> </div>
 
 
 
