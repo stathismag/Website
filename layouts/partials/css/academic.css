@@ -16,7 +16,7 @@ html {
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 15px;
+    font-size: {{ .Get "font_size" }}px;
   }
 }
 
