@@ -484,7 +484,7 @@ a[data-fancybox] img {
   background-color: {{ .Get "home_section_odd" }};
   padding: 110px 0 110px 0;
   /* Add margin-bottom for more spacing between sections: */
-  margin-bottom: 40px;         /* new or increased value */
+  margin-bottom: 16px;         /* new or increased value */
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
