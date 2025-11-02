@@ -68,10 +68,13 @@ subtitle = ""
  css_class = ""
 +++
 
+* Dimitras, A., **Magerakis, E.**, & Peppas, G. (2025). Is the relationship between climate policy uncertainty and cash holding nonlinear? *International Conference on Business & Economics 2025*, Hellenic Open University, Athens, Greece, September 26-27.
+
+* **Magerakis, E.**, Floros, C., & Gkillas, K. (2025). Political uncertainty and cybersecurity risk: How competing forces shape corporate cash policy. *FAME 2025 - International Conference on AI in Finance, Accounting, Management and Energy*, Heraklion, Crete, Greece, September 19-20. \*
 
 * **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty: Does the quality of institutional governance matter? *International Conference on Business & Economics 2024*, Hellenic Open University, Athens, Greece, September 27-28.
 
-* Seremetis, K., Dimitras, A. A., Peppas, G., & **Magerakis, E.** (2024). Cash flows, accruals and corporate returns. *International Conference on Business & Economics 2024*, Hellenic Open University, Athens, Greece, September 27-28. \*
+* Seremetis, K., Dimitras, A., Peppas, G., & **Magerakis, E.** (2024). Cash flows, accruals and corporate returns. *International Conference on Business & Economics 2024*, Hellenic Open University, Athens, Greece, September 27-28. \*
 
 * Gkillas, K., Floros, C., and **Magerakis, E.** (2022). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *12th National Conference of the Financial Engineering and Banking Society (FEBS)*, Athens, Greece, December 19-20.\*
 
@@ -96,4 +99,5 @@ subtitle = ""
 * **Magerakis, Ε.**, Beretoulis, P., Karabagias, S., and Gavrilakis, N. (2009). The Greek reality of the Photovoltaic market: Future trends and incentives in energy development. Proceedings of the 2nd International Conference on Environmental Management, Engineering, Planning and Economics (CEMEPE 09) & SECOTOX Conference, pp. 667-673, Mykonos, Greece, 21-26 June, 2009.\* [<img src="/img/html.png">](http://www.biblionet.gr/main.asp?page=results&Titlesid=147854)
 
 Note: “\*” indicates presentation by coauthor.
+
 
