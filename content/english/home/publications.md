@@ -70,24 +70,26 @@ subtitle = ""
 ### Peer-Reviewed Journal Articles
 
 **Journal Rankings:**   
-- **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★   
-- **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
+- **AJG (2024):** 1 × ABS 4★★★★ | 3 × ABS 3★★★ | 8 × ABS 2★★ | 1 × ABS 1★   
+- **ABDC (2025):** 1 × A* | 6 × A | 6 × B | 1 × C
 
-**Total**: 15 publications in international peer-reviewed journals
+**Total**: 16 publications in international peer-reviewed journals
 
 ---
 
+*	**Magerakis, E.**, & Habib, A. (2025). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
+
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
-* **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
+* **Magerakis, E.**, & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
 
 * **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Forthcoming in Journal of Accounting Literature*. <a href="https://doi.org/10.1108/JAL-03-2024-0036" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.1, ABS: 3, ABDC: A)*.
 
 * Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. <a href="https://doi.org/10.1007/s10479-024-06176-1" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 4.4, ABS: 3, ABDC: A)*.
 
-* **Magerakis, E.** , Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. <a href="https://doi.org/10.1016/j.jcorpfin.2023.102448" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 6.1, ABS: 4, ABDC: A*)*.
+* **Magerakis, E.**, Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. <a href="https://doi.org/10.1016/j.jcorpfin.2023.102448" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 6.1, ABS: 4, ABDC: A*)*.
 
-* **Magerakis, E.** & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. <a href="https://doi.org/10.1108/JAAR-11-2021-0310" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.0, ABS: 2, ABDC B)*.
+* **Magerakis, E.**, & Tzelepis, D. (2023). Corruption, cash holdings and firm performance: empirical evidence from an emerging market. *Journal of Applied Accounting Research, 24*(3), 483-507. <a href="https://doi.org/10.1108/JAAR-11-2021-0310" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.0, ABS: 2, ABDC B)*.
 
 * **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision, 60*(12), 3275-3303. <a href="https://doi.org/10.1108/MD-07-2021-0991" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 4.6, ABS: 2, ABDC: B)*.
   
