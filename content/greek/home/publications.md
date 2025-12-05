@@ -77,13 +77,15 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ### Επιστημονικές Δημοσιεύσεις με Κριτές
 
 **Journal Rankings:**   
-- **AJG (2024):** 1× ABS 4★★★★ | 2× ABS 3★★★ | 8× ABS 2★★ | 1× ABS 1★   
-- **ABDC (2022):** 1× A* | 5× A | 6× B | 1× C
+- **AJG (2024):** 1 × ABS 4★★★★ | 3 × ABS 3★★★ | 8 × ABS 2★★ | 1 × ABS 1★   
+- **ABDC (2025):** 1 × A* | 6 × A | 6 × B | 1 × C
 
-**Σύνολο:** 15 δημοσιεύσεις σε διεθνή περιοδικά με κριτές
+**Σύνολο:** 16 δημοσιεύσεις σε διεθνή περιοδικά με κριτές
 
 ---
 
+*	**Magerakis, E.**, & Habib, A. (2025). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
+*	
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
 * **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
@@ -127,6 +129,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ## Διαδραστικές Οπτικοποιήσεις
 
 <div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('animated_choropleth_map_pai.html', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 📊 Διαδραστικός Χάρτης - Political Proximity Analysis </button> <br> <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small> </div>
+
 
 
 
