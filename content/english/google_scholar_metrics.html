@@ -2,45 +2,16 @@
     <h4 style="color: #4285F4; text-align: center; margin: 0 0 10px 0; font-size: 18px; font-weight: normal;">Google Scholar Metrics</h4>
     <div style="display: flex; justify-content: space-between; text-align: center;">
         <div>
-            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="citations-value">...</p>
+            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;">334</p>
             <p style="margin: 0; color: #666; font-size: 12px;">Citations</p>
         </div>
         <div>
-            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="h-index-value">...</p>
+            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;">10</p>
             <p style="margin: 0; color: #666; font-size: 12px;">H-Index</p>
         </div>
         <div>
-            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="i10-index-value">...</p>
+            <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;">10</p>
             <p style="margin: 0; color: #666; font-size: 12px;">i10-Index</p>
         </div>
     </div>
-    <p style="text-align: center; margin: 8px 0 0 0; font-size: 10px; color: #999;">Loading latest data...</p>
 </div>
-
-<script>
-// Fetch real-time data from JSON
-(function() {
-  async function loadMetrics() {
-    try {
-      const response = await fetch('/data/google_scholar_citations.json');
-      if (response.ok) {
-        const data = await response.json();
-        document.getElementById('citations-value').textContent = data.total_citations || '...';
-        document.getElementById('h-index-value').textContent = data.h_index || '...';
-        document.getElementById('i10-index-value').textContent = data.i10_index || '...';
-      }
-    } catch (e) {
-      // Fallback - will be updated by next crawler run
-      document.getElementById('citations-value').textContent = 'Updating...';
-      document.getElementById('h-index-value').textContent = 'Updating...';
-      document.getElementById('i10-index-value').textContent = 'Updating...';
-    }
-  }
-
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadMetrics);
-  } else {
-    loadMetrics();
-  }
-})();
-</script>
