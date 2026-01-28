@@ -1,4 +1,5 @@
 {{/* Google Scholar Metrics Widget - Matches existing site styling */}}
+{{ $ := .root }}
 {{ $page := .page }}
 
 <div class="row">
@@ -7,15 +8,15 @@
       <h4 style="color: #4285F4; text-align: center; margin: 0 0 10px 0; font-size: 18px; font-weight: normal;">Google Scholar Metrics</h4>
       <div style="display: flex; justify-content: space-between; text-align: center;">
         <div>
-          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="citations-value">{{ .Params.citations | default "..." }}</p>
+          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="citations-value">{{ $page.Params.citations | default "..." }}</p>
           <p style="margin: 0; color: #666; font-size: 12px;">Citations</p>
         </div>
         <div>
-          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="h-index-value">{{ .Params.h_index | default "..." }}</p>
+          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="h-index-value">{{ $page.Params.h_index | default "..." }}</p>
           <p style="margin: 0; color: #666; font-size: 12px;">H-Index</p>
         </div>
         <div>
-          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="i10-index-value">{{ .Params.i10_index | default "..." }}</p>
+          <p style="font-size: 24px; font-weight: bold; margin: 0; color: #333;" id="i10-index-value">{{ $page.Params.i10_index | default "..." }}</p>
           <p style="margin: 0; color: #666; font-size: 12px;">i10-Index</p>
         </div>
       </div>
