@@ -1,13 +1,14 @@
 from serpapi import GoogleSearch
 import json
 import os
+import sys
 from datetime import datetime
 
 def fetch_google_scholar_citations():
     api_key = os.environ.get("SERPAPI_KEY")
     if not api_key:
         print("Error: SERPAPI_KEY environment variable is not set.")
-        return
+        sys.exit(1)
 
     params = {
         "engine": "google_scholar_author",
@@ -25,7 +26,7 @@ def fetch_google_scholar_citations():
         i10_index = results["cited_by"]["table"][2]["i10_index"]["all"]
     else:
         print("'cited_by' information not found in the response.")
-        return
+        sys.exit(1)
 
     # Prepare the metrics for display
     metrics = {
