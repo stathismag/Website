@@ -85,7 +85,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ---
 
 *	**Magerakis, E.**, & Habib, A. (2025). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
-*	
+
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
 * **Magerakis, E.** & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
@@ -100,7 +100,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 * **Magerakis, E.** (2022). The importance of managerial discretion on managerial ability–firm cash holding nexus. *Management Decision, 60*(12), 3275-3303. <a href="https://doi.org/10.1108/MD-07-2021-0991" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 4.6, ABS: 2, ABDC: B)*.
   
-* **Magerakis, E.** (2022). Chief executive officer ability and cash holding decision. *Review of Accounting and Finance, 21*(5), 449-485. <a href="https://doi.org/10.1108/RAF-10-2021-0284" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 2.4, 2*ABS- ABDC B)*.
+* **Magerakis, E.** (2022). Chief executive officer ability and cash holding decision. *Review of Accounting and Finance, 21*(5), 449-485. <a href="https://doi.org/10.1108/RAF-10-2021-0284" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 2.4, ABS: 2, ABDC: B)*.
 
 * **Magerakis, E.**, & Habib, A. (2022). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance, 22*(3), 402-432. <a href="https://doi.org/10.1111/irfi.12355" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.7, ABDC: A)*.
 
@@ -114,7 +114,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 * **Magerakis, E.** (2020). Corporate cash holdings and financial crisis: Evidence from the emerging market of Greece. *International Journal of Managerial and Financial Accounting, 12*(2), 186-215. <a href="https://doi.org/10.1504/IJMFA.2020.10031398" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.4, ABS: 2, ABDC: B)*.
 
-* **Magerakis, E.**, Siriopoulos, C., , & Tsagkanos A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](https://www.scienpress.com/journal_focus.asp?main_id=139&Sub_id=IV&Issue=1568495)
+* **Magerakis, E.**, Siriopoulos, C., & Tsagkanos, A. (2015). Cash holdings and firm characteristics: Evidence from UK market. *Journal of Risk and Control, 2*(1), 19-43. [<img src="/img/pdf.png">](https://www.scienpress.com/journal_focus.asp?main_id=139&Sub_id=IV&Issue=1568495)
 
 ### Εργασίες σε Εξέλιξη
 * **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
@@ -122,7 +122,7 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 ### Λοιπές δημοσιεύσεις
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
 
-* **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](http://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
+* **Magerakis, E.** (2017). *The role of business strategy in corporate liquidity: Evidence from US firms* (MSc Thesis, University of Patras, Greece. School of Economics and Business. Department of Economics).  [<img src="/img/pdf.png">](https://nemertes.lis.upatras.gr/jspui/bitstream/10889/10888/1/CH-BS_final_2-l.pdf)
 
 * **Magerakis, E.** (2015). *Cash holdings and firm characteristics: Evidence from UK market* (MBA Thesis, University of Patras, Greece. School of Economics and Business. Department of Business Administration. [<img src="/img/pdf.png">](https://pdfs.semanticscholar.org/979e/2694ec234300730d897571de6f47a1a6e566.pdf)
 

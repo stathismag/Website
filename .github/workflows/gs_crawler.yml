@@ -28,6 +28,8 @@ jobs:
       - name: Run Google Scholar crawler
         run: |
           python gs_crawler.py
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         continue-on-error: false
 
       - name: Check for changes

@@ -19,36 +19,36 @@ subtitle = ""
   icon = "terminal"
   icon_pack = "fas"
   name = "Stata"
-  description = ""
+  description = "Στατιστική ανάλυση & οικονομετρία"
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = ""
+  description = "Ανάλυση δεδομένων & οπτικοποίηση"
 
 [[feature]]
   icon = "square-root-alt"
   icon_pack = "fas"
-  name = "Latex"
-  description = ""
+  name = "LaTeX"
+  description = "Ακαδημαϊκή στοιχειοθεσία"
 
 [[feature]]
   icon = "markdown"
   icon_pack = "fab"
   name = "Markdown"
-  description = ""
+  description = "Τεκμηρίωση & περιεχόμενο"
 
 [[feature]]
   icon = "chart-pie"
   icon_pack = "fas"
   name = "Targit"
-  description = ""
+  description = "Επιχειρηματική ευφυΐα"
 
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "Lightroom"
-  description = ""
+  description = "Επεξεργασία φωτογραφιών"
 
 +++

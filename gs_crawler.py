@@ -4,10 +4,15 @@ import os
 from datetime import datetime
 
 def fetch_google_scholar_citations():
+    api_key = os.environ.get("SERPAPI_KEY")
+    if not api_key:
+        print("Error: SERPAPI_KEY environment variable is not set.")
+        return
+
     params = {
         "engine": "google_scholar_author",
-        "author_id": "LxLY15EAAAAJ&hl",  # Replace with your actual author ID
-        "api_key": "cdee7eb87ffaa5fec732f1439b592e80cfd9861ad686a05acd5ce517ccff4b1d"   # Replace with your SerpApi key
+        "author_id": "LxLY15EAAAAJ&hl",
+        "api_key": api_key
     }
 
     search = GoogleSearch(params)

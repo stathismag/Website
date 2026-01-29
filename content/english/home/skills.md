@@ -19,36 +19,36 @@ subtitle = ""
   icon = "terminal"
   icon_pack = "fas"
   name = "Stata"
-  description = ""
+  description = "Statistical analysis & econometrics"
 
 [[feature]]
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = ""
+  description = "Data analysis & visualization"
 
 [[feature]]
   icon = "square-root-alt"
   icon_pack = "fas"
-  name = "Latex"
-  description = ""
+  name = "LaTeX"
+  description = "Academic typesetting"
 
 [[feature]]
   icon = "markdown"
   icon_pack = "fab"
   name = "Markdown"
-  description = ""
+  description = "Documentation & web content"
 
 [[feature]]
   icon = "chart-pie"
   icon_pack = "fas"
   name = "Targit"
-  description = ""
+  description = "Business intelligence"
 
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "Lightroom"
-  description = ""
+  description = "Photo editing"
 
 +++
