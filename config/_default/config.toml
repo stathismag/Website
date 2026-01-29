@@ -78,4 +78,3 @@ preserveTaxonomyNames = true
   author = "authors"
 
 [params]
-  custom_css = ["custom.scss"]

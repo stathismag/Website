@@ -45,7 +45,7 @@ user_groups = ["Researchers", "Visitors"]
   year = 2017
   
  [[education.courses]]
-  course = "Master in Business Administartion (MBA)"
+  course = "Master in Business Administration (MBA)"
   institution = "University of Patras"
   year = 2015
 
@@ -153,6 +153,6 @@ Stathis' research interests sit at the intersection of accounting and finance, w
 
 Stathis has experience teaching accounting and financial analysis at both undergraduate and graduate levels in classroom and online formats. He is a licensed certified accountant, experienced in accounting principles, and tax legislation, with proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)). With professional experience as an accountant and financial consultant, he brings real-world insight into his teaching. 
 
-Stathis is a member of [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economic Association](https://www.eeassoc.org/), [British Accounting & Finance Accociation](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).  
+Stathis is a member of [European Accounting Association](http://www.eaa-online.org/r/eaa_home), [European Economic Association](https://www.eeassoc.org/), [British Accounting & Finance Association](https://bafa.ac.uk/), and [Financial Management Association](https://www.fma.org/).  
 
 <iframe src="google_scholar_metrics.html" width="100%" height="145px" frameborder="0"></iframe>
