@@ -18,6 +18,6 @@ autolink = true
 email_form = 1
 
 # Redirect to the thank you page after submitting the form.
-redirect = "/greek/thanks/"
+redirect = "/el/thanks/"
 +++
 
