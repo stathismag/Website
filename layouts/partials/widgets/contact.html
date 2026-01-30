@@ -13,18 +13,9 @@
 
     {{ if $page.Params.email_form }}
 
-    {{ $post_action := "" }}
-    {{ if eq $page.Params.email_form 1 }}
-      {{ $post_action = "action=\"/thanks.html\" netlify" }}
-    {{ else }}
-      {{ if not $.Site.Params.email }}
-        {{ errorf "Please set an email address for the contact form using the `email` parameter in `config.toml`. Otherwise, set `email_form = 0` to disable the contact form." }}
-      {{ end }}
-      {{ $post_action = printf "action=\"https://formspree.io/%s\"" $.Site.Params.email }}
-    {{end}}
-
     <div class="mb-3">
-      <form name="contact" method="POST" {{ $post_action | safeHTMLAttr }}>
+      <form id="contact-form" name="contact" method="POST" action="https://formspree.io/{{ $.Site.Params.email }}">
+        <input type="hidden" name="_subject" value="New contact form submission from smagerakis.gr">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "contact_name" | default "Name" }}" required>
@@ -37,9 +28,49 @@
           <label class="sr-only" for="inputMessage">{{ i18n "contact_message" }}</label>
           <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="{{ i18n "contact_message" | default "Message" }}" required></textarea>
         </div>
-        <button type="submit" class="btn btn-outline-primary px-3 py-2">{{ i18n "contact_send" | default "Send" }}</button>
+        <button type="submit" id="contact-submit" class="btn btn-outline-primary px-3 py-2">{{ i18n "contact_send" | default "Send" }}</button>
       </form>
+      <div id="contact-success" style="display:none; margin-top:1rem; padding:1rem; background:#d4edda; border:1px solid #c3e6cb; border-radius:4px; color:#155724;">
+        <strong>Thank you!</strong> Your message has been sent successfully.<br>
+        <strong>Ευχαριστώ!</strong> Το μήνυμά σας στάλθηκε επιτυχώς.
+      </div>
+      <div id="contact-error" style="display:none; margin-top:1rem; padding:1rem; background:#f8d7da; border:1px solid #f5c6cb; border-radius:4px; color:#721c24;">
+        Something went wrong. Please try again or email directly.
+      </div>
     </div>
+    <script>
+    (function() {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = document.getElementById('contact-submit');
+        var successDiv = document.getElementById('contact-success');
+        var errorDiv = document.getElementById('contact-error');
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+        successDiv.style.display = 'none';
+        errorDiv.style.display = 'none';
+        var data = new FormData(form);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', form.action);
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState !== 4) return;
+          if (xhr.status >= 200 && xhr.status < 300) {
+            form.reset();
+            successDiv.style.display = 'block';
+            btn.textContent = 'Sent!';
+          } else {
+            errorDiv.style.display = 'block';
+            btn.disabled = false;
+            btn.textContent = 'Send';
+          }
+        };
+        xhr.send(data);
+      });
+    })();
+    </script>
     {{end}}
 
     <ul class="fa-ul" itemscope>
