@@ -25,7 +25,7 @@
 
     <div class="mb-3">
       <form name="contact" method="POST" {{ $post_action | safeHTMLAttr }}>
-        <input type="hidden" name="_next" value="{{ "/thanks.html" | absURL }}">
+        <input type="hidden" name="_next" value="{{ $.Site.BaseURL }}thanks.html">
         <input type="hidden" name="_subject" value="New contact form submission from smagerakis.gr">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
