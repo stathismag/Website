@@ -14,8 +14,10 @@
     {{ if $page.Params.email_form }}
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/{{ $.Site.Params.email }}">
+      <form name="contact" method="POST" action="https://formsubmit.co/{{ $.Site.Params.email }}">
         <input type="hidden" name="_subject" value="New contact form submission from smagerakis.gr">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="{{ $.Site.BaseURL }}thanks.html">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "contact_name" | default "Name" }}" required>
