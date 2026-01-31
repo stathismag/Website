@@ -52,7 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "smagerakis@upatras.gr"
 phone = ""
-address = ""
+address = "Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -82,11 +82,11 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
+map = 2
 map_api_key = ""
-latitude = "38.2466"
-longitude = "21.7346"
-zoom = 15
+latitude = "38.2853"
+longitude = "21.7852"
+zoom = 17
 
 ############################
 ## Plugins                ##
