@@ -14,7 +14,8 @@
     {{ if $page.Params.email_form }}
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="/thanks.html" netlify>
+      <form id="contact-form" name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "contact_name" | default "Name" }}" required>
@@ -27,9 +28,52 @@
           <label class="sr-only" for="inputMessage">{{ i18n "contact_message" }}</label>
           <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="{{ i18n "contact_message" | default "Message" }}" required></textarea>
         </div>
-        <button type="submit" class="btn btn-outline-primary px-3 py-2">{{ i18n "contact_send" | default "Send" }}</button>
+        <button type="submit" id="contact-submit" class="btn btn-outline-primary px-3 py-2">{{ i18n "contact_send" | default "Send" }}</button>
       </form>
+      <div id="contact-success" style="display:none; margin-top:1rem; padding:1rem; background:#d4edda; border:1px solid #c3e6cb; border-radius:4px; color:#155724;">
+        Thank you! Your message has been received. / Ευχαριστώ! Το μήνυμά σας παραλήφθηκε.
+      </div>
+      <div id="contact-error" style="display:none; margin-top:1rem; padding:1rem; background:#f8d7da; border:1px solid #f5c6cb; border-radius:4px; color:#721c24;">
+        Something went wrong. Please email <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a> directly.
+      </div>
     </div>
+    <script>
+    (function() {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var btn = document.getElementById('contact-submit');
+        var successDiv = document.getElementById('contact-success');
+        var errorDiv = document.getElementById('contact-error');
+        btn.disabled = true;
+        btn.textContent = 'Sending...';
+        successDiv.style.display = 'none';
+        errorDiv.style.display = 'none';
+        var formData = new URLSearchParams(new FormData(form)).toString();
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/');
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onload = function() {
+          if (xhr.status >= 200 && xhr.status < 300) {
+            form.reset();
+            form.style.display = 'none';
+            successDiv.style.display = 'block';
+          } else {
+            errorDiv.style.display = 'block';
+            btn.disabled = false;
+            btn.textContent = 'Send';
+          }
+        };
+        xhr.onerror = function() {
+          errorDiv.style.display = 'block';
+          btn.disabled = false;
+          btn.textContent = 'Send';
+        };
+        xhr.send(formData);
+      });
+    })();
+    </script>
     {{end}}
 
     <ul class="fa-ul" itemscope>
