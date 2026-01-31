@@ -14,8 +14,9 @@
     {{ if $page.Params.email_form }}
 
     <div class="mb-3">
-      <form id="contact-form" name="contact" method="POST" data-netlify="true">
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
+        <p class="hidden" style="display:none;"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">{{ i18n "contact_name" }}</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="{{ i18n "contact_name" | default "Name" }}" required>
@@ -50,27 +51,26 @@
         btn.textContent = 'Sending...';
         successDiv.style.display = 'none';
         errorDiv.style.display = 'none';
-        var formData = new URLSearchParams(new FormData(form)).toString();
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', '/');
-        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-        xhr.onload = function() {
-          if (xhr.status >= 200 && xhr.status < 300) {
+
+        fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(new FormData(form)).toString()
+        })
+        .then(function(response) {
+          if (response.ok) {
             form.reset();
             form.style.display = 'none';
             successDiv.style.display = 'block';
           } else {
-            errorDiv.style.display = 'block';
-            btn.disabled = false;
-            btn.textContent = 'Send';
+            throw new Error('Form submission failed');
           }
-        };
-        xhr.onerror = function() {
+        })
+        .catch(function(error) {
           errorDiv.style.display = 'block';
           btn.disabled = false;
           btn.textContent = 'Send';
-        };
-        xhr.send(formData);
+        });
       });
     })();
     </script>

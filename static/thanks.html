@@ -42,8 +42,9 @@
     <a href="/">&#8592; Back to site / Επιστροφή</a>
   </div>
   <!-- Hidden form for Netlify form detection -->
-  <form name="contact" data-netlify="true" hidden>
+  <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
     <input name="form-name" type="hidden" value="contact">
+    <input name="bot-field">
     <input name="name">
     <input name="email">
     <textarea name="message"></textarea>
