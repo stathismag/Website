@@ -12,3 +12,5 @@ exampleSite/public/
 
 # Node
 node_modules/
+# Local Netlify folder
+.netlify
