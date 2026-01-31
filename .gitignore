@@ -3,7 +3,9 @@
 .vscode/
 
 # Hugo
+public/
 exampleSite/public/
+.hugo_build.lock
 
 # Jupyter
 .ipynb_checkpoints/
