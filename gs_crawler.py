@@ -12,7 +12,8 @@ def fetch_google_scholar_citations():
 
     params = {
         "engine": "google_scholar_author",
-        "author_id": "LxLY15EAAAAJ&hl",
+        "author_id": "LxLY15EAAAAJ",
+        "hl": "en",
         "api_key": api_key
     }
 
@@ -40,6 +41,12 @@ def fetch_google_scholar_citations():
     if not os.path.exists('data'):
         os.makedirs('data')
     with open('data/google_scholar_citations.json', 'w') as f:
+        json.dump(metrics, f, indent=2)
+
+    # Also write to static/data/ so it's served over HTTP (Hugo only serves static/ as files)
+    if not os.path.exists('static/data'):
+        os.makedirs('static/data')
+    with open('static/data/google_scholar_citations.json', 'w') as f:
         json.dump(metrics, f, indent=2)
 
     # Generate styled HTML content for English and Greek versions
