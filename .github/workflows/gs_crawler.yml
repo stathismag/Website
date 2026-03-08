@@ -50,9 +50,10 @@ jobs:
           git add content/greek/google_scholar_metrics.html
           git add layouts/partials/google_scholar_metrics.html
           git add data/google_scholar_citations.json
+          git add static/data/google_scholar_citations.json
           CITATION_COUNT=$(python -c "import json; print(json.load(open('data/google_scholar_citations.json'))['total_citations'])")
           git commit -m "Update Google Scholar metrics (Citations: ${CITATION_COUNT})"
-          git push
+          git push origin HEAD
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

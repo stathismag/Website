@@ -88,9 +88,9 @@ user_groups = ["Researchers", "Visitors"]
   link = "https://www.linkedin.com/in/efstathiosmagerakis/"
 
 [[social]]
-  icon = "twitter"
+  icon = "x-twitter"
   icon_pack = "fab"
-  link = "https://twitter.com/smager9"
+  link = "https://x.com/smager9"
   
  [[social]]
   icon = "instagram"
