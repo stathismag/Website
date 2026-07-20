@@ -17,6 +17,37 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "The Materiality of ESG Factors"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/certificate/RLA8V5UA3OOG"
+  date_start = "2025-09-14"
+  date_end = ""
+  description = ""
+  
+  [[item]]
+  organization = "Coursera"
+  organization_url = "https://www.coursera.org"
+  title = "The Finance of Climate Change"
+  url = ""
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/VH9MFEWSBU4Z"
+  date_start = "2023-03-05"
+  date_end = ""
+  description = ""
+    
+  [[item]]
+  organization = "Corporate Finance Institute® (CFI)"
+  organization_url = "https://corporatefinanceinstitute.com/"
+  title = "The Finance of Climate Change"
+  url = ""
+  certificate_url = "https://credentials.corporatefinanceinstitute.com/cf12a615-7ff7-4527-a994-ea201899d0f4"
+  date_start = "2020-11-08"
+  date_end = ""
+  description = ""
+  
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
