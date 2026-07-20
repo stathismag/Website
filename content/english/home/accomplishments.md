@@ -17,7 +17,6 @@ date_format = "Jan 2006"
 #   `title`, `organization` and `date_start` are the required parameters.
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
@@ -28,7 +27,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
   
-  [[item]]
+[[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
   title = "The Finance of Climate Change"
@@ -38,7 +37,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = ""
     
-  [[item]]
+[[item]]
   organization = "Corporate Finance Institute® (CFI)"
   organization_url = "https://corporatefinanceinstitute.com/"
   title = "The Finance of Climate Change"
