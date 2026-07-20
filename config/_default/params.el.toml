@@ -52,7 +52,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "smagerakis@upatras.gr"
 phone = "2610XXXXXX"
-address = "Room 1.07 (First Floor), Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
+address = "Γραφείο 1.07 (First Floor), Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
