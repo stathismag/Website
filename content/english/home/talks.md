@@ -68,6 +68,8 @@ subtitle = ""
  css_class = ""
 +++
 
+* Dimitras, A., **Magerakis, E.**, & Peppas, G. (2026). Is the relationship between climate policy uncertainty and cash holding nonlinear? *15th International Conference of the Financial Engineering and Banking Society (FEBS)*, Florence School of Banking and Finance, European University Institute, Badia Fiesolana, Florence, Italy, May 21-23.
+
 * Dimitras, A., **Magerakis, E.**, & Peppas, G. (2025). Is the relationship between climate policy uncertainty and cash holding nonlinear? *International Conference on Business & Economics 2025*, Hellenic Open University, Athens, Greece, September 26-27.
 
 * **Magerakis, E.**, Floros, C., & Gkillas, K. (2025). Political uncertainty and cybersecurity risk: How competing forces shape corporate cash policy. *FAME 2025 - International Conference on AI in Finance, Accounting, Management and Energy*, Heraklion, Crete, Greece, September 19-20. \*

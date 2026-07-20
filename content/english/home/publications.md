@@ -77,7 +77,7 @@ subtitle = ""
 
 ---
 
-*	**Magerakis, E.**, & Habib, A. (2025). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
+*	**Magerakis, E.**, & Habib, A. (2026). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
 
 * **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 

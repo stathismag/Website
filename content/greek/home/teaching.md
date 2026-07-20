@@ -68,6 +68,10 @@ subtitle = ""
  css_class = ""
 +++ 
 
+* 2025-2026: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
+[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
+[Αξιολόγηση Επενδύσεων]https://www.econ.upatras.gr/course/axiologisi-ependyseon/
+
 * 2024-2025: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
 [Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
 

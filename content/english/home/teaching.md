@@ -68,6 +68,10 @@ subtitle = ""
  css_class = ""
 +++ 
 
+* 2025-2026: Adjunct Lecturer, Department of Economics, University of Patras.
+[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) | 
+[Investment Appraisal]https://www.econ.upatras.gr/en/course/investment-appraisal/
+
 * 2024-2025: Adjunct Lecturer, Department of Economics, University of Patras.
 [Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) | 
 
