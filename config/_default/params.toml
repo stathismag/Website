@@ -9,7 +9,7 @@ day_night = true
 
 # Font style.
 #   Choose from `default`, `classic`, or `playfair`.
-font = "default"
+font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Efstathios Magerakis - Assistant Professor of Financial Economics at the University of Patras, researching corporate finance, financial accounting, and climate risk."
@@ -56,7 +56,7 @@ address = "Room 1.07 (First Floor), Department of Economics, University of Patra
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "Book a meeting with me [via Microsoft Bookings](https://outlook.office.com/bookwithme/user/b4249d63f80c4a3e9835037877a64c74@upatras.gr/meetingtype/ReyhZP1TkE6Pwt9cW4GodQ2?anonymous&ismsaljsauthenabled)"
+appointment_url = "https://outlook.office.com/bookwithme/user/b4249d63f80c4a3e9835037877a64c74@upatras.gr/meetingtype/ReyhZP1TkE6Pwt9cW4GodQ2?anonymous&ismsaljsauthenabled"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
