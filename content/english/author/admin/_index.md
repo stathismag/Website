@@ -9,14 +9,14 @@ authors = ["admin"]
 superuser = true
 
 # Role/position
-role = "Ph.D. in Economics"
+role = "Assistant Professor of Financial Economics"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
 organizations = [ { name = "University of Patras", url = "" }, { name = "Department of Economics", url = "https://www.econ.upatras.gr/en"} ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My primary research interests include financial accounting and management accounting."
+bio = "My primary research interests include corporate finance and financial accounting."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "smagerakis@upatras.gr"
@@ -147,10 +147,10 @@ user_groups = ["Researchers", "Visitors"]
 #   link = "files/cv.pdf"
 
 +++
-I am Efstathios (Stathis) Magerakis, an Assistant Professor of Financial Economics at the [Department of Economics](https://www.econ.upatras.gr/en) of the [University of Patras](http://upatras.gr). I hold a PhD in Economics from the same university, with dissertation title ["Essays in financial accounting and corporate finance"](https://www.didaktorika.gr/eadd/handle/10442/51855). Following a Bachelor's degree in Economics, I also obtained an MBA and a Master's degree in Applied Economics and Data Analysis from the University of Patras, graduating first in class in both programs.
+I am Efstathios (Stathis) Magerakis, Assistant Professor of Financial Economics at the [Department of Economics](https://www.econ.upatras.gr/en) of the [University of Patras](http://upatras.gr). I hold a PhD in Economics from the same university, with dissertation title ["Essays in financial accounting and corporate finance"](https://www.didaktorika.gr/eadd/handle/10442/51855). Following a Bachelor's degree in Economics, I also obtained an MBA and a Master's degree in Applied Economics and Data Analysis from the University of Patras, graduating first in class in both programs.
 
-My research interests sit at the intersection of accounting and finance, with a focus on how institutional, managerial, climate-related, or firm-specific factors influence corporate policies and performance outcomes. My work has been published in refereed journals, including the Journal of Corporate Finance, Review of Managerial Science, Business Strategy and the Environment, Journal of Accounting Literature, Journal of Management Control, International Review of Finance, Journal of Applied Accounting Research, and Journal of Cleaner Production. I present my research at several conferences, including the European Accounting Association (EAA), the Financial Engineering & Banking Society (FEBS), and the Hellenic Finance and Accounting Association (HFAA).
+My research interests sit at the intersection of accounting and finance, with a focus on how institutional, managerial, climate-related, or firm-specific factors influence corporate policies and performance outcomes. My work has been published in refereed journals, including the Journal of Corporate Finance, Review of Managerial Science, Business Strategy and the Environment, Journal of Accounting Literature, International Review of Finance, and Journal of Applied Accounting Research. I regularly present my research at national and international conferences, including the European Accounting Association (EAA), the Financial Engineering and Banking Society (FEBS), and the Hellenic Finance and Accounting Association (HFAA).
 
-I have experience teaching accounting, corporate finance, and financial analysis at both undergraduate and graduate levels in classroom and online formats. I am a Certified Accountant & Tax Consultant (Class A) and a Certified Economist with the Economic Chamber of Greece, experienced in accounting principles and tax legislation, with proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)). With professional experience as an accountant and financial consultant, I bring real-world insight into my teaching.
+I have taught financial accounting, managerial accounting, and financial analysis at both undergraduate and graduate levels, across classroom and online formats. I am a Certified Accountant & Tax Consultant (Class A) and a Certified Economist with the Economic Chamber of Greece, experienced in accounting principles and tax legislation, with proficiency in statistical data analysis packages ([R](https://www.r-project.org/), [Stata](https://www.stata.com/), [Excel](https://products.office.com/en/excel)), business intelligence software ([Targit](https://www.targit.com/en)), accounting ([SingularLogic](https://portal.singularlogic.eu/en) and [OTS](https://ots.gr/?lang=en) family of applications), typesetting and markup language ([Latex](https://www.latex-project.org/), [Markdown](https://www.markdownguide.org/)). 
 
 <iframe src="google_scholar_metrics.html" width="100%" height="145px" frameborder="0"></iframe>
