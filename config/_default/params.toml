@@ -3,7 +3,7 @@
 
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-color_theme = "default"
+color_theme = "ocean"
 # Enable users to switch between day and night mode?
 day_night = true
 
@@ -12,7 +12,7 @@ day_night = true
 font = "default"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Efstathios Magerakis - Academic researcher in financial accounting, corporate finance, and cash holdings at the University of Patras."
+description = "Efstathios Magerakis - Assistant Professor of Financial Economics at the University of Patras, researching corporate finance, financial accounting, and climate risk."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
@@ -51,14 +51,12 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "smagerakis@upatras.gr"
-phone = ""
-address = "Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
-
-# Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
+phone = "2610XXXXXX"
+address = "Room 1.07 (First Floor), Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
 office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = ""
+appointment_url = "Book a meeting with me [via Microsoft Bookings](https://outlook.office.com/bookwithme/user/b4249d63f80c4a3e9835037877a64c74@upatras.gr/meetingtype/ReyhZP1TkE6Pwt9cW4GodQ2?anonymous&ismsaljsauthenabled)"
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
