@@ -22,11 +22,9 @@ The hidden curriculum — what PhD programs rarely teach but researchers need: w
 
 ## My curated tips {#curated-tips}
 
-**Staying current.** Subscribe to [NBER](https://www.nber.org/papers/) and [SSRN](https://www.ssrn.com/) alerts in corporate finance and accounting. For finance specifically, the [*Insights for Young Researchers in Finance*](https://insight4finance.substack.com/) newsletter is worth following. I also monitor [RePEc](https://ideas.repec.org/) notifications for new working papers on cash holdings, policy uncertainty, and managerial ability.
+**Staying current.** Subscribe to [NBER](https://www.nber.org/papers/) and [SSRN](https://www.ssrn.com/) alerts in corporate finance and accounting. For finance specifically, see [Insights for Young Researchers in Finance](https://www.iwh-halle.de/ueber-das-iwh/forschungsabteilungen/insights-for-young-researchers-in-finance/). I also monitor [RePEc](https://ideas.repec.org/) notifications for new working papers on cash holdings, policy uncertainty, and managerial ability.
 
 **Workflow.** Organize each empirical project so you can return to it six months later without frustration: raw data, cleaned data, do-files, and output in separate folders; a README noting data sources and sample construction; and version-controlled code on GitHub. [Asjad Naqvi's Stata workflow guide](https://asjadnaqvi.github.io/stata/) generalizes well to corporate finance papers.
-
-**Talk to junior faculty.** Ask not only about research topics, but about practical matters — how they organize projects, handle referees, choose journals, and split time between research and teaching. Their perspective is often more actionable than senior faculty's.
 
 ## My original guides {#original-guides}
 
@@ -47,7 +45,7 @@ The hidden curriculum — what PhD programs rarely teach but researchers need: w
 
 ### Accounting and managerial quality
 
-- [Demerjian, Lev, and McVay — Managerial Ability](http://faculty.washington.edu/pdemerj/data.html)
+- [Demerjian, Lev, and McVay — Managerial Ability](https://sites.google.com/view/peterdemerjian/data)
 
 ### Market news
 
@@ -74,11 +72,11 @@ The hidden curriculum — what PhD programs rarely teach but researchers need: w
 ### Guides
 
 - [Asjad Naqvi — The Stata workflow guide](https://asjadnaqvi.github.io/stata/)
-- [Asjad Naqvi — The Stata-to-LaTeX guide](https://asjadnaqvi.github.io/diwave/)
-- [Daniel Bischof — Stata figure schemes](https://www.danielbischof.de/stata/)
-- [Paul Goldsmith-Pinkham — Best figure page](https://paulgp.github.io/best_figure.html)
-- [Jonathan Schwabish — Ten Guidelines for Better Tables](https://www.archives.gov/files/open/pdf/schwabish-ten-guidelines.pdf)
-- [Arthur Turell — Coding for Economists](https://aeturrell.com/posts/coding-for-economists/)
+- [Luke Stein — Stata-to-LaTeX workflows](https://lukestein.github.io/stata-latex-workflows/)
+- [Daniel Bischof — Stata figure schemes](https://www.dropbox.com/s/m5viis9oybgkept/FigureScheme.pdf?dl=0)
+- [Kieran Healy — *Data Visualization*](https://kieranhealy.org/book/dataviz/)
+- [Jonathan Schwabish — Ten Guidelines for Better Tables](https://www.cambridge.org/core/journals/journal-of-benefit-cost-analysis/article/ten-guidelines-for-better-tables/74C6FD9FEB12038A52A95B9FBCA05A12)
+- [Arthur Turell — *Coding for Economists*](https://aeturrell.github.io/coding-for-economists/intro.html)
 
 {{% alert note %}}
 **Tip.** Install the `lean` graph scheme for clean, publication-ready Stata figures.
@@ -88,29 +86,29 @@ The hidden curriculum — what PhD programs rarely teach but researchers need: w
 
 ### Books
 
-- [Marc Bellemare — *Doing Economics*](https://marcfbellemare.com/doing-economics/)
+- [Marc Bellemare — *Doing Economics*](https://www.amazon.com/Doing-Economics-Should-Learned-School_But/dp/0262543559)
 - [Deirdre McCloskey — *Economical Writing*](https://press.uchicago.edu/ucp/books/book/chicago/E/bo6786238.html)
 - [Steven Pinker — *The Sense of Style*](https://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century)
 
 ### Guides and articles
 
-- [John Cochrane — Writing Tips for Ph.D. Students](https://www.johnhcochrane.com/research-all/writing-tips-for-phd-students)
+- [John Cochrane — Writing Tips for Ph.D. Students (PDF)](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf)
 - [Keith Head — The Introduction Formula](https://blogs.ubc.ca/tedhelsbreth/2013/03/25/the-introduction-formula/)
-- [Marc Bellemare — How to Write Applied Papers in Economics](https://marcfbellemare.com/wordpress/1289)
-- [Marc Bellemare — The Conclusion Formula](https://marcfbellemare.com/wordpress/1080)
-- [Alex Edmans — Learnings From 1,000 Rejections](https://alexedmans.com/blog/learnings-from-1000-rejections/)
+- [Marc Bellemare — How to Write Applied Papers in Economics (PDF)](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf)
+- [Marc Bellemare — The Conclusion Formula](http://marcfbellemare.com/wordpress/12060)
+- [Alex Edmans — Learnings From 1,000 Rejections](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4336383)
 - [Campbell Harvey — Reflections on Editing the *Journal of Finance*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2141954)
 - [Berk, Harvey & Hirshleifer — How to Write an Effective Referee Report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1692620)
-- [James J. Choi — How to Give a Good Paper Discussion](https://jameschoi.org/wp-content/uploads/2016/06/How-to-Give-a-Good-Discussion.pdf)
+- [James J. Choi — How to Give a Good Paper Discussion (PDF)](https://jameschoi.org/wp-content/uploads/2016/06/How-to-Give-a-Good-Discussion.pdf)
 - [Plamen Nikolov — Referee report template](https://sites.google.com/site/plamennikolov/referee-report-template)
 
 ## Presentations and seminars {#presentations}
 
-- [Marc Bellemare — 22 tips for conference and seminar presentations](https://marcfbellemare.com/wordpress/1208)
-- [Jon Schwabish — *Better Presentations*](https://policyviz.com/book/)
-- [Paul Goldsmith-Pinkham — Beamer tips](https://paulgp.github.io/beamer_tips.pdf)
-- [Jesse M. Shapiro — How to give an applied micro talk](https://www.brown.edu/Research/Shapiro/pdfs/applied_micro_slides.pdf)
-- [Rachael Meager — Public speaking for academic economists](https://www.rachaelmeager.com/resources)
+- [Marc Bellemare — 22 tips for conference and seminar presentations](http://marcfbellemare.com/wordpress/10053)
+- [Jon Schwabish — *Better Presentations*](https://www.amazon.com/Better-Presentations-Guide-Scholars-Researchers/dp/0231175213/)
+- [Paul Goldsmith-Pinkham — Beamer tips (PDF)](https://paulgp.github.io/beamer_tips.pdf)
+- [Jesse M. Shapiro — How to give an applied micro talk (PDF)](https://www.brown.edu/academics/economics/sites/default/files/files/papers/2020-04/applied_micro_slides.pdf)
+- [Rachael Meager — Public speaking for academic economists (PDF)](https://www.dropbox.com/s/4h9soo9dpndjtvt/public_speaking_for_academic_economists.pdf?dl=0)
 
 {{% alert note %}}
 **Tip.** Have fellow PhD students take notes during your practice talks and solicit feedback from colleagues before the real seminar.
@@ -119,18 +117,18 @@ The hidden curriculum — what PhD programs rarely teach but researchers need: w
 ## AI for research {#ai-research}
 
 - [My NotebookLM podcasts](/en/#podcasts)
-- [Aakash Gupta — Complete Guide to NotebookLM](https://www.product-growth.com/p/the-complete-guide-to-googles-notebooklm)
-- [Aniket Panjwani — AI Agents for Economics Research](https://aniketpanjwani.com/blog/ai-agents-for-economics-research/)
-- [Benjamin Golub — Modern AI for Economics Research (Princeton)](https://benjamin-golub.github.io/ai-econ/)
+- [Aakash Gupta — Complete Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm)
+- [Aniket Panjwani — AI Agents for Economics Research](https://ai-mba.io/tutorials/ai-agents-for-economics-research)
+- [Benjamin Golub — Modern AI for Economics Research (Princeton)](https://bcf.princeton.edu/events/benjamin-golub-on-modern-ai-for-economics-research-an-overview-of-tools/)
 - [Claes Bäckman — AI guides for researchers](https://claesbackman.com/ai-guides.html)
 
 ## PhD and early-career advice {#phd-advice}
 
-- [Luke Taylor — Tips for Finance Ph.D. students](https://pages.stern.nyu.edu/~ltaylo3/PhDAdvice.html)
-- [Chris Brooks — Your PhD in accounting or finance](https://chrisbrooks.org.uk/phd-advice/)
-- [Amy Finkelstein — An unofficial guide to trying to do empirical work](https://economics.mit.edu/files/9614)
-- [Daniel Hamermesh — The Young Economist's Guide to Professional Etiquette](https://www.aeaweb.org/about-aea/code-of-conduct/young-economist)
-- [Claudia Sahm — Economists must build a better community](https://stay-at-home-macro.tidyverse.org/blog.html)
+- [Luke Taylor — Tips for Finance Ph.D. students (PDF)](http://home.bi.no/charlotte.ostergaard/students/TaylorTips.pdf)
+- [Chris Brooks — Your PhD in accounting or finance](https://www.amazon.com/Your-PhD-accounting-finance-Produce-ebook/dp/B09HXS6MY8/)
+- [Amy Finkelstein — An unofficial guide to trying to do empirical work (PDF)](http://wenxingxiang.weebly.com/uploads/6/0/5/1/60518841/an_unofficial_guide_to_trying_to_doempirical_work.pdf)
+- [Daniel Hamermesh — The Young Economist's Guide to Professional Etiquette](https://www.aeaweb.org/articles?id=10.1257/jep.6.1.169)
+- [Claudia Sahm — Economists must build a better community](https://stayathomemacro.substack.com/p/economists-must-build-a-better-community)
 
 ## Other great resource pages {#other-pages}
 
@@ -139,10 +137,10 @@ Pages I have learned from — consider bookmarking these alongside this one:
 - [Claes Bäckman — Resources](https://claesbackman.com/resources.html)
 - [Masayuki Kudamatsu — Tips for economists](https://www.kudamatsu.com/tips.html)
 - [Plamen Nikolov — Resources](https://sites.google.com/site/plamennikolov/resources)
-- [Kevin Bryan — Guide to AI, Git, and LaTeX](https://github.com/kb22/AEA-AI-Git-LaTeX)
-- [Arthur Turell — Coding for Economists](https://aeturrell.com/posts/coding-for-economists/)
+- [Kevin Bryan — Guide to AI, Git, and LaTeX](https://kevinbryanecon.com/techstack.html)
+- [Arthur Turell — Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
 - [Shanjun Li — PhD resources](https://sites.google.com/site/shanjunlihomepage/phd-resources)
-- [AEA — Mentoring links](https://www.aeaweb.org/resources/mentoring)
+- [AEA — Mentoring links](https://www.aeaweb.org/about-aea/committees/cswep/mentoring/reading)
 
 ---
 
