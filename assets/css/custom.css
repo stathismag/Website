@@ -1,0 +1,23 @@
+/* Compact resource lists to match homepage section style */
+.article-style p {
+  margin-bottom: 0.45rem;
+  line-height: 1.55;
+}
+
+.article-style p strong {
+  color: #313131;
+}
+
+.article-style p:has(> strong:only-child) {
+  margin-top: 1.15rem;
+  margin-bottom: 0.2rem;
+}
+
+.article-style p:has(> strong:only-child) strong {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.article-style a {
+  text-decoration: none;
+}
