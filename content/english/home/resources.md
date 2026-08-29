@@ -74,18 +74,26 @@ subtitle = ""
  css_class = ""
 +++
 
-**Literature Links**
+**My work**
 
-[Google Scholar](https://scholar.google.gr/)	|	[SSRN](https://www.ssrn.com/index.cfm/en/) | [EconLit](https://www.aeaweb.org/econlit/)	|	[NBER](https://www.nber.org/papers/)
+[Podcasts](#podcasts) | [Choropleth map](/visualizations/choropleth_map.html)
 
-**Financial Data**
+**Literature**
 
-[Economic Data FRED](https://fred.stlouisfed.org/)	|	[Fama/French's Data Library](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html)	|	[Hoberg-Phillips Text-based Industry Classifications](http://hobergphillips.tuck.dartmouth.edu/)	|	[Baker, Bloom and Davis' Policy Uncertainty Index](http://www.policyuncertainty.com/)	|	[Demerjian, Lev, and McVay's Managerial Ability](http://faculty.washington.edu/pdemerj/data.html)
+[Google Scholar](https://scholar.google.gr/) | [SSRN](https://www.ssrn.com/index.cfm/en/) | [EconLit](https://www.aeaweb.org/econlit/) | [NBER](https://www.nber.org/papers/) | [RePEc](https://ideas.repec.org/)
 
-**Programming and Tools**
+**Financial data**
 
-[Stata](https://www.stata.com/)	|	[R-Project](https://www.r-project.org/) |	[Latex Project](https://www.latex-project.org/)	| [Overleaf](https://www.overleaf.com/)	|	[Markdown](http://markdownpad.com/)	|	[Mendeley](https://www.mendeley.com) 	|	[Github](https://github.com/)
+[FRED](https://fred.stlouisfed.org/) | [Fama/French](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) | [Hoberg-Phillips](http://hobergphillips.tuck.dartmouth.edu/) | [Policy Uncertainty Index](http://www.policyuncertainty.com/) | [Managerial Ability](https://sites.google.com/view/peterdemerjian/data)
 
-**Finance News**
+**Programming and tools**
 
-[Google Finance](https://www.google.com/finance) |	[Yahoo Finance](https://finance.yahoo.com/)	|	[Bloomberg](https://www.bloomberg.com/europe)	|	[WSJ](https://www.wsj.com/europe)
+[Stata](https://www.stata.com/) | [R](https://www.r-project.org/) | [LaTeX](https://www.latex-project.org/) | [Overleaf](https://www.overleaf.com/) | [Markdown](https://www.markdownguide.org/) | [Mendeley](https://www.mendeley.com/) | [GitHub](https://github.com/)
+
+**Writing**
+
+[Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) | [Head — introduction formula](https://blogs.ubc.ca/tedhelsbreth/2013/03/25/the-introduction-formula/) | [Bellemare — applied papers](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf)
+
+**Finance news**
+
+[Google Finance](https://www.google.com/finance) | [Yahoo Finance](https://finance.yahoo.com/) | [Bloomberg](https://www.bloomberg.com/europe) | [WSJ](https://www.wsj.com/europe)
