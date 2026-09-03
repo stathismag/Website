@@ -133,9 +133,15 @@
   {{ end }}
   {{ end }}
 
-  {{ if or .Site.RSSLink .RSSLink }}
-  <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
-  <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
+  {{ $rss := .OutputFormats.Get "RSS" }}
+  {{ with $rss }}
+    <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
+    <link rel="feed" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
+  {{ else }}
+    {{ with .Site.OutputFormats.Get "RSS" }}
+      <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
+      <link rel="feed" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
+    {{ end }}
   {{ end }}
 
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
