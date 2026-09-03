@@ -1,0 +1,14 @@
+{{- $pages = where .Site.RegularPages Type notin (slice page widgets) -}}
+{{- $n = len $pages -}}
+[
+  {{- range $i, $page = $pages -}}
+  {
+    title {{- $page.Title  jsonify -}},
+    summary {{- $page.Summary  jsonify -}},
+    content {{- $page.Plain  jsonify -}},
+    permalink {{- $page.Permalink  jsonify -}},
+    objectID {{- $page.File.UniqueID  jsonify -}}
+  }
+  {{- if lt (add $i 1) $n -}},{{- end -}}
+  {{- end -}}
+]
