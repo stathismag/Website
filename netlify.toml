@@ -10,7 +10,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.110.0"          # Safe intermediate version (much newer than 0.53)
+  HUGO_VERSION = "0.110.3"          # Safe intermediate version (much newer than 0.53)
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
   # NODE_VERSION = "20"             # Uncomment only if you later add npm tooling
