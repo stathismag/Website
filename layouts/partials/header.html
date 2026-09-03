@@ -137,11 +137,6 @@
   {{ with $rss }}
     <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link rel="feed" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
-  {{ else }}
-    {{ with .Site.OutputFormats.Get "RSS" }}
-      <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
-      <link rel="feed" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
-    {{ end }}
   {{ end }}
 
   <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
