@@ -1,0 +1,41 @@
+/* Custom typography refinements */
+
+.article-style,
+.article-body,
+.pub-list-item,
+.card-text,
+.home-section .container > p,
+.home-section .article-style,
+.page-body,
+.docs-article-container {
+  max-width: 42rem;
+}
+
+body,
+.article-style,
+.article-body,
+p {
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+.article-title,
+.section-heading {
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 57.99em) {
+  html { font-size: 17px !important; }
+}
+
+@media screen and (min-width: 58em) {
+  html { font-size: 18px !important; }
+}
+
+p { margin-bottom: 1.15rem; }
+
+pre, code, .highlight {
+  font-size: 0.9em;
+  line-height: 1.5;
+}

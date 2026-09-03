@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Modern Academic"
+
+# Google Fonts
+google_fonts = "Inter:400,500,600,700|Source+Serif+4:400,400italic,600,700|JetBrains+Mono:400,500"
+
+# Font families
+heading_font = "Inter"
+body_font = "Source Serif 4"
+nav_font = "Inter"
+mono_font = "JetBrains Mono"
+
+# Base sizes (px)
+font_size = "18"
+font_size_small = "17"
