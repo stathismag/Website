@@ -133,8 +133,7 @@
   {{ end }}
   {{ end }}
 
-  {{ $rss := .OutputFormats.Get "RSS" }}
-  {{ with $rss }}
+  {{ with .OutputFormats.Get "RSS" }}
     <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link rel="feed" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
   {{ end }}
