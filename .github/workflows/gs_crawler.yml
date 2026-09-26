@@ -30,6 +30,7 @@ jobs:
           python gs_crawler.py
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
         continue-on-error: false
 
       - name: Check for changes
@@ -51,6 +52,7 @@ jobs:
           git add layouts/partials/google_scholar_metrics.html
           git add data/google_scholar_citations.json
           git add static/data/google_scholar_citations.json
+          git add -A data/scopus_citations.json static/data/scopus_citations.json
           CITATION_COUNT=$(python -c "import json; print(json.load(open('data/google_scholar_citations.json'))['total_citations'])")
           git commit -m "Update Google Scholar metrics (Citations: ${CITATION_COUNT})"
           git push origin HEAD
