@@ -77,4 +77,9 @@ preserveTaxonomyNames = true
   publication_type = "publication_types"
   author = "authors"
 
+# Allow raw HTML in Markdown (e.g. the Google Scholar metrics iframe in the
+# author bio). Newer Hugo (Goldmark) strips it by default; Hugo 0.53 did not.
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]

@@ -8,8 +8,8 @@ color_theme = "ocean"
 day_night = true
 
 # Font style.
-#   Choose from `default`, `classic`, or `playfair`.
-font = "modern_academic"
+#   Choose from `default`, `classic`, `playfair`, `modern_academic`, or `plex_literata` (see data/fonts/).
+font = "plex_literata"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = "Efstathios Magerakis - Assistant Professor of Financial Economics at the University of Patras, researching corporate finance and financial accounting."
