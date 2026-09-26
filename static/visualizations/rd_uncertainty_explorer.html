@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R&amp;D and uncertainty explorer</title>
+<meta name="description" content="Interactive what-if chart: how R&D intensity changes the effect of environmental uncertainty on ROA, using the estimates in Magerakis & Theodoraki (Review of Managerial Science), Table 4.">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #eb6834; --band: rgba(42,120,214,0.07); --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+      --s1: #3987e5; --s2: #d95926; --band: rgba(57,135,229,0.12); --accent: #3987e5;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 900px; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 4px; }
+  .sub { color: var(--ink-2); margin: 0 0 20px; font-size: 0.95rem; }
+  a { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: center; margin-bottom: 8px; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .seg button, .presets button { font: inherit; font-size: 0.85rem; border: 0; background: transparent;
+                color: var(--ink-2); cursor: pointer; min-height: 36px; padding: 6px 10px; }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  .lang { margin-left: auto; font-size: 0.9rem; }
+  .slider { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; margin: 8px 0 4px; }
+  @media (max-width: 560px) { .slider { grid-template-columns: 1fr auto; } .slider label { grid-column: 1 / -1; } }
+  .slider label { font-size: 0.9rem; color: var(--ink-2); }
+  .slider output { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 3.5em; text-align: right; }
+  input[type=range] { width: 100%; accent-color: var(--s1); min-height: 32px; }
+  .presets { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .presets button { border: 1px solid var(--border); border-radius: 999px; }
+  .presets button[aria-pressed="true"] { border-color: var(--s1); color: var(--ink); }
+  .readout { font-size: 0.95rem; margin: 8px 0 4px; padding: 10px 12px; border-left: 3px solid var(--s1);
+             background: var(--band); border-radius: 0 6px 6px 0; }
+  .readout strong { font-variant-numeric: tabular-nums; }
+  .legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--ink-2); margin: 10px 0 0; }
+  .legend span::before { content: ""; display: inline-block; width: 18px; height: 3px; border-radius: 2px;
+                         vertical-align: middle; margin-right: 6px; background: var(--c); }
+  .legend .ref::before { background: repeating-linear-gradient(90deg, var(--c) 0 5px, transparent 5px 8px); }
+  svg { width: 100%; height: auto; display: block; touch-action: pan-y; }
+  .gridline { stroke: var(--grid); stroke-width: 1; }
+  .axis { stroke: var(--axis); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+  .axis-title { fill: var(--ink-2); font-size: 12px; }
+  .dlabel { font-size: 12px; font-weight: 600; fill: var(--ink-2); }
+  .tip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink);
+         border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 0.85rem;
+         box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: none; z-index: 10; }
+  .tip i { display: inline-block; width: 10px; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 6px; }
+  details { margin-top: 12px; }
+  summary { cursor: pointer; color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; font-size: 0.9rem; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--ink-2); font-weight: 600; }
+  .notes { color: var(--ink-2); font-size: 0.85rem; margin-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="subtitle"></p>
+  <div class="card">
+    <div class="controls">
+      <div class="seg" role="group" id="models"></div>
+      <span class="lang" id="lang"></span>
+    </div>
+    <div class="slider">
+      <label for="rd" id="rdLabel"></label>
+      <input type="range" id="rd" min="0" max="3" step="0.005" value="0.41">
+      <output for="rd" id="rdOut"></output>
+    </div>
+    <div class="presets" id="presets"></div>
+    <div class="readout" id="readout" aria-live="polite"></div>
+    <div class="legend" id="legend"></div>
+    <svg id="chart" role="img"></svg>
+    <details>
+      <summary id="tableToggle"></summary>
+      <table id="table"></table>
+    </details>
+  </div>
+  <p class="notes" id="notes"></p>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+// Magerakis & Theodoraki, Review of Managerial Science, Table 4 (dep. var. = ROA)
+const MODELS = {
+  ind:  {b1: -0.090, b2: -0.018, b3: 0.019},   // column (1): year + industry fixed effects
+  firm: {b1: -0.109, b2: -0.028, b3: 0.031}    // column (2): year + firm fixed effects
+};
+// Table 2: RD mean 0.410 (SD 1.373), median 0.036, 75th pct 0.185; EU 25th/median/75th = 0.088/0.167/0.288
+const RD_STATS = {median: 0.036, p75: 0.185, mean: 0.410, high: 1.783};
+const EU_Q = {p25: 0.088, p50: 0.167, p75: 0.288};
+const EU_MAX = 0.6, Y_MIN = -10, Y_MAX = 1;
+
+const T = {
+  en: {
+    title: "Does R&D soften the hit from uncertainty?",
+    subtitle: 'Predicted change in return on assets as environmental uncertainty rises, for a firm with the R&amp;D intensity you choose. Based on the estimates in <a href="https://doi.org/10.1007/s11846-025-00923-9" target="_blank" rel="noopener">Magerakis &amp; Theodoraki (2026), <i>Review of Managerial Science</i></a>, Table 4.',
+    models: {ind: "Industry fixed effects", firm: "Firm fixed effects"},
+    rdLabel: "R&D intensity (R&D / total assets)",
+    presets: {median: "Median firm", p75: "75th percentile", mean: "Average firm", high: "High R&D (mean + 1 SD)"},
+    sel: rd => `With R&D = ${rd}`, ref: "No R&D (RD = 0)",
+    xTitle: "Environmental uncertainty (EU)", yTitle: "Change in ROA (percentage points)",
+    band: "middle 50% of firms",
+    readout: (m, e, e0, zero) =>
+      `At this R&amp;D level, a <strong>0.10 rise in uncertainty lowers ROA by ${e} pp</strong>, compared with ${e0} pp for a firm with no R&amp;D. ` +
+      `R&amp;D lowers current ROA on its own, which is why its line starts lower, but the gap narrows as uncertainty rises. ` +
+      `In this model the effect of uncertainty would disappear only at R&amp;D ≈ ${zero}, far above most firms (75% have R&amp;D ≤ 0.185).`,
+    tableToggle: "Show data table", eu: "EU",
+    notes: "Lines show β₁·EU + β₂·RD + β₃·EU·RD from Table 4, holding the other controls constant, relative to a firm with no uncertainty and no R&amp;D. They are point estimates: the paper does not report the covariances needed for confidence bands. Both models include year fixed effects; standard errors are clustered by firm. The shaded band marks the middle 50% of sample firms by uncertainty (Table 2). Sample: 3,694 firm-years of Greek firms, 2007–2014.",
+    other: "Ελληνικά", otherLang: "el", aria: "Line chart of the predicted change in ROA against environmental uncertainty"
+  },
+  el: {
+    title: "Μετριάζει η Ε&amp;Α τις επιπτώσεις της αβεβαιότητας;",
+    subtitle: 'Προβλεπόμενη μεταβολή της απόδοσης ενεργητικού καθώς αυξάνεται η περιβαλλοντική αβεβαιότητα, για μια επιχείρηση με την ένταση Ε&amp;Α που επιλέγετε. Με βάση τις εκτιμήσεις του <a href="https://doi.org/10.1007/s11846-025-00923-9" target="_blank" rel="noopener">Magerakis &amp; Theodoraki (2026), <i>Review of Managerial Science</i></a>, Πίνακας 4.',
+    models: {ind: "Σταθερές επιδράσεις κλάδου", firm: "Σταθερές επιδράσεις επιχείρησης"},
+    rdLabel: "Ένταση Ε&Α (Ε&Α / σύνολο ενεργητικού)",
+    presets: {median: "Διάμεση επιχείρηση", p75: "75ο εκατοστημόριο", mean: "Μέση επιχείρηση", high: "Υψηλή Ε&Α (μέσος + 1 τ.α.)"},
+    sel: rd => `Με Ε&Α = ${rd}`, ref: "Χωρίς Ε&Α (RD = 0)",
+    xTitle: "Περιβαλλοντική αβεβαιότητα (EU)", yTitle: "Μεταβολή ROA (ποσοστιαίες μονάδες)",
+    band: "μεσαίο 50% των επιχειρήσεων",
+    readout: (m, e, e0, zero) =>
+      `Σε αυτό το επίπεδο Ε&amp;Α, <strong>αύξηση της αβεβαιότητας κατά 0,10 μειώνει το ROA κατά ${e} π.μ.</strong>, έναντι ${e0} π.μ. για επιχείρηση χωρίς Ε&amp;Α. ` +
+      `Η Ε&amp;Α μειώνει από μόνη της το τρέχον ROA, γι' αυτό η γραμμή της ξεκινά χαμηλότερα, όμως η απόσταση μικραίνει όσο αυξάνεται η αβεβαιότητα. ` +
+      `Σε αυτό το υπόδειγμα η επίδραση της αβεβαιότητας θα μηδενιζόταν μόνο για Ε&amp;Α ≈ ${zero}, πολύ πάνω από τις περισσότερες επιχειρήσεις (το 75% έχει Ε&amp;Α ≤ 0,185).`,
+    tableToggle: "Εμφάνιση πίνακα δεδομένων", eu: "EU",
+    notes: "Οι γραμμές δείχνουν β₁·EU + β₂·RD + β₃·EU·RD από τον Πίνακα 4, με τις υπόλοιπες μεταβλητές ελέγχου σταθερές, σε σύγκριση με επιχείρηση χωρίς αβεβαιότητα και χωρίς Ε&amp;Α. Πρόκειται για σημειακές εκτιμήσεις: το άρθρο δεν αναφέρει τις συνδιακυμάνσεις που απαιτούνται για διαστήματα εμπιστοσύνης. Και τα δύο υποδείγματα περιλαμβάνουν σταθερές επιδράσεις έτους· τα τυπικά σφάλματα ομαδοποιούνται ανά επιχείρηση. Η σκιασμένη ζώνη δείχνει το μεσαίο 50% των επιχειρήσεων ως προς την αβεβαιότητα (Πίνακας 2). Δείγμα: 3.694 παρατηρήσεις ελληνικών επιχειρήσεων, 2007–2014.",
+    other: "English", otherLang: "en", aria: "Γράφημα της προβλεπόμενης μεταβολής του ROA ως προς την περιβαλλοντική αβεβαιότητα"
+  }
+};
+const lang = new URLSearchParams(location.search).get("lang") === "el" ? "el" : "en";
+const t = T[lang];
+document.documentElement.lang = lang;
+const num = (v, d) => { const s = v.toFixed(d); return lang === "el" ? s.replace(".", ",") : s; };
+
+let model = "ind", rd = 0.41;
+const svg = document.getElementById("chart"), tip = document.getElementById("tip");
+// The chart is drawn at its real on-screen width so text keeps its size on phones
+let W = 640, H = 360, M = {l: 56, r: 128, t: 16, b: 48};
+function layout() {
+  W = Math.max(300, Math.min(868, Math.round(svg.parentElement.clientWidth)));
+  const narrow = W < 520;
+  H = narrow ? 300 : 360;
+  M = narrow ? {l: 44, r: 76, t: 16, b: 48} : {l: 56, r: 128, t: 16, b: 48};
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+}
+const x = e => M.l + (e / EU_MAX) * (W - M.l - M.r);
+const y = v => M.t + (Y_MAX - v) / (Y_MAX - Y_MIN) * (H - M.t - M.b);
+const pred = (m, e, r) => 100 * (m.b1 * e + m.b2 * r + m.b3 * e * r);   // percentage points
+
+document.getElementById("title").innerHTML = t.title;
+document.title = document.getElementById("title").textContent;
+document.getElementById("subtitle").innerHTML = t.subtitle;
+document.getElementById("notes").innerHTML = t.notes;
+document.getElementById("rdLabel").textContent = t.rdLabel;
+document.getElementById("tableToggle").textContent = t.tableToggle;
+document.getElementById("lang").innerHTML = `<a href="?lang=${t.otherLang}">${t.other}</a>`;
+svg.setAttribute("aria-label", t.aria);
+
+const segEl = document.getElementById("models");
+for (const k of ["ind", "firm"]) {
+  const b = document.createElement("button"); b.type = "button"; b.textContent = t.models[k]; b.dataset.k = k;
+  b.addEventListener("click", () => { model = k; render(); }); segEl.appendChild(b);
+}
+const presetEl = document.getElementById("presets");
+for (const k of ["median", "p75", "mean", "high"]) {
+  const b = document.createElement("button"); b.type = "button"; b.dataset.v = RD_STATS[k];
+  b.textContent = `${t.presets[k]} (${num(RD_STATS[k], 3)})`;
+  b.addEventListener("click", () => { rd = RD_STATS[k]; slider.value = rd; render(); }); presetEl.appendChild(b);
+}
+const slider = document.getElementById("rd");
+slider.addEventListener("input", () => { rd = +slider.value; render(); });
+
+const el = (tag, attrs, text) => {
+  const n = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text != null) n.textContent = text; return n;
+};
+
+function render() {
+  layout();
+  const m = MODELS[model];
+  for (const b of segEl.children) b.setAttribute("aria-pressed", String(b.dataset.k === model));
+  for (const b of presetEl.children) b.setAttribute("aria-pressed", String(Math.abs(+b.dataset.v - rd) < 0.0005));
+  document.getElementById("rdOut").textContent = num(rd, 3);
+
+  const slope = m.b1 + m.b3 * rd;
+  document.getElementById("readout").innerHTML =
+    t.readout(model, num(-10 * slope, 2), num(-10 * m.b1, 2), num(-m.b1 / m.b3, 1));
+
+  const s1 = t.sel(num(rd, 3)), s2 = t.ref;
+  document.getElementById("legend").innerHTML =
+    `<span style="--c:var(--s1)">${s1}</span><span class="ref" style="--c:var(--s2)">${s2}</span>`;
+
+  svg.innerHTML = "";
+  // Middle-50% band of EU
+  svg.appendChild(el("rect", {x: x(EU_Q.p25), y: M.t, width: x(EU_Q.p75) - x(EU_Q.p25), height: H - M.t - M.b, fill: "var(--band)"}));
+  svg.appendChild(el("text", {x: (x(EU_Q.p25) + x(EU_Q.p75)) / 2, y: M.t + 14, "text-anchor": "middle", class: "tick"}, t.band));
+  // Grid + y ticks
+  for (let v = Y_MIN; v <= Y_MAX; v += 2) {
+    svg.appendChild(el("line", {x1: M.l, x2: W - M.r, y1: y(v), y2: y(v), class: v === 0 ? "axis" : "gridline"}));
+    svg.appendChild(el("text", {x: M.l - 8, y: y(v) + 4, "text-anchor": "end", class: "tick"}, num(v, 0)));
+  }
+  // x ticks
+  for (let e = 0; e <= EU_MAX + 1e-9; e += 0.1) {
+    svg.appendChild(el("text", {x: x(e), y: H - M.b + 18, "text-anchor": "middle", class: "tick"}, num(e, 1)));
+  }
+  svg.appendChild(el("line", {x1: M.l, x2: W - M.r, y1: H - M.b, y2: H - M.b, class: "axis"}));
+  svg.appendChild(el("text", {x: (M.l + W - M.r) / 2, y: H - 8, "text-anchor": "middle", class: "axis-title"}, t.xTitle));
+  svg.appendChild(el("text", {x: 14, y: (M.t + H - M.b) / 2, "text-anchor": "middle", class: "axis-title",
+                              transform: `rotate(-90 14 ${(M.t + H - M.b) / 2})`}, t.yTitle));
+  // Lines (straight in EU, so two points suffice)
+  const line = (r, color, dash) => el("line", {x1: x(0), y1: y(pred(m, 0, r)), x2: x(EU_MAX), y2: y(pred(m, EU_MAX, r)),
+    stroke: color, "stroke-width": 2, "stroke-linecap": "round", ...(dash ? {"stroke-dasharray": "6 4"} : {})});
+  svg.appendChild(line(0, "var(--s2)", true));
+  svg.appendChild(line(rd, "var(--s1)", false));
+  // Direct labels at the line ends, nudged apart if they collide
+  let ySel = y(pred(m, EU_MAX, rd)), yRef = y(pred(m, EU_MAX, 0));
+  if (Math.abs(ySel - yRef) < 16) { const mid = (ySel + yRef) / 2, up = ySel <= yRef ? -1 : 1; ySel = mid + up * 8; yRef = mid - up * 8; }
+  svg.appendChild(el("text", {x: x(EU_MAX) + 8, y: ySel + 4, class: "dlabel"}, `RD = ${num(rd, 3)}`));
+  svg.appendChild(el("text", {x: x(EU_MAX) + 8, y: yRef + 4, class: "dlabel"}, "RD = 0"));
+  // Hover layer: crosshair + tooltip
+  const cross = el("line", {y1: M.t, y2: H - M.b, stroke: "var(--axis)", "stroke-width": 1, visibility: "hidden"});
+  const dot1 = el("circle", {r: 5, fill: "var(--s1)", stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden"});
+  const dot2 = el("circle", {r: 5, fill: "var(--s2)", stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden"});
+  svg.append(cross, dot2, dot1);
+  const hit = el("rect", {x: M.l, y: M.t, width: W - M.l - M.r, height: H - M.t - M.b, fill: "transparent"});
+  const move = ev => {
+    const pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+    const p = pt.matrixTransform(svg.getScreenCTM().inverse());
+    const e = Math.max(0, Math.min(EU_MAX, Math.round((p.x - M.l) / (W - M.l - M.r) * EU_MAX * 100) / 100));
+    const v1 = pred(m, e, rd), v2 = pred(m, e, 0);
+    cross.setAttribute("x1", x(e)); cross.setAttribute("x2", x(e));
+    dot1.setAttribute("cx", x(e)); dot1.setAttribute("cy", y(v1));
+    dot2.setAttribute("cx", x(e)); dot2.setAttribute("cy", y(v2));
+    for (const n of [cross, dot1, dot2]) n.setAttribute("visibility", "visible");
+    tip.innerHTML = `<b>EU = ${num(e, 2)}</b><br><i style="background:var(--s1)"></i>${s1}: ${num(v1, 2)} pp` +
+                    `<br><i style="background:var(--s2)"></i>${s2}: ${num(v2, 2)} pp`;
+    tip.style.display = "block";
+    tip.style.left = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8) + "px";
+    tip.style.top = Math.max(8, ev.clientY - tip.offsetHeight - 12) + "px";
+  };
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", () => { tip.style.display = "none"; for (const n of [cross, dot1, dot2]) n.setAttribute("visibility", "hidden"); });
+  svg.appendChild(hit);
+  // Table view
+  const rows = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6];
+  document.getElementById("table").innerHTML =
+    `<thead><tr><th>${t.eu}</th><th>${s1} (pp)</th><th>${s2} (pp)</th></tr></thead><tbody>` +
+    rows.map(e => `<tr><td>${num(e, 1)}</td><td>${num(pred(m, e, rd), 2)}</td><td>${num(pred(m, e, 0), 2)}</td></tr>`).join("") + "</tbody>";
+}
+let resizeTimer;
+addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(render, 100); });
+render();
+</script>
+</body>
+</html>

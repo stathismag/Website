@@ -162,6 +162,10 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
 
 <div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('/visualizations/choropleth_map.html', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 📊 Διαδραστικός Χάρτης - Political Proximity Analysis </button> <br> <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis et al. (2023), Journal of Corporate Finance</small> </div>
 
+<div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('/visualizations/greece_regions_map.html?lang=el', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 🗺️ Χάρτης Περιφερειών - Αβεβαιότητα, Ε&amp;Α και Επιδόσεις </button> <br> <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis &amp; Theodoraki (2026), Review of Managerial Science</small> </div>
+
+<div style="margin: 20px 0; text-align: center;"> <button onclick="window.open('/visualizations/rd_uncertainty_explorer.html?lang=el', '_blank')" style="background-color: #2c5aa0; color: white; padding: 12px 24px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 500; transition: background-color 0.3s ease;"> 📈 Ε&amp;Α και Αβεβαιότητα - Διαδραστικό Γράφημα </button> <br> <small style="color: #666; font-size: 12px;">Σχετίζεται με: Magerakis &amp; Theodoraki (2026), Review of Managerial Science</small> </div>
+
 
 
 
