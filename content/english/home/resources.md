@@ -73,27 +73,52 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+<div class="resources-callout">
 
 **My work**
 
-[Podcasts](#podcasts) | [Choropleth map](/visualizations/choropleth_map.html)
+- [Podcasts](#podcasts) — AI-narrated audio summaries of my published papers.
+- [Choropleth map](/visualizations/choropleth_map.html) — interactive map of US political proximity and corporate cash policy (Magerakis, Pantzalis & Park, 2023).
+
+</div>
 
 **Literature**
 
-[Google Scholar](https://scholar.google.gr/) | [SSRN](https://www.ssrn.com/index.cfm/en/) | [EconLit](https://www.aeaweb.org/econlit/) | [NBER](https://www.nber.org/papers/) | [RePEc](https://ideas.repec.org/)
+- [Google Scholar](https://scholar.google.gr/) — search academic papers and follow citations.
+- [SSRN](https://www.ssrn.com/index.cfm/en/) — working papers and preprints, especially strong in finance and accounting.
+- [EconLit](https://www.aeaweb.org/econlit/) — the American Economic Association's index of economics research.
+- [NBER](https://www.nber.org/papers/) — working papers from the National Bureau of Economic Research.
+- [RePEc](https://ideas.repec.org/) — open database of economics working papers, articles and author profiles.
 
 **Financial data**
 
-[FRED](https://fred.stlouisfed.org/) | [Fama/French](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) | [Hoberg-Phillips](http://hobergphillips.tuck.dartmouth.edu/) | [Policy Uncertainty Index](http://www.policyuncertainty.com/) | [Managerial Ability](https://sites.google.com/view/peterdemerjian/data)
+- [FRED](https://fred.stlouisfed.org/) — macroeconomic and financial time series from the Federal Reserve Bank of St. Louis.
+- [Fama/French](http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html) — factor returns and portfolio data from Kenneth French's data library.
+- [Hoberg-Phillips](http://hobergphillips.tuck.dartmouth.edu/) — text-based industry classifications and product-market competition measures.
+- [Policy Uncertainty Index](http://www.policyuncertainty.com/) — Baker, Bloom and Davis's economic policy uncertainty indices.
+- [Managerial Ability](https://sites.google.com/view/peterdemerjian/data) — Demerjian, Lev and McVay's managerial ability scores.
 
 **Programming and tools**
 
-[Stata](https://www.stata.com/) | [R](https://www.r-project.org/) | [LaTeX](https://www.latex-project.org/) | [Overleaf](https://www.overleaf.com/) | [Markdown](https://www.markdownguide.org/) | [Mendeley](https://www.mendeley.com/) | [GitHub](https://github.com/)
+- [Stata](https://www.stata.com/) — statistical software for empirical research.
+- [R](https://www.r-project.org/) — free language for statistics and graphics.
+- [LaTeX](https://www.latex-project.org/) — typesetting system for academic papers.
+- [Overleaf](https://www.overleaf.com/) — online LaTeX editor for writing with coauthors.
+- [Markdown](https://www.markdownguide.org/) — guide to the lightweight syntax for formatted text.
+- [Mendeley](https://www.mendeley.com/) — reference manager for organising papers and citations.
+- [GitHub](https://github.com/) — version control and code sharing.
 
 **Writing**
 
-[Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) | [Head — introduction formula](https://blogs.ubc.ca/tedhelsbreth/2013/03/25/the-introduction-formula/) | [Bellemare — applied papers](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf)
+- [Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) — John Cochrane's classic advice for PhD students on writing a paper.
+- [Head — introduction formula](http://blogs.ubc.ca/khead/research/research-advice/formula) — Keith Head's recipe for structuring an introduction.
+- [Bellemare — applied papers](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf) — Marc Bellemare's guide to writing applied economics papers.
 
 **Finance news**
 
-[Google Finance](https://www.google.com/finance) | [Yahoo Finance](https://finance.yahoo.com/) | [Bloomberg](https://www.bloomberg.com/europe) | [WSJ](https://www.wsj.com/europe)
+- [Google Finance](https://www.google.com/finance) — stock quotes and market news.
+- [Yahoo Finance](https://finance.yahoo.com/) — quotes, financial statements and market news.
+- [Bloomberg](https://www.bloomberg.com/europe) — global business and markets news.
+- [WSJ](https://www.wsj.com/europe) — The Wall Street Journal's business and financial news.
+
+<p class="resources-suggest">Know a resource that should be here? Email me at <a href="mailto:smagerakis@upatras.gr">smagerakis@upatras.gr</a>.</p>
