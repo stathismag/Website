@@ -1,9 +1,8 @@
 <footer class="site-footer">
-  {{ with .Site.GetPage "privacy.md" }}
   <p class="powered-by">
-    {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+    {{ with .Site.GetPage "privacy.md" }}{{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}{{ end }}
+    {{ if .Site.GoogleAnalytics }}{{ with .Site.GetPage "privacy.md" }} &middot; {{ end }}<a href="#" data-cookie-settings>{{ if eq .Site.Language.Lang "el" }}Ρυθμίσεις cookies{{ else }}Cookie settings{{ end }}</a>{{ end }}
   </p>
-  {{ end }}
 
   <p class="powered-by">
     {{ with .Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}

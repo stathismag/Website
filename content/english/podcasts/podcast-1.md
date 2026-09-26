@@ -9,4 +9,4 @@ description: "Brief description of the podcast episode."
 
 ## Listen to the Audio
 
-{{< audio src="podcast-1.mp3" >}}  <!-- Use this if in Page Bundle -->
+{{< audio src="/en/podcasts/podcast-1.mp3" >}}  <!-- Use this if in Page Bundle -->

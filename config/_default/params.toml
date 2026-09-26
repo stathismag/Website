@@ -112,6 +112,9 @@ reading_time = true
 # Display comment count (if commenting enabled in config.toml)? (true/false)
 comment_count = true
 
+# Disable Disqus comments (the site has none) so no Disqus scripts or cookies load.
+disable_comments = true
+
 # Display next/previous section pager? (true/false)
 section_pager = false
 
