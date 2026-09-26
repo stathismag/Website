@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Plex Literata"
+
+# Google Fonts (all families include Greek glyphs for the Greek site)
+google_fonts = "IBM+Plex+Sans:400,500,600,700|Literata:400,400italic,600,700|IBM+Plex+Mono:400,500"
+
+# Font families
+heading_font = "IBM Plex Sans"
+body_font = "Literata"
+nav_font = "IBM Plex Sans"
+mono_font = "IBM Plex Mono"
+
+# Base sizes (px)
+font_size = "18"
+font_size_small = "17"
