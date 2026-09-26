@@ -77,15 +77,15 @@ subtitle = ""
 
 ---
 
-*	**Magerakis, E.**, & Habib, A. (2026). Biodiversity risk and working capital management. *Business Strategy and the Environment*. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
+*	**Magerakis, E.**, & Habib, A. (2026). Biodiversity risk and working capital management. *Business Strategy and the Environment, 35*(3), 3445-3467. <a href="https://doi.org/10.1002/bse.70317" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 13.3, ABS: 3, ABDC: A)*.
 
-* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control*. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
+* **Magerakis, E.** (2025). Industry differences and their influence on why companies retain cash: the impact of the COVID-19 pandemic. *Journal of Management Control, 36*(2), 205-267. <a href="https://doi.org/10.1007/s00187-025-00397-6" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 3.6, ABS: 2, ABDC: A)*.
 
-* **Magerakis, E.**, & Theodoraki, C. (2025). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science.* <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
+* **Magerakis, E.**, & Theodoraki, C. (2026). Environmental uncertainty and corporate performance: Can R&D investments provide a silver lining to this cloud? *Review of Managerial Science, 20*(6), 1871-1913. <a href="https://doi.org/10.1007/s11846-025-00923-9" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 9.6, ABS: 2)*.
 
-* **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Forthcoming in Journal of Accounting Literature*. <a href="https://doi.org/10.1108/JAL-03-2024-0036" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.1, ABS: 3, ABDC: A)*.
+* **Magerakis, E.**, & Habib, A. (2024). Organizational strategy, abnormal cash holdings, and future operating returns. *Journal of Accounting Literature*. Advance online publication. <a href="https://doi.org/10.1108/JAL-03-2024-0036" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.1, ABS: 3, ABDC: A)*.
 
-* Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research*, 1-37. <a href="https://doi.org/10.1007/s10479-024-06176-1" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 4.4, ABS: 3, ABDC: A)*.
+* Floros, C., Galariotis, E., Gkillas, K., **Magerakis, E.**, & Zopounidis, C. (2024). Time-varying firm cash holding and economic policy uncertainty nexus: a quantile regression approach. *Annals of Operations Research, 341*(2-3), 859-895. <a href="https://doi.org/10.1007/s10479-024-06176-1" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 4.4, ABS: 3, ABDC: A)*.
 
 * **Magerakis, E.**, Pantzalis, C., & Park, J. C. (2023). The effect of proximity to political power on corporate cash policy. *Journal of Corporate Finance, 82*, 102448. <a href="https://doi.org/10.1016/j.jcorpfin.2023.102448" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 6.1, ABS: 4, ABDC: A*)*.
 
@@ -97,7 +97,7 @@ subtitle = ""
 
 * **Magerakis, E.**, & Habib, A. (2022). Environmental uncertainty and corporate cash holdings: The moderating role of CEO ability. *International Review of Finance, 22*(3), 402-432. <a href="https://doi.org/10.1111/irfi.12355" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 1.7, ABDC: A)*.
 
-* **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research, 22*, 3767–3808. <a href="https://doi.org/10.1007/s12351-021-00660-3" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 2.7, ABS: 1, ABDC: C)*.
+* **Magerakis, E.**, Gkillas, K., Floros, C., & Peppas, G. (2021). Corporate R&D intensity and high cash holdings: post-crisis analysis. *Operational Research, 22*(4), 3767–3808. <a href="https://doi.org/10.1007/s12351-021-00660-3" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 2.7, ABS: 1, ABDC: C)*.
 
 * **Magerakis, E.**, & Habib, A. (2021). Business strategy and environmental inefficiency. *Journal of Cleaner Production, 302*, 127014. <a href="https://doi.org/10.1016/j.jclepro.2021.127014" class="doi-icon" target="_blank">🔗 doi</a> *(IF: 11.1, ABS: 2, ABDC A)*
 

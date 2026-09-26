@@ -15,7 +15,7 @@ font = "plex_literata"
 description = "Efstathios Magerakis - Assistant Professor of Financial Economics at the University of Patras, researching corporate finance and financial accounting."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "sharing-card-el.png"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
 twitter = "smager9"

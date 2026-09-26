@@ -1,1 +1,33 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
+{{/* Structured data (schema.org Person) for search engines, on the home page only.
+     Built from the author profile in content/<lang>/author/admin/_index.md. */}}
+{{ if .IsHome }}
+{{ with .Site.GetPage "author/admin" }}
+  {{ $profiles := slice }}
+  {{ range .Params.social }}
+    {{ if in (slice "google-scholar" "orcid" "researchgate" "mendeley" "github" "twitter" "x-twitter") .icon }}
+      {{ $profiles = $profiles | append .link }}
+    {{ end }}
+  {{ end }}
+  {{ $person := dict
+      "@context" "https://schema.org"
+      "@type" "Person"
+      "@id" (printf "%s#person" $.Site.BaseURL)
+      "name" .Params.name
+      "alternateName" (slice "Efstathios Magerakis" "Stathis Magerakis" "Ευστάθιος Μαγεράκης")
+      "url" $.Site.BaseURL
+      "jobTitle" .Params.role
+      "email" (printf "mailto:%s" .Params.email)
+      "knowsAbout" (slice "Corporate finance" "Financial accounting" | append .Params.interests)
+      "worksFor" (dict "@type" "CollegeOrUniversity" "name" "University of Patras" "url" "https://www.upatras.gr")
+      "affiliation" (dict "@type" "Organization" "name" "Department of Economics, University of Patras" "url" "https://www.econ.upatras.gr/en")
+      "alumniOf" (dict "@type" "CollegeOrUniversity" "name" "University of Patras")
+      "identifier" (dict "@type" "PropertyValue" "propertyID" "ORCID" "value" "0000-0001-7977-0363")
+      "sameAs" $profiles
+  }}
+  {{ with (.Resources.ByType "image").GetMatch "*avatar*" }}
+    {{ $person = merge $person (dict "image" .Permalink) }}
+  {{ end }}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{ end }}
+{{ end }}
