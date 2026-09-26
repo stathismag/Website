@@ -14,6 +14,7 @@ user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 # analytics endpoints that are not pages.
 exclude = [
   '^https?://(www\.)?(bloomberg|wsj|linkedin|x|twitter|researchgate)\.com',
+  '^https?://(fred\.stlouisfed\.org|finance\.yahoo\.com)',
   '^https?://scholar\.google\.',
   '^https?://fonts\.(googleapis|gstatic)\.com',
   '^https?://www\.googletagmanager\.com',
