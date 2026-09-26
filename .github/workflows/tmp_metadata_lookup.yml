@@ -1,0 +1,31 @@
+name: Temporary Crossref lookup (remove after use)
+on:
+  push:
+    branches: [claude/website-font-change-g6jg0d]
+    paths: [.github/workflows/tmp_metadata_lookup.yml]
+permissions:
+  contents: read
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crossref metadata for the publication list
+        run: |
+          python3 - <<'PY'
+          import json, urllib.request
+          dois = """10.1002/bse.70317 10.1007/s00187-025-00397-6 10.1007/s11846-025-00923-9 10.1108/JAL-03-2024-0036
+          10.1007/s10479-024-06176-1 10.1016/j.jcorpfin.2023.102448 10.1108/JAAR-11-2021-0310 10.1108/MD-07-2021-0991
+          10.1108/RAF-10-2021-0284 10.1111/irfi.12355 10.1007/s12351-021-00660-3 10.1016/j.jclepro.2021.127014
+          10.1108/JAAR-05-2019-0077 10.3390/jrfm13080163 10.1504/IJMFA.2020.10031398""".split()
+          for d in dois:
+              try:
+                  req = urllib.request.Request("https://api.crossref.org/works/" + d, headers={"User-Agent": "smagerakis.gr metadata check (mailto:smagerakis@upatras.gr)"})
+                  m = json.load(urllib.request.urlopen(req, timeout=30))["message"]
+                  dp = lambda k: (m.get(k) or {}).get("date-parts", [[None]])[0]
+                  print(json.dumps({"doi": d, "journal": (m.get("container-title") or [""])[0], "title": (m.get("title") or [""])[0],
+                        "authors": [a.get("family") for a in m.get("author", [])], "volume": m.get("volume"), "issue": m.get("issue"),
+                        "page": m.get("page"), "article_number": m.get("article-number"), "print": dp("published-print"),
+                        "online": dp("published-online"), "issued": dp("issued")}, ensure_ascii=False))
+              except Exception as e:
+                  print(json.dumps({"doi": d, "error": str(e)}))
+          PY
