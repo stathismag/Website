@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Greek regions: uncertainty, R&amp;D and performance</title>
+<meta name="description" content="Interactive map of environmental uncertainty, R&D intensity and ROA across Greek NUTS 2 regions, 2007–2014 (Magerakis & Theodoraki, Review of Managerial Science).">
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --border: rgba(11,11,11,0.10); --nodata: #e1e0d9; --accent: #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --border: rgba(255,255,255,0.10); --nodata: #383835; --accent: #3987e5;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 980px; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 4px; }
+  .sub { color: var(--ink-2); margin: 0 0 20px; font-size: 0.95rem; }
+  .sub a, .notes a { color: var(--accent); }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; flex-wrap: wrap; }
+  .seg button { font: inherit; font-size: 0.9rem; padding: 8px 12px; border: 0; background: transparent;
+                color: var(--ink-2); cursor: pointer; min-height: 40px; }
+  .seg button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  .lang { margin-left: auto; font-size: 0.9rem; color: var(--ink-2); }
+  .lang a { color: var(--accent); }
+  .layout { display: grid; grid-template-columns: minmax(0, 3fr) minmax(220px, 2fr); gap: 20px; align-items: start; }
+  @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } }
+  svg.map { width: 100%; height: auto; display: block; }
+  svg.map path { stroke: var(--surface); stroke-width: 1.2; stroke-linejoin: round; cursor: pointer; outline: none; }
+  svg.map path.active, svg.map path:focus-visible { stroke: var(--ink); stroke-width: 2; }
+  .legend { margin: 4px 0 16px; }
+  .legend-title { font-size: 0.85rem; color: var(--ink-2); margin-bottom: 6px; }
+  .legend-bar { height: 12px; border-radius: 4px; }
+  .legend-ticks { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--muted);
+                  font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .legend-nodata { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
+  .swatch { width: 14px; height: 14px; border-radius: 3px; background: var(--nodata); display: inline-block; }
+  .detail h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  .detail dl { display: grid; grid-template-columns: auto auto; gap: 4px 12px; margin: 0; font-size: 0.95rem; }
+  .detail dt { color: var(--ink-2); }
+  .detail dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+  .detail .hint { color: var(--muted); font-size: 0.85rem; margin-top: 10px; }
+  .tip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink);
+         border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 0.85rem;
+         box-shadow: 0 4px 16px rgba(0,0,0,0.15); display: none; z-index: 10; max-width: 240px; }
+  .tip b { display: block; margin-bottom: 2px; }
+  details { margin-top: 16px; }
+  summary { cursor: pointer; color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin-top: 8px; font-size: 0.9rem; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--ink-2); font-weight: 600; }
+  .notes { color: var(--ink-2); font-size: 0.85rem; margin-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <p class="sub" id="subtitle"></p>
+  <div class="card">
+    <div class="controls">
+      <div class="seg" role="group" id="measures"></div>
+      <span class="lang" id="lang"></span>
+    </div>
+    <div class="layout">
+      <svg class="map" id="map" viewBox="0 0 600 518" role="img"></svg>
+      <div>
+        <div class="legend" id="legend"></div>
+        <div class="detail" id="detail" aria-live="polite"></div>
+      </div>
+    </div>
+    <details>
+      <summary id="tableToggle"></summary>
+      <table id="table"></table>
+    </details>
+  </div>
+  <p class="notes" id="notes"></p>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const PATHS = {"EL43": "M290.7,478.0L301.4,475.3L312.8,472.8L326.5,474.0L328.4,473.8L332.0,473.8L335.0,478.7L351.7,479.1L359.4,482.1L368.1,478.7L375.0,479.3L372.5,492.2L377.2,495.8L391.2,487.5L398.5,489.2L403.5,484.5L406.4,490.0L404.6,497.9L399.7,503.3L395.4,504.3L387.0,501.7L362.9,505.1L328.4,508.7L317.2,509.8L314.4,497.3L312.8,497.3L305.6,496.6L301.4,494.4L294.2,490.2L288.9,491.2L281.0,490.2L269.2,488.6L250.3,486.3L245.9,482.7L245.4,476.9L247.7,465.5L253.8,464.6L257.3,456.7L260.1,462.1L264.1,464.5L269.2,464.9L271.4,465.0L280.6,461.5L281.0,466.4L281.2,468.2L285.6,470.8L290.7,478.0ZM367.1,459.5L366.8,460.9L364.9,460.7L361.8,459.3L361.8,457.9L363.1,458.1L365.7,459.1L367.1,459.5ZM345.8,471.4L344.9,472.9L341.2,471.0L343.4,469.0L345.8,471.4ZM280.2,516.6L277.9,518.3L274.9,516.4L278.4,514.6L280.2,516.6Z", "EL42": "M599.3,420.4L596.3,421.0L598.0,417.3L600.0,416.8L599.3,420.4ZM503.6,426.6L494.6,437.7L490.2,434.5L491.8,424.0L488.0,418.0L495.5,409.7L499.7,404.9L519.9,396.3L520.3,401.0L515.9,409.7L511.3,418.9L511.3,424.2L503.6,426.6ZM498.8,383.6L499.0,388.1L491.9,384.4L495.5,380.8L498.8,383.6ZM490.7,408.4L489.1,411.8L486.3,410.3L488.4,407.9L490.7,408.4ZM482.3,410.6L480.5,414.3L477.7,413.7L480.5,410.3L482.3,410.6ZM470.5,396.6L468.2,398.1L462.1,397.8L464.3,394.5L466.9,393.3L470.5,396.6ZM447.9,372.9L445.4,377.8L443.9,377.2L443.6,373.1L454.0,365.2L463.7,361.3L467.4,363.4L468.5,365.2L453.5,372.5L447.9,372.9ZM460.3,385.1L458.8,388.0L454.2,387.1L456.8,382.8L460.3,385.1ZM458.4,450.8L458.2,472.9L453.1,471.8L449.4,458.7L458.4,450.8ZM457.9,359.2L455.8,361.0L453.3,358.2L456.6,357.4L457.9,359.2ZM450.9,357.0L445.2,360.4L441.7,356.6L443.9,349.7L450.9,357.0ZM448.0,319.8L445.4,321.6L443.2,319.4L446.1,318.0L448.0,319.8ZM446.3,472.2L443.5,477.4L438.0,476.9L442.1,472.4L446.3,472.2ZM438.6,340.5L441.2,347.5L436.9,346.5L432.9,341.1L438.6,340.5ZM436.0,332.0L433.3,333.8L430.3,332.0L433.6,330.5L436.0,332.0ZM434.5,327.7L432.7,328.5L430.3,326.7L432.1,324.1L434.5,327.7ZM431.6,404.0L429.4,405.5L426.3,404.0L429.6,402.2L431.6,404.0ZM422.6,326.5L422.2,334.0L419.8,333.6L420.4,327.7L422.6,326.5ZM415.6,385.7L412.5,387.4L410.5,381.8L414.3,382.6L415.6,385.7ZM413.6,355.4L411.6,357.0L409.9,355.7L409.9,354.0L411.4,353.0L413.6,355.4ZM409.4,386.2L410.3,391.7L406.4,391.1L403.7,385.4L409.4,386.2ZM386.8,361.9L382.4,370.7L375.6,370.5L383.8,362.2L386.8,361.9ZM380.0,345.5L378.9,348.5L375.9,345.7L378.9,344.4L380.0,345.5ZM379.1,402.4L376.5,404.0L372.5,402.4L375.9,399.4L379.1,402.4ZM370.8,363.0L368.1,364.9L366.2,363.1L368.6,361.2L370.8,363.0ZM368.4,359.4L366.0,361.0L363.6,359.2L366.4,357.2L368.4,359.4ZM363.6,356.4L357.6,360.8L352.8,355.1L351.0,349.5L353.0,345.9L361.1,339.8L365.5,345.1L363.6,356.4ZM359.2,402.2L355.7,404.4L352.3,399.0L357.0,397.0L359.2,402.2ZM358.7,367.9L355.7,368.3L355.4,366.5L357.4,364.8L358.7,364.8L358.7,367.9ZM357.2,320.6L350.6,324.3L347.5,318.2L353.4,317.4L357.2,320.6ZM356.1,394.3L354.3,396.0L350.8,395.1L353.0,392.9L356.1,394.3ZM353.4,375.9L352.8,380.6L350.8,380.6L345.3,375.0L346.7,371.1L348.6,370.9L353.4,375.9ZM351.5,395.7L351.0,399.0L349.3,398.2L350.2,395.3L351.5,395.7ZM344.3,355.2L340.0,356.4L335.6,352.8L340.7,345.3L347.1,344.1L344.3,355.2ZM347.1,325.9L344.0,326.7L341.2,322.9L344.4,322.5L347.1,325.9ZM346.4,314.0L339.2,315.6L331.5,308.2L342.3,307.0L346.4,314.0ZM340.5,377.4L338.3,380.2L334.4,379.0L337.4,376.5L340.5,377.4ZM335.5,352.4L334.1,357.2L329.5,356.6L332.4,353.0L335.5,352.4ZM330.4,297.9L328.4,302.5L320.7,295.1L313.5,288.0L312.2,283.7L317.2,280.7L321.8,285.9L327.1,288.0L328.4,291.0L329.5,295.1L330.4,297.9ZM328.4,385.0L325.6,385.1L323.8,382.6L326.9,381.8L328.4,385.0ZM328.2,325.7L324.5,327.7L321.0,325.9L326.9,317.4L328.2,325.7ZM324.9,382.2L322.7,382.6L320.7,380.6L323.4,380.0L324.9,382.2ZM317.0,308.8L314.8,310.6L311.8,308.8L314.6,307.0L317.0,308.8ZM316.3,358.2L314.6,362.2L312.8,359.6L309.3,352.1L312.8,352.7L316.3,358.2ZM312.4,372.9L310.2,374.4L307.1,372.7L310.4,370.9L312.4,372.9ZM301.4,379.0L293.5,380.8L290.7,379.4L292.2,375.9L296.4,375.9L301.4,371.9L304.3,367.3L306.5,368.1L302.5,378.8L301.4,379.0ZM303.9,343.8L301.0,346.5L295.1,342.9L301.4,339.6L303.9,343.8ZM299.5,326.1L292.6,330.8L294.0,322.7L297.5,318.9L299.5,326.1ZM294.6,309.4L290.0,315.0L287.6,315.0L289.3,306.1L294.6,303.9L294.6,309.4ZM287.8,370.5L285.8,372.9L283.8,369.7L286.7,368.5L287.8,370.5ZM281.0,300.8L279.3,304.5L278.2,304.3L279.5,299.3L280.8,297.9L281.0,300.8Z", "EL41": "M437.5,295.1L443.9,297.2L447.9,295.7L450.7,300.8L438.4,307.0L431.2,302.1L423.7,303.5L421.7,300.2L426.1,296.3L430.1,295.1L433.8,294.0L437.5,295.1ZM415.1,187.1L420.2,192.7L424.8,202.8L415.1,207.6L399.1,204.2L396.9,201.6L396.1,198.7L405.5,192.9L404.1,190.3L399.6,190.7L393.4,198.2L386.6,196.9L380.4,190.5L381.1,186.3L383.3,184.0L396.7,181.8L402.2,176.7L409.9,177.2L413.2,180.4L412.0,184.4L415.1,187.1ZM419.8,305.7L421.7,310.6L419.8,310.3L417.8,307.5L419.8,305.7ZM419.1,311.8L416.7,313.6L413.8,312.1L417.1,310.3L419.1,311.8ZM405.0,240.7L402.6,242.4L399.7,240.7L402.8,239.1L405.0,240.7ZM401.5,308.7L394.3,317.1L383.5,316.0L394.3,306.9L401.5,308.7ZM391.4,265.5L389.7,268.4L383.9,263.7L382.0,260.5L387.9,255.1L388.6,252.1L379.8,238.7L389.4,234.9L398.2,239.5L397.8,256.6L395.2,263.7L391.4,265.5ZM367.3,237.7L363.7,240.2L358.7,238.3L363.3,235.1L367.3,237.7ZM356.3,131.0L351.0,139.9L350.8,146.3L346.2,142.1L345.1,137.4L342.5,139.2L342.0,145.0L334.8,141.7L333.0,133.6L333.9,131.6L337.9,130.2L344.7,130.4L347.8,133.8L354.6,129.2L356.3,131.0ZM333.5,164.3L330.4,170.3L327.7,167.3L330.8,163.1L333.5,164.3Z", "EL30": "M257.7,290.8L252.9,284.3L246.8,283.3L240.6,288.6L237.5,287.7L237.8,285.9L241.3,284.5L240.2,282.7L241.5,280.7L247.0,280.5L248.5,278.7L244.2,276.9L235.8,281.7L224.1,283.7L220.9,280.7L220.4,275.3L225.5,272.2L224.0,268.2L221.5,267.2L229.2,265.6L231.6,261.5L234.7,260.3L236.3,260.9L236.0,263.7L244.8,269.4L249.0,267.6L250.7,264.3L254.0,254.5L269.2,259.3L275.1,265.2L275.5,268.6L271.8,274.1L272.9,285.4L275.9,295.1L275.3,302.9L272.7,305.1L269.2,301.9L261.5,295.1L259.3,294.2L257.7,290.8ZM269.2,321.0L267.6,321.1L266.5,319.5L267.6,318.3L269.2,318.8L270.3,320.6L269.2,321.0ZM267.9,368.1L265.2,368.3L263.0,366.1L265.9,364.8L267.9,368.1ZM244.2,303.1L241.7,304.3L237.5,297.5L246.8,297.5L244.2,303.1ZM245.0,328.7L241.9,331.3L238.4,329.9L241.9,327.5L245.0,328.7ZM238.4,323.9L239.3,320.6L232.9,319.8L224.1,315.0L225.2,310.0L232.9,314.4L234.5,313.0L232.9,308.1L236.9,307.9L236.0,314.0L238.7,316.4L242.6,315.4L241.5,318.3L243.9,321.7L238.4,323.9ZM236.0,301.7L234.0,304.7L231.4,304.1L233.6,300.9L236.0,301.7ZM234.5,329.5L232.7,331.6L229.6,329.9L232.5,328.1L234.5,329.5ZM232.0,437.7L232.7,441.7L230.8,441.5L229.2,438.3L232.0,437.7ZM223.7,336.2L221.3,337.4L218.9,334.2L221.3,333.6L223.7,336.2ZM216.9,414.1L215.8,419.2L209.0,415.9L207.9,409.7L207.2,405.5L210.3,401.4L218.0,409.7L219.7,411.5L216.9,414.1Z", "EL65": "M220.4,275.3L220.9,280.7L224.1,283.7L215.6,288.6L223.1,295.4L220.6,300.2L223.1,301.5L223.3,307.6L225.2,310.0L224.1,315.0L232.9,319.8L239.3,320.6L238.4,323.9L229.2,325.1L223.3,332.8L217.8,327.5L219.7,321.3L213.8,319.5L210.7,315.8L204.6,315.8L200.7,311.2L198.3,311.8L199.8,325.3L207.5,338.8L207.9,345.1L211.0,346.9L212.5,351.2L217.8,369.5L216.1,380.8L221.1,388.9L222.4,395.7L219.7,395.9L215.4,391.9L211.0,392.1L200.2,371.5L193.4,369.9L189.0,371.9L185.7,378.4L183.3,385.6L184.2,394.7L182.6,398.1L176.5,392.1L176.1,379.2L170.2,366.1L163.6,361.0L162.4,353.9L158.3,353.3L151.9,356.6L151.7,370.3L148.6,374.1L142.9,369.7L136.8,372.3L137.2,360.0L130.8,350.6L130.0,345.1L131.3,339.8L136.1,333.0L136.3,326.5L147.5,324.9L149.3,320.6L153.0,318.6L151.9,314.2L143.4,308.7L143.6,295.1L148.6,290.0L150.4,292.8L155.4,295.1L157.2,296.0L160.0,295.1L170.3,292.0L168.4,288.6L169.5,284.1L176.1,277.9L176.7,269.4L189.0,273.2L191.9,274.0L206.6,284.9L211.4,282.3L206.2,277.7L207.0,276.4L211.2,274.6L220.4,275.3ZM142.5,373.5L141.8,376.5L140.3,376.2L139.2,372.9L140.3,372.5L142.5,373.5Z", "EL63": "M170.3,292.0L160.0,295.1L157.2,296.0L155.4,295.1L150.4,292.8L148.6,290.0L143.6,295.1L143.4,308.7L151.9,314.2L153.0,318.6L149.3,320.6L147.5,324.9L136.3,326.5L128.2,313.2L115.0,304.7L113.3,297.3L110.0,295.1L103.2,290.8L103.8,285.6L111.3,281.9L117.0,272.4L118.8,264.6L131.7,269.0L138.6,263.7L141.4,257.7L146.6,255.1L155.0,256.6L163.8,263.7L176.7,269.4L176.1,277.9L169.5,284.1L168.4,288.6L170.3,292.0ZM151.9,221.2L155.0,222.4L154.8,240.8L148.4,245.4L146.2,252.0L140.1,254.5L132.4,254.2L126.7,256.9L117.0,250.3L112.6,255.5L106.7,256.9L103.4,254.3L103.2,247.0L101.0,241.2L99.9,241.4L97.7,241.1L97.1,233.9L95.3,230.4L91.3,228.6L88.7,221.2L83.2,223.0L80.8,219.1L83.2,214.9L83.0,210.1L95.3,209.7L99.9,214.1L101.0,213.9L105.6,213.1L105.4,206.1L102.7,201.8L102.3,198.7L103.8,196.3L112.2,196.0L118.4,192.1L119.6,192.9L121.4,197.8L119.2,204.0L125.6,207.6L126.7,212.9L132.8,214.9L129.1,219.1L130.4,224.8L142.9,228.4L145.8,225.2L150.8,224.6L151.9,221.2Z", "EL64": "M311.5,221.8L306.3,223.0L304.3,217.9L301.4,215.7L297.7,213.3L298.8,207.8L301.4,207.2L311.5,221.8ZM214.5,204.9L213.0,208.5L202.7,213.5L198.9,214.5L190.5,212.3L189.0,213.1L187.9,213.7L187.5,216.3L189.0,217.3L190.1,218.0L195.4,216.9L205.5,222.8L215.6,224.0L219.7,232.3L225.2,229.8L231.6,232.5L231.9,237.7L234.5,240.7L232.7,242.4L245.4,242.4L249.0,244.4L250.5,241.4L248.7,237.9L243.7,235.5L224.6,217.4L218.0,216.9L214.5,214.3L210.6,217.3L204.6,217.7L204.8,215.7L217.1,209.7L221.1,204.9L231.9,202.6L238.2,209.1L241.3,217.3L249.4,223.0L255.3,223.6L257.7,226.8L265.4,229.9L269.2,229.6L274.9,229.0L279.7,231.0L279.9,235.9L281.0,236.9L284.7,240.7L283.0,249.4L287.4,263.7L292.4,267.8L301.4,268.8L305.8,271.0L304.3,280.5L301.4,283.3L297.5,279.7L292.9,281.7L289.1,274.4L284.7,273.4L282.6,263.7L281.0,260.7L278.4,259.3L273.1,250.6L269.2,250.3L252.9,250.0L251.8,253.6L254.0,254.5L250.7,264.3L249.0,267.6L244.8,269.4L236.0,263.7L236.3,260.9L234.7,260.3L231.6,261.5L229.2,265.6L221.5,267.2L213.8,264.0L210.7,266.2L207.5,263.7L200.9,262.2L200.4,259.3L194.0,252.0L190.5,253.1L189.0,257.1L188.4,258.5L180.7,248.0L176.5,254.3L169.3,253.3L165.3,255.1L158.9,250.9L152.1,250.0L146.2,252.0L148.4,245.4L154.8,240.8L155.0,222.4L151.9,221.2L150.8,224.6L145.8,225.2L142.9,228.4L130.4,224.8L129.1,219.1L132.8,214.9L126.7,212.9L125.6,207.6L119.2,204.0L121.4,197.8L119.6,192.9L125.2,188.3L135.2,186.3L139.2,192.1L140.1,196.6L145.8,194.5L151.5,200.2L152.8,202.4L157.0,201.6L158.8,198.1L163.6,196.5L170.2,184.7L184.6,195.4L184.9,201.6L189.0,201.6L194.0,201.6L208.8,207.0L214.5,204.9ZM295.3,217.4L293.1,219.1L290.5,217.4L292.6,215.3L295.3,217.4ZM288.2,277.9L288.2,281.5L285.2,281.3L286.5,277.7L288.2,277.9Z", "EL62": "M103.2,250.0L102.3,250.6L100.8,249.6L100.8,247.6L102.6,247.4L103.2,250.0ZM94.7,232.5L92.7,234.1L89.4,232.5L92.2,230.7L94.7,232.5ZM74.6,290.4L79.0,287.1L90.4,295.1L94.0,300.3L90.3,300.8L87.4,305.2L85.2,305.5L79.5,299.7L76.9,295.1L74.6,290.4ZM74.9,258.1L79.9,262.8L84.5,272.6L82.1,274.6L69.2,272.0L65.2,264.5L64.1,262.5L62.2,266.8L57.8,266.2L61.7,256.1L65.2,254.8L67.6,253.9L71.4,247.4L74.9,258.1ZM82.4,232.2L69.8,236.5L73.1,220.9L76.6,216.7L79.7,216.1L80.4,229.0L82.4,232.2ZM82.4,255.5L79.5,257.1L77.1,253.0L81.0,250.9L82.4,255.5ZM80.6,236.9L80.6,240.7L77.7,240.2L78.8,236.7L80.6,236.9ZM79.3,247.8L78.0,251.2L73.3,244.2L77.1,242.6L79.3,247.8ZM49.9,191.1L46.8,191.3L45.0,189.1L48.1,188.1L49.9,191.1ZM42.0,172.9L42.6,175.5L31.8,171.9L27.2,162.8L21.5,155.8L16.7,150.0L18.7,146.5L21.5,145.5L25.5,144.1L33.0,145.9L29.9,155.1L35.4,169.1L42.0,172.9ZM14.9,139.2L13.0,141.1L11.2,138.1L13.6,136.6L14.9,139.2ZM4.6,141.7L2.5,143.3L0.0,141.4L2.0,139.6L4.6,141.7Z", "EL61": "M281.0,178.0L279.9,178.2L281.0,174.1L283.2,174.3L282.6,177.2L281.0,178.0ZM278.2,179.4L276.8,183.2L274.0,181.4L275.9,178.2L278.2,179.4ZM269.2,193.3L264.5,193.6L263.2,192.9L268.0,187.4L269.2,186.9L271.8,193.1L269.2,193.3ZM260.0,198.2L253.8,200.0L249.2,195.9L256.9,194.8L260.0,198.2ZM244.8,191.9L241.1,194.7L236.7,193.1L241.1,190.1L244.8,191.9ZM193.9,132.2L196.0,134.0L198.3,139.9L204.6,145.7L207.5,156.8L208.6,160.0L218.9,167.9L229.2,181.6L233.6,190.7L231.6,194.1L225.2,197.2L218.0,198.1L218.2,194.5L220.9,196.3L225.5,192.7L224.1,187.4L220.4,182.8L210.7,179.4L209.2,182.8L203.5,184.7L203.3,188.7L205.1,192.7L211.8,197.5L213.8,202.8L215.6,203.4L214.5,204.9L208.8,207.0L194.0,201.6L189.0,201.6L184.9,201.6L184.6,195.4L170.2,184.7L163.6,196.5L158.8,198.1L157.0,201.6L152.8,202.4L151.5,200.2L145.8,194.5L140.1,196.6L139.2,192.1L135.2,186.3L125.2,188.3L119.6,192.9L118.4,192.1L117.5,189.3L120.8,184.7L120.3,181.2L113.1,177.2L107.1,167.7L107.8,163.7L105.4,156.8L104.3,154.2L105.4,152.4L110.6,152.4L110.0,145.5L113.7,141.0L118.5,142.7L121.9,138.6L127.6,138.0L150.1,141.4L148.9,133.2L159.4,121.5L161.8,116.2L167.1,116.8L167.9,122.1L171.7,118.0L174.3,117.7L176.3,120.3L176.1,126.1L183.1,129.5L185.7,133.8L189.0,133.1L193.9,132.2Z", "EL54": "M107.1,167.7L113.1,177.2L120.3,181.2L120.8,184.7L117.5,189.3L118.4,192.1L112.2,196.0L103.8,196.3L102.3,198.7L102.7,201.8L101.0,202.6L98.3,203.8L85.6,198.4L82.8,207.0L81.0,207.8L78.1,201.0L67.2,189.5L65.9,184.6L65.0,184.7L58.2,183.8L55.6,181.6L51.4,173.2L52.7,167.5L46.8,166.1L48.3,159.4L45.9,156.8L38.5,153.4L49.9,156.4L55.6,150.9L55.6,144.4L60.8,146.1L61.7,141.4L56.9,131.4L60.6,130.2L63.9,125.3L65.2,125.3L73.8,124.5L77.7,122.3L80.1,109.7L83.4,104.3L88.7,103.3L96.6,118.8L95.3,122.1L100.3,127.1L99.9,132.5L102.3,138.4L113.7,141.0L110.0,145.5L110.6,152.4L105.4,152.4L104.3,154.2L105.4,156.8L107.8,163.7L107.1,167.7Z", "EL53": "M144.5,78.3L149.5,79.3L148.4,84.3L151.0,93.0L160.3,98.1L163.1,106.1L165.8,107.9L161.8,116.2L159.4,121.5L148.9,133.2L150.1,141.4L127.6,138.0L121.9,138.6L118.5,142.7L113.7,141.0L102.3,138.4L99.9,132.5L100.3,127.1L95.3,122.1L96.6,118.8L88.7,103.3L83.4,104.3L84.5,97.9L87.8,95.0L93.5,94.8L99.7,84.3L99.2,79.9L94.8,72.6L95.3,66.4L101.0,66.4L103.4,66.4L110.6,65.1L125.8,62.2L130.8,65.2L137.2,60.5L142.5,60.7L143.6,64.0L138.3,66.4L144.5,78.3Z", "EL52": "M279.0,55.1L277.5,60.7L269.2,67.8L264.4,72.2L258.4,73.7L254.7,78.9L257.7,83.1L266.3,90.0L262.1,93.0L263.6,98.7L268.0,101.5L269.2,101.5L272.7,101.3L272.4,106.9L269.2,106.9L265.9,106.9L265.0,103.3L257.1,104.7L254.7,107.6L256.9,112.6L269.2,121.1L270.5,122.1L272.0,129.8L269.2,132.0L267.6,133.4L261.5,128.7L257.5,120.3L251.4,114.0L238.7,110.3L231.9,113.6L213.8,104.1L207.7,101.9L203.3,94.2L211.4,90.4L209.2,83.2L206.2,83.2L197.6,92.0L194.9,90.8L193.9,93.6L189.7,96.2L193.2,103.7L189.0,115.6L187.5,120.1L189.0,126.5L189.5,128.3L193.9,132.2L189.0,133.1L185.7,133.8L183.1,129.5L176.1,126.1L176.3,120.3L174.3,117.7L171.7,118.0L167.9,122.1L167.1,116.8L161.8,116.2L165.8,107.9L163.1,106.1L160.3,98.1L151.0,93.0L148.4,84.3L149.5,79.3L144.5,78.3L138.3,66.4L143.6,64.0L142.5,60.7L149.7,49.4L150.8,48.0L155.2,45.8L158.3,44.2L163.1,45.6L167.7,42.9L173.2,45.8L174.6,46.6L189.0,46.2L190.5,46.2L194.0,41.7L196.5,44.2L198.9,42.6L198.9,41.2L199.3,38.7L199.3,37.1L199.3,32.9L200.7,31.1L201.8,30.1L206.3,30.1L209.2,30.4L224.1,31.3L230.8,25.8L233.8,27.6L243.3,25.4L250.1,27.4L250.9,31.0L254.9,33.1L254.9,37.2L257.7,41.4L263.6,45.8L267.4,48.6L269.2,48.4L272.3,48.0L279.0,55.1ZM246.6,132.8L236.7,133.8L225.0,118.9L235.4,118.3L246.6,132.8Z", "EL51": "M391.0,75.8L390.3,71.4L386.4,67.8L367.7,65.8L362.9,65.8L350.2,60.1L340.9,59.9L338.8,58.5L338.8,56.3L334.1,55.9L328.4,59.9L319.7,66.2L309.3,65.2L301.4,58.9L295.3,60.9L291.3,64.0L289.1,69.6L281.0,74.3L279.7,75.2L274.2,76.4L269.2,74.1L264.4,72.2L269.2,67.8L277.5,60.7L279.0,55.1L272.3,48.0L269.2,48.4L267.4,48.6L263.6,45.8L257.7,41.4L254.9,37.2L254.9,33.1L250.9,31.0L250.1,27.4L257.7,25.4L267.2,20.4L269.2,21.6L270.5,22.2L275.1,21.4L275.5,16.5L278.4,14.9L281.0,15.7L283.0,16.3L286.7,13.3L290.7,16.7L301.4,13.9L302.8,13.7L307.8,22.8L312.8,24.4L314.4,25.0L317.9,28.6L321.0,26.0L325.6,25.6L328.4,26.8L341.2,32.3L343.8,35.7L349.1,37.7L364.0,32.2L371.9,33.1L378.5,30.1L383.8,32.5L386.2,31.6L395.8,28.8L399.6,23.2L398.9,13.9L397.3,11.3L394.1,6.7L394.1,2.6L399.3,0.0L410.1,2.4L423.5,11.3L425.2,27.0L425.4,28.2L424.8,28.3L421.1,30.5L411.6,35.9L409.4,37.2L409.4,37.5L408.4,45.8L407.9,48.0L408.5,53.0L409.0,58.9L409.0,59.1L396.2,74.0L394.9,74.3L391.0,75.8ZM372.8,95.7L364.9,101.3L356.5,96.9L366.0,91.4L372.8,95.7ZM312.8,86.5L310.0,87.4L301.9,81.1L304.7,74.0L309.8,70.8L312.8,72.0L315.3,73.0L317.9,80.1L317.0,84.9L312.8,86.5Z"};
+// Magerakis & Theodoraki, Review of Managerial Science, Table 13 (regional means, 2007–2014)
+const DATA = {
+  EL30: {roa: -0.012, eu: 0.211, rd: 0.456}, EL42: {roa: -0.001, eu: 0.172, rd: 0.187},
+  EL43: {roa: -0.016, eu: 0.217, rd: 0.343}, EL51: {roa: -0.006, eu: 0.261, rd: 0.116},
+  EL52: {roa: -0.005, eu: 0.226, rd: 0.408}, EL53: {roa: -0.001, eu: 0.200, rd: 0.684},
+  EL54: {roa: -0.021, eu: 0.296, rd: 0.050}, EL61: {roa: -0.013, eu: 0.187, rd: 0.484},
+  EL63: {roa: -0.024, eu: 0.197, rd: 0.248}, EL64: {roa: -0.007, eu: 0.249, rd: 0.480},
+  EL65: {roa: -0.005, eu: 0.209, rd: 0.056}
+};
+const NAMES = {
+  en: {EL30: "Attica", EL41: "North Aegean", EL42: "South Aegean", EL43: "Crete", EL51: "East Macedonia and Thrace",
+       EL52: "Central Macedonia", EL53: "West Macedonia", EL54: "Epirus", EL61: "Thessaly", EL62: "Ionian Islands",
+       EL63: "West Greece", EL64: "Central Greece", EL65: "Peloponnese"},
+  el: {EL30: "Αττική", EL41: "Βόρειο Αιγαίο", EL42: "Νότιο Αιγαίο", EL43: "Κρήτη", EL51: "Ανατολική Μακεδονία και Θράκη",
+       EL52: "Κεντρική Μακεδονία", EL53: "Δυτική Μακεδονία", EL54: "Ήπειρος", EL61: "Θεσσαλία", EL62: "Ιόνια Νησιά",
+       EL63: "Δυτική Ελλάδα", EL64: "Στερεά Ελλάδα", EL65: "Πελοπόννησος"}
+};
+const T = {
+  en: {
+    title: "Uncertainty, R&D and performance across Greek regions",
+    subtitle: 'Average values by NUTS 2 region, 2007–2014 (3,694 firm-years). From <a href="https://doi.org/10.1007/s11846-025-00923-9" target="_blank" rel="noopener">Magerakis &amp; Theodoraki (2026), <i>Review of Managerial Science</i></a>, Table 13.',
+    measures: {eu: "Environmental uncertainty", rd: "R&D intensity", roa: "Return on assets"},
+    short: {eu: "Uncertainty (EU)", rd: "R&D intensity (RD)", roa: "ROA"},
+    legend: m => ({eu: "Mean environmental uncertainty (darker = more uncertain)",
+                   rd: "Mean R&D intensity (darker = more R&D)",
+                   roa: "Mean return on assets (darker = higher)"})[m],
+    nodata: "No firms in the sample", hint: "Hover over or tap a region.", region: "Region",
+    tableToggle: "Show data table", pick: "Select a region on the map to see its values.",
+    rankOf: (r, n) => `Rank ${r} of ${n} on this measure`,
+    notes: "EU = coefficient of variation of sales (perceived environmental uncertainty); RD = R&amp;D spending scaled by total assets; ROA = return on assets. Regional means use all firm-year observations in each region. North Aegean and the Ionian Islands have no sample firms. Boundaries: © EuroGeographics / Eurostat (GISCO), NUTS 2024.",
+    other: "Ελληνικά", otherLang: "el", aria: "Map of Greece by NUTS 2 region"
+  },
+  el: {
+    title: "Αβεβαιότητα, Ε&amp;Α και επιδόσεις στις περιφέρειες της Ελλάδας",
+    subtitle: 'Μέσες τιμές ανά περιφέρεια NUTS 2, 2007–2014 (3.694 παρατηρήσεις). Από <a href="https://doi.org/10.1007/s11846-025-00923-9" target="_blank" rel="noopener">Magerakis &amp; Theodoraki (2026), <i>Review of Managerial Science</i></a>, Πίνακας 13.',
+    measures: {eu: "Περιβαλλοντική αβεβαιότητα", rd: "Ένταση Ε&Α", roa: "Απόδοση ενεργητικού"},
+    short: {eu: "Αβεβαιότητα (EU)", rd: "Ένταση Ε&Α (RD)", roa: "ROA"},
+    legend: m => ({eu: "Μέση περιβαλλοντική αβεβαιότητα (πιο σκούρο = μεγαλύτερη)",
+                   rd: "Μέση ένταση Ε&Α (πιο σκούρο = μεγαλύτερη)",
+                   roa: "Μέση απόδοση ενεργητικού (πιο σκούρο = υψηλότερη)"})[m],
+    nodata: "Δεν υπάρχουν επιχειρήσεις στο δείγμα", hint: "Περάστε το ποντίκι ή πατήστε σε μια περιφέρεια.", region: "Περιφέρεια",
+    tableToggle: "Εμφάνιση πίνακα δεδομένων", pick: "Επιλέξτε μια περιφέρεια στον χάρτη για να δείτε τις τιμές της.",
+    rankOf: (r, n) => `${r}η θέση από ${n} σε αυτόν τον δείκτη`,
+    notes: "EU = συντελεστής μεταβλητότητας πωλήσεων (αντιληπτή περιβαλλοντική αβεβαιότητα)· RD = δαπάνες Ε&amp;Α προς σύνολο ενεργητικού· ROA = απόδοση ενεργητικού. Οι μέσοι όροι χρησιμοποιούν όλες τις παρατηρήσεις κάθε περιφέρειας. Το Βόρειο Αιγαίο και τα Ιόνια Νησιά δεν έχουν επιχειρήσεις στο δείγμα. Όρια: © EuroGeographics / Eurostat (GISCO), NUTS 2024.",
+    other: "English", otherLang: "en", aria: "Χάρτης της Ελλάδας ανά περιφέρεια NUTS 2"
+  }
+};
+const lang = new URLSearchParams(location.search).get("lang") === "el" ? "el" : "en";
+const t = T[lang];
+document.documentElement.lang = lang;
+const fmt = (m, v) => m === "roa" ? v.toFixed(3) : v.toFixed(3);
+
+// Sequential blue ramp (light mode: light -> dark; dark mode: dark -> light, stepped for the dark surface)
+const dark = matchMedia("(prefers-color-scheme: dark)");
+const RAMP_LIGHT = ["#9ec5f4", "#6da7ec", "#3987e5", "#2a78d6", "#256abf", "#184f95", "#0d366b"];
+const RAMP_DARK  = ["#184f95", "#1c5cab", "#256abf", "#2a78d6", "#5598e7", "#86b6ef", "#b7d3f6"];
+const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function rampColor(f) {
+  const ramp = dark.matches ? RAMP_DARK : RAMP_LIGHT;
+  const x = Math.max(0, Math.min(1, f)) * (ramp.length - 1), i = Math.min(Math.floor(x), ramp.length - 2), u = x - i;
+  const a = hex(ramp[i]), b = hex(ramp[i + 1]);
+  return "rgb(" + a.map((c, k) => Math.round(c + (b[k] - c) * u)).join(",") + ")";
+}
+
+let measure = "eu", selected = null;
+const svg = document.getElementById("map"), tip = document.getElementById("tip");
+svg.setAttribute("aria-label", t.aria);
+document.getElementById("title").innerHTML = t.title;
+document.title = document.getElementById("title").textContent;
+document.getElementById("subtitle").innerHTML = t.subtitle;
+document.getElementById("notes").innerHTML = t.notes;
+document.getElementById("tableToggle").textContent = t.tableToggle;
+document.getElementById("lang").innerHTML = `<a href="?lang=${t.otherLang}">${t.other}</a>`;
+
+const seg = document.getElementById("measures");
+for (const m of ["eu", "rd", "roa"]) {
+  const b = document.createElement("button");
+  b.type = "button"; b.textContent = t.measures[m]; b.dataset.m = m;
+  b.addEventListener("click", () => { measure = m; render(); });
+  seg.appendChild(b);
+}
+
+const els = {};
+for (const [id, d] of Object.entries(PATHS)) {
+  const p = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  p.setAttribute("d", d); p.setAttribute("tabindex", "0"); p.setAttribute("role", "button");
+  p.addEventListener("mousemove", e => showTip(id, e.clientX, e.clientY));
+  p.addEventListener("mouseleave", () => { tip.style.display = "none"; });
+  p.addEventListener("click", () => select(id));
+  p.addEventListener("focus", () => select(id));
+  p.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(id); } });
+  svg.appendChild(p); els[id] = p;
+}
+
+function range() {
+  const v = Object.values(DATA).map(d => d[measure]);
+  return [Math.min(...v), Math.max(...v)];
+}
+function rank(id) {
+  const sorted = Object.keys(DATA).sort((a, b) => DATA[b][measure] - DATA[a][measure]);
+  return sorted.indexOf(id) + 1;
+}
+function tipHtml(id) {
+  const d = DATA[id], n = NAMES[lang][id];
+  if (!d) return `<b>${n}</b>${t.nodata}`;
+  return `<b>${n}</b>` + ["eu", "rd", "roa"].map(m =>
+    `${m === measure ? "<strong>" : ""}${t.short[m]}: ${fmt(m, d[m])}${m === measure ? "</strong>" : ""}`).join("<br>");
+}
+function showTip(id, x, y) {
+  tip.innerHTML = tipHtml(id); tip.style.display = "block";
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(x + 14, innerWidth - w - 8) + "px";
+  tip.style.top = Math.max(8, Math.min(y + 14, innerHeight - h - 8)) + "px";
+}
+function select(id) { selected = id; render(); }
+
+function render() {
+  const [lo, hi] = range();
+  for (const b of seg.children) b.setAttribute("aria-pressed", String(b.dataset.m === measure));
+  for (const [id, p] of Object.entries(els)) {
+    const d = DATA[id];
+    p.style.fill = d ? rampColor((d[measure] - lo) / (hi - lo)) : "var(--nodata)";
+    p.classList.toggle("active", id === selected);
+    p.setAttribute("aria-label", NAMES[lang][id] + (d ? `: ${t.short[measure]} ${fmt(measure, d[measure])}` : `: ${t.nodata}`));
+  }
+  if (selected) svg.appendChild(els[selected]);  // draw the outlined region on top
+  const ramp = dark.matches ? RAMP_DARK : RAMP_LIGHT;
+  document.getElementById("legend").innerHTML =
+    `<div class="legend-title">${t.legend(measure)}</div>
+     <div class="legend-bar" style="background:linear-gradient(to right, ${ramp.join(",")})"></div>
+     <div class="legend-ticks"><span>${fmt(measure, lo)}</span><span>${fmt(measure, (lo + hi) / 2)}</span><span>${fmt(measure, hi)}</span></div>
+     <div class="legend-nodata"><span class="swatch"></span>${t.nodata}</div>`;
+  const det = document.getElementById("detail");
+  if (!selected) det.innerHTML = `<p class="hint">${t.pick}</p>`;
+  else {
+    const d = DATA[selected];
+    det.innerHTML = `<h2>${NAMES[lang][selected]}</h2>` + (d
+      ? `<dl>${["eu", "rd", "roa"].map(m => `<dt>${t.short[m]}</dt><dd>${m === measure ? "<strong>" : ""}${fmt(m, d[m])}${m === measure ? "</strong>" : ""}</dd>`).join("")}</dl>
+         <p class="hint">${t.rankOf(rank(selected), Object.keys(DATA).length)}</p>`
+      : `<p class="hint">${t.nodata}</p>`);
+  }
+  const rows = Object.keys(DATA).sort((a, b) => DATA[b][measure] - DATA[a][measure]);
+  document.getElementById("table").innerHTML =
+    `<thead><tr><th>${t.region}</th><th>${t.short.eu}</th><th>${t.short.rd}</th><th>${t.short.roa}</th></tr></thead><tbody>` +
+    rows.map(id => `<tr><td>${NAMES[lang][id]}</td><td>${fmt("eu", DATA[id].eu)}</td><td>${fmt("rd", DATA[id].rd)}</td><td>${fmt("roa", DATA[id].roa)}</td></tr>`).join("") +
+    `</tbody>`;
+}
+dark.addEventListener("change", render);
+render();
+</script>
+</body>
+</html>
