@@ -108,6 +108,19 @@ subtitle = ""
 - [Mendeley](https://www.mendeley.com/) — reference manager for organising papers and citations.
 - [GitHub](https://github.com/) — version control and code sharing.
 
+**AI for research**
+
+- [Bäckman — AI guides for academic economists](https://claesbackman.com/ai-guides.html) — practical guides to Claude Code and Codex for empirical research, including a 28-page PDF guide.
+- [Sant'Anna — My Claude Code setup](https://psantanna.com/claude-code-my-workflow/) — Pedro Sant'Anna's Claude Code workflow for research projects.
+- [Goldsmith-Pinkham — Getting started with Claude Code](https://paulgp.substack.com/p/getting-started-with-claude-code) — a step-by-step introduction for researchers.
+- [Goldsmith-Pinkham — From EDGAR filings to a structured database](https://paulgp.substack.com/p/from-edgar-filings-to-a-structured) — using Claude Code to turn SEC filings into research data.
+- [Golub — Modern AI for economics research](https://bcf.princeton.edu/events/benjamin-golub-on-modern-ai-for-economics-research-an-overview-of-tools/) — Benjamin Golub's overview of AI tools for economists (Princeton).
+- [Cunningham — Claude Code, faculty adoption and security risks](https://causalinf.substack.com/p/claude-code-21-faculty-adoption-of) — Scott Cunningham on how faculty use Claude Code and what can go wrong.
+- [Thinking with Agents](https://thinkingwithagents.github.io/) — Aslim and Beam's bootcamp on AI tools for teaching and research.
+- [Black — An AI-assisted research flow](https://black-jl.github.io/Research-Project-Flow/) — Jared Black's template for running a research project with AI.
+- [Bryan — Guide to AI, Git and LaTeX](https://kevinbryanecon.com/techstack.html) — Kevin Bryan's research tech stack.
+- [Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm) — Aakash Gupta's complete guide to Google's NotebookLM, the tool behind my podcasts.
+
 **Writing**
 
 - [Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) — John Cochrane's classic advice for PhD students on writing a paper.

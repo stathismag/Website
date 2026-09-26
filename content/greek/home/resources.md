@@ -108,6 +108,19 @@ subtitle = ""
 - [Mendeley](https://www.mendeley.com/) — διαχείριση βιβλιογραφίας και αναφορών.
 - [GitHub](https://github.com/) — έλεγχος εκδόσεων και διαμοιρασμός κώδικα.
 
+**Τεχνητή νοημοσύνη στην έρευνα**
+
+- [Bäckman — AI guides for academic economists](https://claesbackman.com/ai-guides.html) — πρακτικοί οδηγοί για το Claude Code και το Codex στην εμπειρική έρευνα, μαζί με έναν οδηγό 28 σελίδων σε PDF.
+- [Sant'Anna — My Claude Code setup](https://psantanna.com/claude-code-my-workflow/) — η ροή εργασίας του Pedro Sant'Anna με το Claude Code σε ερευνητικά έργα.
+- [Goldsmith-Pinkham — Getting started with Claude Code](https://paulgp.substack.com/p/getting-started-with-claude-code) — εισαγωγή βήμα προς βήμα για ερευνητές.
+- [Goldsmith-Pinkham — From EDGAR filings to a structured database](https://paulgp.substack.com/p/from-edgar-filings-to-a-structured) — χρήση του Claude Code για τη μετατροπή καταθέσεων στην SEC σε ερευνητικά δεδομένα.
+- [Golub — Modern AI for economics research](https://bcf.princeton.edu/events/benjamin-golub-on-modern-ai-for-economics-research-an-overview-of-tools/) — επισκόπηση εργαλείων τεχνητής νοημοσύνης για οικονομολόγους από τον Benjamin Golub (Princeton).
+- [Cunningham — Claude Code, faculty adoption and security risks](https://causalinf.substack.com/p/claude-code-21-faculty-adoption-of) — ο Scott Cunningham για τη χρήση του Claude Code από ακαδημαϊκούς και τους κινδύνους του.
+- [Thinking with Agents](https://thinkingwithagents.github.io/) — το bootcamp των Aslim και Beam για εργαλεία AI στη διδασκαλία και την έρευνα.
+- [Black — An AI-assisted research flow](https://black-jl.github.io/Research-Project-Flow/) — πρότυπο του Jared Black για την οργάνωση ενός ερευνητικού έργου με AI.
+- [Bryan — Guide to AI, Git and LaTeX](https://kevinbryanecon.com/techstack.html) — τα ερευνητικά εργαλεία του Kevin Bryan.
+- [Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm) — πλήρης οδηγός του Aakash Gupta για το NotebookLM της Google, το εργαλείο πίσω από τα podcasts μου.
+
 **Συγγραφή**
 
 - [Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) — οι κλασικές συμβουλές του John Cochrane σε υποψήφιους διδάκτορες για τη συγγραφή εργασίας.
