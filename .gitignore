@@ -6,6 +6,7 @@
 public/
 exampleSite/public/
 .hugo_build.lock
+resources/_gen/
 
 # Jupyter
 .ipynb_checkpoints/
