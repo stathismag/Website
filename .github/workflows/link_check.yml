@@ -1,0 +1,71 @@
+name: Check for broken links
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"      # Every Monday at 05:00 UTC
+  workflow_dispatch:         # Allows manual runs from GitHub UI
+  push:                      # Also runs when the checker's settings change
+    branches: [master]
+    paths:
+      - lychee.toml
+      - .github/workflows/link_check.yml
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.111.3"   # Same version as Netlify (netlify.toml)
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Links to smagerakis.gr and root-relative links are checked against this
+          # fresh build rather than the live site.
+          args: >-
+            --config lychee.toml --no-progress
+            --root-dir ${{ github.workspace }}/public
+            --index-files index.html
+            --remap "^https://smagerakis\.gr file://${{ github.workspace }}/public"
+            "public/**/*.html"
+          output: lychee-report.md
+          fail: false
+
+      - name: Open, update or close the broken-links issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          gh label create broken-links --color d73a4a --description "Found by the weekly link check" --force
+          issue=$(gh issue list --label broken-links --state open --json number --jq '.[0].number')
+          if [ "$EXIT_CODE" != "0" ]; then
+            {
+              echo "The weekly link check found links on smagerakis.gr that no longer work."
+              echo "Fix or remove them, and this issue closes itself after the next clean check."
+              echo
+              cat lychee-report.md
+            } > issue-body.md
+            if [ -n "$issue" ]; then
+              gh issue edit "$issue" --body-file issue-body.md
+              gh issue comment "$issue" --body "Still broken as of $(date -u +%Y-%m-%d). The list above is up to date."
+            else
+              gh issue create --title "Broken links on the website" --label broken-links --body-file issue-body.md
+            fi
+          elif [ -n "$issue" ]; then
+            gh issue close "$issue" --comment "All links work again as of $(date -u +%Y-%m-%d)."
+          fi

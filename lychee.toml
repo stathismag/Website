@@ -1,0 +1,20 @@
+# Settings for the weekly broken-link check (.github/workflows/link_check.yml).
+# Docs: https://lychee.cli.rs/usage/config/
+
+# 403 and 429 usually mean a site blocks automated checkers, not a dead link.
+accept = ["200..=299", "403", "429"]
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 8
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+
+# Sites that always refuse automated checks, plus resource hints and
+# analytics endpoints that are not pages.
+exclude = [
+  '^https?://(www\.)?(bloomberg|wsj|linkedin|x|twitter|researchgate)\.com',
+  '^https?://scholar\.google\.',
+  '^https?://fonts\.(googleapis|gstatic)\.com',
+  '^https?://www\.googletagmanager\.com',
+]

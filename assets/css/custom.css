@@ -53,3 +53,38 @@ pre, code, .highlight {
   font-style: italic;
   opacity: 0.85;
 }
+
+/* Cookie consent banner */
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 1050;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  color: #333;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  font-size: 0.9rem;
+}
+
+.dark .cookie-banner {
+  background: #2d3240;
+  color: #e6e6e6;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cookie-banner p {
+  margin: 0 0 0.75rem;
+}
+
+.cookie-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}

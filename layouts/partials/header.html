@@ -99,7 +99,7 @@
 
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
   {{ with ($scr.Get "google_fonts") }}
-  <link rel="stylesheet" {{ printf "href=\"//fonts.googleapis.com/css?family=%s\"" . | safeHTMLAttr }}>
+  <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s\"" . | safeHTMLAttr }}>
   {{ end }}
 
   <link rel="stylesheet" href="{{ "styles.css" | relLangURL }}">
@@ -115,23 +115,7 @@
     <link rel="stylesheet" href="{{ $css_bundle.RelPermalink }}">
   {{ end }}
 
-  {{ if not .Site.IsServer }}
-  {{ if .Site.GoogleAnalytics }}
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', '{{ .Site.GoogleAnalytics }}', 'auto');
-      {{ if .Site.Params.privacy_pack }}ga('set', 'anonymizeIp', true);{{ end }}
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    {{ if ($scr.Get "use_cdn") }}
-    {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.autotrack.url $js.autotrack.version) $js.autotrack.sri | safeHTML }}
-    {{ end }}
-  {{ end }}
-  {{ end }}
+  {{/* Google Analytics is loaded by cookie_consent.html, only after the visitor accepts. */}}
 
   {{ with .OutputFormats.Get "RSS" }}
     <link rel="alternate" href="{{ .Permalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">

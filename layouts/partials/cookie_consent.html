@@ -1,27 +1,107 @@
-{{ if .Site.Params.privacy_pack }}
-{{ $scr := .Scratch }}
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+{{/* Cookie consent: Google Analytics (GA4) loads only after the visitor clicks Accept.
+     The choice is kept in localStorage; the footer "Cookie settings" link reopens the banner. */}}
+{{ if and .Site.GoogleAnalytics (not .Site.IsServer) }}
+{{ $el := eq .Site.Language.Lang "el" }}
+{{ $privacy := .Site.GetPage "privacy.md" }}
 <script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "{{ $scr.Get "primary" }}",
-          "text": "{{ $scr.Get "background" }}"
-        },
-        "button": {
-          "background": "{{ $scr.Get "background" }}",
-          "text": "{{ $scr.Get "primary" }}"
-        }
-      },
-      "theme": "classic",
-      "content": {
-        "message": {{ i18n "cookie_message" | default "This website uses cookies to ensure you get the best experience on our website." }},
-        "dismiss": {{ i18n "cookie_dismiss" | default "Got it!" }},
-        "link": {{ i18n "cookie_learn" | default "Learn more" }},
-        "href": {{ with .Site.GetPage "privacy.md" }}{{ printf "%s" .RelPermalink }}{{ else }}"https://cookies.insites.com"{{ end }}
+(function () {
+  var GA_ID = {{ .Site.GoogleAnalytics }};
+  var KEY = "cookie-consent";
+  var text = {
+    message: {{ if $el }}"Ο ιστότοπος χρησιμοποιεί cookies του Google Analytics για την καταμέτρηση επισκέψεων, μόνο εφόσον συμφωνείτε."{{ else }}"This site uses Google Analytics cookies to count visits, only if you agree."{{ end }},
+    accept: {{ if $el }}"Αποδοχή"{{ else }}"Accept"{{ end }},
+    decline: {{ if $el }}"Απόρριψη"{{ else }}"Decline"{{ end }},
+    more: {{ if $el }}"Πολιτική απορρήτου"{{ else }}"Privacy policy"{{ end }},
+    href: {{ with $privacy }}{{ .RelPermalink }}{{ else }}""{{ end }}
+  };
+
+  function getChoice() {
+    try { return localStorage.getItem(KEY); } catch (e) { return null; }
+  }
+  function setChoice(value) {
+    try { localStorage.setItem(KEY, value); } catch (e) {}
+  }
+
+  function loadAnalytics() {
+    if (window.__gaLoaded) return;
+    window.__gaLoaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag("js", new Date());
+    gtag("config", GA_ID);
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+    document.head.appendChild(s);
+  }
+
+  function clearAnalyticsCookies() {
+    var host = location.hostname.replace(/^www\./, "");
+    document.cookie.split(";").forEach(function (c) {
+      var name = c.split("=")[0].trim();
+      if (name === "_ga" || name.indexOf("_ga_") === 0 || name === "_gid") {
+        ["", "; domain=" + host, "; domain=." + host].forEach(function (d) {
+          document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" + d;
+        });
       }
-    })});
+    });
+  }
+
+  function hideBanner() {
+    var b = document.getElementById("cookie-banner");
+    if (b) b.remove();
+  }
+
+  function showBanner() {
+    hideBanner();
+    var b = document.createElement("div");
+    b.id = "cookie-banner";
+    b.className = "cookie-banner";
+    b.setAttribute("role", "region");
+    b.setAttribute("aria-label", "Cookie consent");
+    var p = document.createElement("p");
+    p.textContent = text.message + " ";
+    if (text.href) {
+      var a = document.createElement("a");
+      a.href = text.href;
+      a.textContent = text.more;
+      p.appendChild(a);
+    }
+    var actions = document.createElement("div");
+    actions.className = "cookie-banner-actions";
+    [["decline", text.decline, "btn btn-outline-primary"], ["accept", text.accept, "btn btn-primary"]].forEach(function (x) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = x[2];
+      btn.textContent = x[1];
+      btn.addEventListener("click", function () {
+        var wasGranted = getChoice() === "granted";
+        setChoice(x[0] === "accept" ? "granted" : "denied");
+        hideBanner();
+        if (x[0] === "accept") {
+          loadAnalytics();
+        } else if (wasGranted) {
+          // Withdrawing consent: remove GA cookies and reload without analytics
+          clearAnalyticsCookies();
+          location.reload();
+        }
+      });
+      actions.appendChild(btn);
+    });
+    b.appendChild(p);
+    b.appendChild(actions);
+    document.body.appendChild(b);
+  }
+
+  var choice = getChoice();
+  if (choice === "granted") loadAnalytics();
+
+  document.addEventListener("DOMContentLoaded", function () {
+    if (choice !== "granted" && choice !== "denied") showBanner();
+    document.querySelectorAll("[data-cookie-settings]").forEach(function (link) {
+      link.addEventListener("click", function (e) { e.preventDefault(); showBanner(); });
+    });
+  });
+})();
 </script>
 {{ end }}
