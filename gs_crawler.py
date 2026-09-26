@@ -3,6 +3,7 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime
 
@@ -55,6 +56,61 @@ def load_previous_scopus():
         return None
 
 
+def scopus_get(url, api_key):
+    request = urllib.request.Request(url, headers={
+        "X-ELS-APIKey": api_key,
+        "Accept": "application/json",
+    })
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as e:
+        # Elsevier explains 401/403s in the body (e.g. AUTHORIZATION_ERROR)
+        body = e.read().decode("utf-8", "replace")[:300]
+        raise RuntimeError(f"HTTP {e.code}: {body}") from None
+
+
+def scopus_from_author_profile(api_key, author_id):
+    """Author Retrieval API: exact profile metrics, but often needs institutional access."""
+    if author_id:
+        url = f"https://api.elsevier.com/content/author/author_id/{author_id}?view=METRICS"
+    else:
+        url = f"https://api.elsevier.com/content/author/orcid/{ORCID}?view=METRICS"
+    author = scopus_get(url, api_key)["author-retrieval-response"][0]
+    core = author["coredata"]
+    return {
+        'total_citations': int(core.get("citation-count") or core["cited-by-count"]),
+        'h_index': int(author["h-index"]),
+        'documents': int(core["document-count"]),
+        'author_id': core["dc:identifier"].split(":")[-1],
+    }
+
+
+def scopus_from_search(api_key, author_id):
+    """Scopus Search API: works out the metrics from the author's indexed documents."""
+    query = f"AU-ID({author_id})" if author_id else f"ORCID({ORCID})"
+    counts, start, total = [], 0, None
+    while total is None or start < total:
+        url = ("https://api.elsevier.com/content/search/scopus?"
+               + urllib.parse.urlencode({"query": query, "field": "citedby-count", "count": 25, "start": start}))
+        results = scopus_get(url, api_key)["search-results"]
+        total = int(results["opensearch:totalResults"])
+        entries = [e for e in results.get("entry", []) if "error" not in e]
+        if not entries:
+            break
+        counts += [int(e.get("citedby-count") or 0) for e in entries]
+        start += len(entries)
+    if not counts:
+        raise RuntimeError(f"no Scopus documents found for {query}")
+    counts.sort(reverse=True)
+    return {
+        'total_citations': sum(counts),
+        'h_index': sum(1 for i, c in enumerate(counts) if c >= i + 1),
+        'documents': len(counts),
+        'author_id': author_id,
+    }
+
+
 def fetch_scopus():
     """Return Scopus metrics, or the last saved ones if the API can't be used.
 
@@ -68,32 +124,19 @@ def fetch_scopus():
 
     # Look the author up by Scopus ID if given, otherwise by ORCID
     author_id = os.environ.get("SCOPUS_AUTHOR_ID")
-    if author_id:
-        url = f"https://api.elsevier.com/content/author/author_id/{author_id}?view=METRICS"
-    else:
-        url = f"https://api.elsevier.com/content/author/orcid/{ORCID}?view=METRICS"
-
-    request = urllib.request.Request(url, headers={
-        "X-ELS-APIKey": api_key,
-        "Accept": "application/json",
-    })
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            results = json.load(response)
-        author = results["author-retrieval-response"][0]
-        core = author["coredata"]
-        scopus_id = core["dc:identifier"].split(":")[-1]
-        metrics = {
-            'total_citations': int(core.get("citation-count") or core["cited-by-count"]),
-            'h_index': int(author["h-index"]),
-            'documents': int(core["document-count"]),
-            'author_id': scopus_id,
-            'last_updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
-    except (urllib.error.URLError, KeyError, IndexError, ValueError, TypeError) as e:
-        print(f"Warning: could not fetch Scopus metrics ({e}); keeping previous values.")
+    metrics = None
+    for fetch in (scopus_from_author_profile, scopus_from_search):
+        try:
+            metrics = fetch(api_key, author_id)
+            print(f"Scopus: fetched via {fetch.__name__}")
+            break
+        except (urllib.error.URLError, RuntimeError, KeyError, IndexError, ValueError, TypeError) as e:
+            print(f"Warning: Scopus {fetch.__name__} failed ({e})")
+    if metrics is None:
+        print("Warning: could not fetch Scopus metrics; keeping previous values.")
         return load_previous_scopus()
 
+    metrics['last_updated'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     write_json("scopus_citations.json", metrics)
     return metrics
 
@@ -107,7 +150,9 @@ def stat(value, label):
 
 
 def section(title, color, link, stats):
-    return f"""    <h4 style="text-align: center; margin: 0 0 10px 0; font-size: 18px; font-weight: normal;"><a href="{link}" target="_blank" rel="noopener" style="color: {color}; text-decoration: none;">{title}</a></h4>
+    if link:
+        title = f'<a href="{link}" target="_blank" rel="noopener" style="color: {color}; text-decoration: none;">{title}</a>'
+    return f"""    <h4 style="color: {color}; text-align: center; margin: 0 0 10px 0; font-size: 18px; font-weight: normal;">{title}</h4>
     <div style="display: flex; justify-content: space-between; text-align: center;">
 {"".join(stat(v, l) for v, l in stats)}    </div>
 """
@@ -121,7 +166,7 @@ def render_box(gs, scopus):
     if scopus:
         parts.append(section(
             "Scopus Metrics", "#E9711C",
-            f"https://www.scopus.com/authid/detail.uri?authorId={scopus['author_id']}",
+            f"https://www.scopus.com/authid/detail.uri?authorId={scopus['author_id']}" if scopus.get('author_id') else None,
             [(scopus['total_citations'], "Citations"), (scopus['h_index'], "H-Index"), (scopus['documents'], "Documents")]))
     divider = '    <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 15px 0;">\n'
     return ('<div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; max-width: 400px; margin: 20px auto; font-family: Arial, sans-serif;">\n'
