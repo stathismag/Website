@@ -14,7 +14,7 @@
   [en.params]
   #   description = ""
   #   font_size = "L"
-     font = "chanik"
+  #  font = "chanik"  # Uses the site-wide font from params.toml
 
 ################################### Greek language #####################################
 [el]
