@@ -1,0 +1,11 @@
+# Greek labels missing from the theme's translation (contact form and appointment link)
+- id: contact_name
+  translation: "Όνομα"
+- id: contact_email
+  translation: "Email"
+- id: contact_message
+  translation: "Μήνυμα"
+- id: contact_send
+  translation: "Αποστολή"
+- id: book_appointment
+  translation: "Κλείστε ραντεβού"
