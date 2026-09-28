@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "smagerakis@upatras.gr"
-phone = "2610XXXXXX"
+phone = ""  # office phone number, e.g. "+30 2610 XXXXXX"; leave empty to hide
 address = "Room 1.07 (First Floor), Department of Economics, University of Patras, University Campus, 26504 Rio, Achaia, Greece"
 office_hours = ""
 
@@ -61,7 +61,7 @@ appointment_url = "https://outlook.office.com/bookwithme/user/b4249d63f80c4a3e98
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/smager9"},
+  {icon = "x-twitter", icon_pack = "fab", name = "DM Me", link = "https://x.com/smager9"},
  # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   ]
 
