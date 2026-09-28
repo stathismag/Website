@@ -110,3 +110,41 @@ pre, code, .highlight {
   padding-left: 0.9rem;
   border-left: 3px solid rgba(63, 81, 181, 0.35);
 }
+
+/* Homepage Resources: collapsible link groups */
+.res-group {
+  border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+.res-group summary {
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.6rem 0;
+  list-style: none;
+}
+
+.res-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.res-group summary::before {
+  content: "▸";
+  display: inline-block;
+  width: 1.1em;
+  color: #3f51b5;
+  transition: transform 0.15s ease;
+}
+
+.res-group[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.res-group .res-count {
+  font-weight: 400;
+  opacity: 0.6;
+  font-size: 0.9em;
+}
+
+.res-group ul {
+  margin-bottom: 0.9rem;
+}
