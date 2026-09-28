@@ -8,6 +8,10 @@
 [build]
   command = "hugo --gc --minify"
   publish = "public"
+  # Skip the build (and save deploy credits) when a commit changes nothing the
+  # site is built from, e.g. only GitHub workflows, the link checker or scripts.
+  # Exit 0 = skip, non-zero = build.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- content layouts static assets config data themes i18n netlify.toml"
 
 [build.environment]
   HUGO_VERSION = "0.111.3"          # Safe intermediate version (much newer than 0.53)
@@ -27,8 +31,10 @@
   HUGO_ENV = "development"
 
 # ---------- Branch deploys ----------
+# Never build plain branch pushes: pull requests already get a Deploy Preview.
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  ignore = "exit 0"
 
 # ============================================================
 # SECURITY HEADERS
