@@ -90,6 +90,12 @@ subtitle = ""
 - [NBER](https://www.nber.org/papers/) — working papers του National Bureau of Economic Research.
 - [RePEc](https://ideas.repec.org/) — ανοιχτή βάση με working papers, άρθρα και προφίλ οικονομολόγων.
 
+**Ενημέρωση για νέα έρευνα**
+
+- [NBER email alerts](https://www.nber.org/prefs_front.html) — εβδομαδιαία email με τα νέα working papers του NBER στα προγράμματα που επιλέγετε.
+- [RePEc NEP reports](http://nep.repec.org/) — θεματικές ειδοποιήσεις για νέα working papers, μεταξύ άλλων σε εταιρική χρηματοοικονομική και λογιστική.
+- [Insights for Young Researchers in Finance](https://www.iwh-halle.de/ueber-das-iwh/forschungsabteilungen/insights-for-young-researchers-in-finance/) — σειρά του IWH Halle για νέους ερευνητές στη χρηματοοικονομική.
+
 **Βάσεις δεδομένων**
 
 - [FRED](https://fred.stlouisfed.org/) — μακροοικονομικές και χρηματοοικονομικές χρονοσειρές από την Federal Reserve Bank of St. Louis.
@@ -108,6 +114,15 @@ subtitle = ""
 - [Mendeley](https://www.mendeley.com/) — διαχείριση βιβλιογραφίας και αναφορών.
 - [GitHub](https://github.com/) — έλεγχος εκδόσεων και διαμοιρασμός κώδικα.
 
+**Ροή εργασίας, πίνακες και γραφήματα**
+
+- [Naqvi — The Stata workflow guide](https://medium.com/the-stata-guide/the-stata-workflow-guide-52418ce35006) — οργάνωση ενός έργου σε Stata ώστε να το ξαναπιάνετε εύκολα μήνες αργότερα.
+- [Gentzkow & Shapiro — Code and data for the social sciences](https://www.brown.edu/Research/Shapiro/pdfs/CodeAndData.pdf) — πρακτικοί κανόνες για αναπαραγώγιμο κώδικα και δεδομένα στην εμπειρική έρευνα.
+- [Stein — Stata output for LaTeX](https://lukestein.github.io/stata-latex-workflows/) — τρόποι μεταφοράς πινάκων παλινδρόμησης από το Stata στο LaTeX, με παραδείγματα.
+- [Schwabish — Ten guidelines for better tables](https://www.cambridge.org/core/journals/journal-of-benefit-cost-analysis/article/ten-guidelines-for-better-tables/74C6FD9FEB12038A52A95B9FBCA05A12) — σύντομες, τεκμηριωμένες συμβουλές για ευανάγνωστους πίνακες.
+- [Naqvi — Stata graph tips for academic articles](https://medium.com/the-stata-guide/stata-graph-tips-for-academic-articles-8d962d5e8b75) — ρυθμίσεις για γραφήματα Stata έτοιμα για δημοσίευση.
+- [Goldsmith-Pinkham — Best figures](https://paulgp.github.io/best_figures.html) — συλλογή από καλοσχεδιασμένα γραφήματα οικονομικών άρθρων.
+
 **Τεχνητή νοημοσύνη στην έρευνα**
 
 - [Bäckman — AI guides for academic economists](https://claesbackman.com/ai-guides.html) — πρακτικοί οδηγοί για το Claude Code και το Codex στην εμπειρική έρευνα, μαζί με έναν οδηγό 28 σελίδων σε PDF.
@@ -121,11 +136,44 @@ subtitle = ""
 - [Bryan — Guide to AI, Git and LaTeX](https://kevinbryanecon.com/techstack.html) — τα ερευνητικά εργαλεία του Kevin Bryan.
 - [Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm) — πλήρης οδηγός του Aakash Gupta για το NotebookLM της Google, το εργαλείο πίσω από τα podcasts μου.
 
+**Δεξιότητες (skills) του Claude Code για έρευνα**
+
+- [Bäckman — Automated paper feedback](https://github.com/claesbackman/AI-research-feedback) — skill που αξιολογεί ένα προσχέδιο άρθρου και δίνει δομημένα σχόλια.
+- [Hirshleifer — Academic presentations skill](https://github.com/Gabberflast/academic-pptx-skill) — μετατρέπει ένα άρθρο σε ακαδημαϊκή παρουσίαση.
+- [Lopez-Lira — Research idea evaluation pipeline](https://github.com/alejandroll10/idea-evaluation-pipeline) — διαδικασία για τον κριτικό έλεγχο νέων ερευνητικών ιδεών.
+
 **Συγγραφή**
 
 - [Cochrane — writing tips](https://static1.squarespace.com/static/5e6033a4ea02d801f37e15bb/t/5eda74919c44fa5f87452697/1591374993570/phd_paper_writing.pdf) — οι κλασικές συμβουλές του John Cochrane σε υποψήφιους διδάκτορες για τη συγγραφή εργασίας.
 - [Head — introduction formula](http://blogs.ubc.ca/khead/research/research-advice/formula) — η συνταγή του Keith Head για τη δομή της εισαγωγής.
 - [Bellemare — applied papers](http://marcfbellemare.com/wordpress/wp-content/uploads/2020/09/BellemareHowToPaperSeptember2020.pdf) — ο οδηγός του Marc Bellemare για τη συγγραφή εφαρμοσμένων οικονομικών εργασιών.
+- [Bellemare — The conclusion formula](https://marcfbellemare.com/wordpress/12060) — το συμπλήρωμα του introduction formula, για ένα καλό κλείσιμο του άρθρου.
+- [Nikolov — Writing tips for economics research papers](https://docs.iza.org/dp16276.pdf) — discussion paper του IZA με πρακτικές συμβουλές συγγραφής.
+- [McCloskey — Economical Writing (summary)](https://www.deirdremccloskey.com/docs/pdf/Article_309.pdf) — οι βασικοί κανόνες του κλασικού βιβλίου για σαφή οικονομικό λόγο.
+
+**Δημοσίευση, αξιολόγηση και σχολιασμός**
+
+- [Edmans — Learnings from 1,000 rejections](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4336383) — πώς να διαχειρίζεστε τις απορρίψεις και να βελτιώνετε την επόμενη υποβολή.
+- [Harvey — Reflections on editing the Journal of Finance](https://faculty.fuqua.duke.edu/~charvey/Research/Working_Papers/W111_Reflections_on_editing.pdf) — η οπτική ενός editor για το τι δημοσιεύεται στη χρηματοοικονομική.
+- [Berk, Harvey & Hirshleifer — How to write an effective referee report](https://www.aeaweb.org/articles?id=10.1257/jep.31.1.231) — οδηγός για χρήσιμες και δίκαιες αξιολογήσεις άρθρων.
+- [Choi — How to give a good paper discussion](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4223908) — πώς να δομήσετε τον σχολιασμό ενός άρθρου σε συνέδριο.
+
+**Παρουσιάσεις**
+
+- [Shapiro — How to give an applied micro talk](https://www.brown.edu/Research/Shapiro/pdfs/applied_micro_slides.pdf) — διαφάνειες για τη δομή μιας εμπειρικής ομιλίας σε σεμινάριο.
+- [Fu — How to make effective slides](https://fuzhiyu.me/blogs/slide_design_guide/slide_deck_design.pdf) — οδηγός σχεδιασμού διαφανειών για ακαδημαϊκές ομιλίες.
+- [Goldsmith-Pinkham — Beamer tips](https://paulgp.github.io/beamer_tips.html) — πιο καθαρές διαφάνειες με LaTeX Beamer.
+
+**Ακαδημαϊκή ζωή και παραγωγικότητα**
+
+- [Pedersen — How to succeed in academia](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3972340) — ειλικρινείς συμβουλές καριέρας από καθηγητή χρηματοοικονομικής.
+- [Brooks — Your PhD in accounting or finance](https://www.amazon.com/Your-PhD-accounting-finance-Produce-ebook/dp/B09HXS6MY8/) — οδηγός διδακτορικής έρευνας γραμμένος για τη λογιστική και τη χρηματοοικονομική.
+- [Newport — Study Hacks blog](http://calnewport.com/blog/) — για τη συγκεντρωμένη, «βαθιά» εργασία σε έναν κόσμο με email και συσκέψεις.
+
+**Διδασκαλία**
+
+- [EEA Education Committee](https://www.eeassoc.org/committees/education-committee) — υλικό της European Economic Association για τη διδασκαλία των οικονομικών.
+- [Gioia — My 10 rules for public speaking](https://tedgioia.substack.com/p/my-10-rules-for-public-speaking) — σύντομες, πρακτικές συμβουλές που ισχύουν και στο αμφιθέατρο.
 
 **Οικονομικά νέα**
 
@@ -134,4 +182,4 @@ subtitle = ""
 - [Bloomberg](https://www.bloomberg.com/europe) — διεθνείς επιχειρηματικές και χρηματιστηριακές ειδήσεις.
 - [WSJ](https://www.wsj.com/europe) — επιχειρηματικές και οικονομικές ειδήσεις της Wall Street Journal.
 
-<p class="resources-suggest">Γνωρίζετε κάποια πηγή που θα έπρεπε να υπάρχει εδώ; Στείλτε μου email στο <a href="mailto:smagerakis@upatras.gr">smagerakis@upatras.gr</a>.</p>
+<p class="resources-suggest">Γνωρίζετε κάποια πηγή που θα έπρεπε να υπάρχει εδώ; Στείλτε μου email στο <a href="mailto:smagerakis@upatras.gr">smagerakis@upatras.gr</a>. Αρκετοί από τους παραπάνω συνδέσμους προέρχονται από τη <a href="https://claesbackman.com/resources.html">σελίδα πηγών του Claes Bäckman</a>.</p>
