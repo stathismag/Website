@@ -66,23 +66,12 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++ 
++++
 
-* 2025-2026: Adjunct Lecturer, Department of Economics, University of Patras.
-[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) | 
-[Investment Appraisal](https://www.econ.upatras.gr/en/course/investment-appraisal/)
+**Current appointment:** Assistant Professor of Financial Economics, [Department of Economics](https://www.econ.upatras.gr), University of Patras (2026–present).
 
-* 2024-2025: Adjunct Lecturer, Department of Economics, University of Patras.
-[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) 
+**Currently teaching** (undergraduate): Accounting I · Accounting II · Corporate Finance · Special Topics in Finance
 
-* 2022-2023: Adjunct Lecturer, Department of Economics, University of Patras.
-[Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
-[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) | 
-[Financial Analysis and Management](https://www.econ.upatras.gr/en/undergraduate/courses/financial-analysis-and-management) 
+**Previously taught** at the University of Patras (2017–2026): Investment Appraisal · Financial Analysis and Management · Business Financial Analysis (MSc)
 
-* 2017-2021: Teaching Assistant, Department of Economics, University of Patras. 
-[Accounting I](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-i) |
-[Accounting II](https://www.econ.upatras.gr/en/undergraduate/courses/accounting-ii) 
-
-* 2019-2020: Teaching Assistant, Department of Economics, University of Patras. 
-[Business Financial Analysis](http://postgrad.econ.upatras.gr/en/msc/courses/business-financial-analysis)
+My full teaching and appointment history is in my [CV](/en/files/cv_magerakis_en.pdf).
