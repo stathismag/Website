@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "Αναρτήσεις"
 
 # View.
 #   1 = List

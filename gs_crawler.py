@@ -169,16 +169,23 @@ def section(title, color, link, stats):
 """
 
 
-def render_box(gs, scopus):
+LABELS = {
+    "en": {"gs": "Google Scholar Metrics", "sc": "Scopus Metrics", "cit": "Citations", "h": "H-Index", "i10": "i10-Index", "docs": "Documents"},
+    "el": {"gs": "Μετρήσεις Google Scholar", "sc": "Μετρήσεις Scopus", "cit": "Αναφορές", "h": "Δείκτης h", "i10": "Δείκτης i10", "docs": "Δημοσιεύσεις"},
+}
+
+
+def render_box(gs, scopus, lang="en"):
+    L = LABELS[lang]
     parts = [section(
-        "Google Scholar Metrics", "#4285F4",
+        L["gs"], "#4285F4",
         f"https://scholar.google.com/citations?user={GS_AUTHOR_ID}&hl=en",
-        [(gs['total_citations'], "Citations"), (gs['h_index'], "H-Index"), (gs['i10_index'], "i10-Index")])]
+        [(gs['total_citations'], L["cit"]), (gs['h_index'], L["h"]), (gs['i10_index'], L["i10"])])]
     if scopus:
         parts.append(section(
-            "Scopus Metrics", "#E9711C",
+            L["sc"], "#E9711C",
             f"https://www.scopus.com/authid/detail.uri?authorId={scopus['author_id']}" if scopus.get('author_id') else None,
-            [(scopus['total_citations'], "Citations"), (scopus['h_index'], "H-Index"), (scopus['documents'], "Documents")]))
+            [(scopus['total_citations'], L["cit"]), (scopus['h_index'], L["h"]), (scopus['documents'], L["docs"])]))
     divider = '    <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 15px 0;">\n'
     return ('<div style="background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; max-width: 400px; margin: 20px auto; font-family: Arial, sans-serif;">\n'
             + divider.join(parts) + "</div>\n")
@@ -212,7 +219,7 @@ def main():
     box = render_box(gs, scopus)
     files_to_update = [
         ('content/english/google_scholar_metrics.html', box),
-        ('content/greek/google_scholar_metrics.html', box),
+        ('content/greek/google_scholar_metrics.html', render_box(gs, scopus, "el")),
         ('layouts/partials/google_scholar_metrics.html', render_simple(gs, scopus))
     ]
     for file_path, content in files_to_update:

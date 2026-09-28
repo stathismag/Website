@@ -7,9 +7,14 @@
   <p class="powered-by">
     {{ with .Site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
 
+    {{ if eq .Site.Language.Lang "el" }}
+    Με το <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">θέμα Academic</a> για το
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+    {{ else }}
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+    {{ end }}
 
     {{ if ne .Type "docs" }}
     <span class="float-right" aria-hidden="true">
