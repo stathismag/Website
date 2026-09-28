@@ -9,3 +9,41 @@
   translation: "Αποστολή"
 - id: book_appointment
   translation: "Κλείστε ραντεβού"
+
+# Other theme labels missing from the theme's Greek translation
+- id: search
+  translation: "Αναζήτηση"
+- id: search_placeholder
+  translation: "Αναζήτηση..."
+- id: search_results
+  translation: "αποτελέσματα"
+- id: search_no_results
+  translation: "Δεν βρέθηκαν αποτελέσματα"
+- id: see_certificate
+  translation: "Δείτε το πιστοποιητικό"
+- id: user_profile_latest
+  translation: "Πρόσφατα"
+- id: on_this_page
+  translation: "Σε αυτή τη σελίδα"
+- id: back_to_top
+  translation: "Επιστροφή στην αρχή"
+- id: present
+  translation: "Σήμερα"
+- id: more_pages
+  translation: "Δείτε όλα"
+- id: figure
+  translation: "Εικόνα %d:"
+- id: pub_uncat
+  translation: "Χωρίς κατηγορία"
+- id: pub_conf
+  translation: "Εργασία συνεδρίου"
+- id: pub_journal
+  translation: "Άρθρο σε περιοδικό"
+- id: pub_manuscript
+  translation: "Χειρόγραφο"
+- id: pub_report
+  translation: "Έκθεση"
+- id: pub_book
+  translation: "Βιβλίο"
+- id: pub_book_section
+  translation: "Κεφάλαιο βιβλίου"

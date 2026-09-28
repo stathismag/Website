@@ -1,5 +1,5 @@
 +++
-title = "Talks & Presentations"
+title = "Ομιλίες και παρουσιάσεις"
 
 # View.
 #   1 = List
