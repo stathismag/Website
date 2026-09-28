@@ -9,6 +9,7 @@ from datetime import datetime
 
 GS_AUTHOR_ID = "LxLY15EAAAAJ"
 ORCID = "0000-0001-7977-0363"
+SCOPUS_ID = "57217200745"  # used for the profile link; metrics are still looked up by ORCID
 SCOPUS_JSON = "data/scopus_citations.json"
 
 
@@ -117,7 +118,7 @@ def scopus_from_search(api_key, author_id):
         'total_citations': sum(counts),
         'h_index': sum(1 for i, c in enumerate(counts) if c >= i + 1),
         'documents': len(counts),
-        'author_id': author_id,
+        'author_id': author_id or SCOPUS_ID,
     }
 
 

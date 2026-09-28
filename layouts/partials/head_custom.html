@@ -5,7 +5,7 @@
 {{ with .Site.GetPage "author/admin" }}
   {{ $profiles := slice }}
   {{ range .Params.social }}
-    {{ if in (slice "google-scholar" "orcid" "researchgate" "mendeley" "github" "twitter" "x-twitter") .icon }}
+    {{ if in (slice "google-scholar" "orcid" "scopus" "clarivate" "ssrn" "ideas-repec" "researchgate" "mendeley" "linkedin" "github" "twitter" "x-twitter") .icon }}
       {{ $profiles = $profiles | append .link }}
     {{ end }}
   {{ end }}

@@ -144,7 +144,11 @@ subtitle = ""
 
 ### Working Papers
 
-* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
+* **Magerakis, E.**, Ranasinghe, D., & Habib, A. (2026). Does cybersecurity risk disclosure influence firm operational efficiency? <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6662202" class="doi-icon" target="_blank">🔗 SSRN</a>
+
+* **Magerakis, E.**, & Tzelepis, D. (2025). Subnational corruption and corporate tax avoidance. *(Working paper)*
+
+* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty: Does the quality of institutional governance matter? <a href="https://www.researchsquare.com/article/rs-4609962/v1" class="doi-icon" target="_blank">🔗 Research Square</a> *(Under review)*
 
 
 ### Other Publications

@@ -149,7 +149,11 @@ subtitle = "Επιστημονικά άρθρα και ερευνητικές ε
     <details class="pub-abstract"><summary>Εμφάνιση περίληψης</summary><p>This paper investigates the determinants of UK corporate cash holdings during the period 1980-2012. The global and long term phenomenon of corporate cash pilling has drawn significant attention from researchers. Similarly, this study aims at shedding light on the empirical relationship between cash holding and specific firm characteristics. The empirical findings suggest that cash holdings are positively related to investment opportunity, as R&amp;D and market to book ratio. Cash ratio is also positively related to industry cash flow volatility and negatively affected by cash flow, net working capital, capital expenditures, leverage, tax expenses, age and size. Regarding the development of the determinants of cash holdings, the study indicates that three major variables influenced cash holdings over the years of analysis. In particular, leverage, tax regime and capital expenditures significantly affect the corporate liquidity in UK market. Furthermore, the results suggest that cash holdings are mostly defined by trade off theory. Indeed, our findings offer stimulating insights on the factors that determine the firms’ cash holdings during the past three decades.</p></details>
 
 ### Εργασίες σε Εξέλιξη
-* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty. Does the quality of institutional governance matter?. https://www.researchsquare.com/article/rs-4609962/v1 *(Under Review)*
+* **Magerakis, E.**, Ranasinghe, D., & Habib, A. (2026). Does cybersecurity risk disclosure influence firm operational efficiency? <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6662202" class="doi-icon" target="_blank">🔗 SSRN</a>
+
+* **Magerakis, E.**, & Tzelepis, D. (2025). Subnational corruption and corporate tax avoidance. *(Υπό επεξεργασία)*
+
+* **Magerakis, E.** (2024). Corporate tax avoidance under economic policy uncertainty: Does the quality of institutional governance matter? <a href="https://www.researchsquare.com/article/rs-4609962/v1" class="doi-icon" target="_blank">🔗 Research Square</a> *(Υπό αξιολόγηση)*
 
 ### Λοιπές δημοσιεύσεις
 * **Magerakis, E.** (2022). *Essays in financial accounting and corporate finance* (Doctoral dissertation, University of Patras, Greece. School of Economics and Business. Department of Economics). [<img src="/img/html.png">](https://www.didaktorika.gr/eadd/handle/10442/51855)
