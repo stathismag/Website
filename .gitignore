@@ -13,3 +13,5 @@ resources/_gen/
 
 # Node
 node_modules/
+# Python
+__pycache__/

@@ -110,7 +110,7 @@ user_groups = ["Researchers", "Visitors"]
   [[social]]
     icon = "ideas-repec"
     icon_pack = "ai"
-    link = "https://authors.repec.org/profile-overview!dbbd9c892b1be0de6db4f3951e0cccea"
+    link = "https://authors.repec.org/pro/pma2713/"
  	
   [[social]]
     icon = "mendeley"
@@ -118,9 +118,9 @@ user_groups = ["Researchers", "Visitors"]
     link = "https://www.mendeley.com/profiles/stathis-magerakis/"
 
   [[social]]
-    icon = "publons"
+    icon = "clarivate"
     icon_pack = "ai"
-    link = "https://publons.com/researcher/2901360/efstathios-magerakis/"
+    link = "https://www.webofscience.com/wos/author/record/AAX-5122-2020"
 
 [[social]]
   icon = "github"
@@ -131,6 +131,18 @@ user_groups = ["Researchers", "Visitors"]
   icon = "orcid"
   icon_pack = "ai"
   link = "https://orcid.org/0000-0001-7977-0363"
+[[social]]
+  icon = "scopus"
+  icon_pack = "ai"
+  link = "https://www.scopus.com/authid/detail.uri?authorId=57217200745"
+[[social]]
+  icon = "ssrn"
+  icon_pack = "ai"
+  link = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2448284"
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "files/cv_magerakis_el.pdf"
 
   [[social]]
     icon = "impactstory"

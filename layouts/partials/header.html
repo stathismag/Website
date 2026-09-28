@@ -59,7 +59,8 @@
   {{ else }}
     {{ $scr.Set "use_cdn" 1 }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.bootstrap.url $css.bootstrap.version) $css.bootstrap.sri | safeHTML }}
-    {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.academicons.url $css.academicons.version) $css.academicons.sri | safeHTML }}
+    {{/* Academicons 1.9.5, self-hosted (adds SSRN, Scopus and Web of Science icons missing from the theme's 1.8.6) */}}
+    <link rel="stylesheet" href="{{ "css/academicons/css/academicons.min.css" | relURL }}">
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.fontAwesome.url $css.fontAwesome.version) $css.fontAwesome.sri | safeHTML }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.fancybox.url $css.fancybox.version) $css.fancybox.sri | safeHTML }}
 
