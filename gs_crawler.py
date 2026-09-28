@@ -13,6 +13,16 @@ SCOPUS_JSON = "data/scopus_citations.json"
 
 
 def write_json(name, data):
+    # Keep the saved file (and its old last_updated) when the metrics themselves
+    # are unchanged, so an unchanged run commits nothing and triggers no deploy.
+    try:
+        with open(os.path.join("data", name)) as f:
+            old = json.load(f)
+        strip = lambda d: {k: v for k, v in d.items() if k != "last_updated"}
+        if strip(old) == strip(data):
+            return
+    except (OSError, ValueError):
+        pass
     # data/ is read by Hugo; static/data/ is served over HTTP
     for folder in ("data", "static/data"):
         os.makedirs(folder, exist_ok=True)
