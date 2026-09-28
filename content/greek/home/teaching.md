@@ -66,24 +66,12 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++ 
++++
 
-* 2025-2026: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
-[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
-[Αξιολόγηση Επενδύσεων](https://www.econ.upatras.gr/course/axiologisi-ependyseon/)
+**Τρέχουσα θέση:** Επίκουρος Καθηγητής Χρηματοοικονομικής, [Τμήμα Οικονομικών Επιστημών](https://www.econ.upatras.gr), Πανεπιστήμιο Πατρών (2026–σήμερα).
 
-* 2024-2025: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
-[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
+**Διδάσκω** (προπτυχιακό): Λογιστική Ι · Λογιστική ΙΙ · Εταιρική Χρηματοοικονομική · Ειδικά Θέματα Χρηματοοικονομικής
 
-* 2022-2023: Καθηγητής επί συμβάσει, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
-[Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) |
-[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) |
-[Χρηματοοικονομική Ανάλυση και Διαχείριση](https://www.econ.upatras.gr/el/undergraduate/courses/hrimatooikonomiki-analysi-kai-diaheirisi) 
+**Έχω επίσης διδάξει** στο Πανεπιστήμιο Πατρών (2017–2026): Αξιολόγηση Επενδύσεων · Χρηματοοικονομική Ανάλυση και Διαχείριση · Χρηματοοικονομική Ανάλυση Επιχειρήσεων (ΠΜΣ)
 
-* 2017-2021: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών.  
-[Λογιστική Ι](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-i) |
-[Λογιστική ΙΙ](https://www.econ.upatras.gr/el/undergraduate/courses/logistiki-ii) 
-
-* 2019-2020: Βοηθός διδασκαλίας, Τμήμα Οικονομικών Επιστημών του Πανεπιστημίου Πατρών. 
-[Χρηματοοικονομική Ανάλυση Επιχειρήσεων](http://postgrad.econ.upatras.gr/el/msc/courses/hrimatooikonomiki-analysi-epiheiriseon) 
-
+Το πλήρες ιστορικό διδασκαλίας και θέσεών μου υπάρχει στο [βιογραφικό μου](/el/files/cv_magerakis_el.pdf).
