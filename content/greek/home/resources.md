@@ -133,7 +133,7 @@ subtitle = ""
 
 </details>
 
-<details class="res-group"><summary>Τεχνητή νοημοσύνη στην έρευνα <span class="res-count">(10)</span></summary>
+<details class="res-group"><summary>Τεχνητή νοημοσύνη στην έρευνα <span class="res-count">(15)</span></summary>
 
 - [Bäckman — AI guides for academic economists](https://claesbackman.com/ai-guides.html) — πρακτικοί οδηγοί για το Claude Code και το Codex στην εμπειρική έρευνα, μαζί με έναν οδηγό 28 σελίδων σε PDF.
 - [Sant'Anna — My Claude Code setup](https://psantanna.com/claude-code-my-workflow/) — η ροή εργασίας του Pedro Sant'Anna με το Claude Code σε ερευνητικά έργα.
@@ -145,14 +145,21 @@ subtitle = ""
 - [Black — An AI-assisted research flow](https://black-jl.github.io/Research-Project-Flow/) — πρότυπο του Jared Black για την οργάνωση ενός ερευνητικού έργου με AI.
 - [Bryan — Guide to AI, Git and LaTeX](https://kevinbryanecon.com/techstack.html) — τα ερευνητικά εργαλεία του Kevin Bryan.
 - [Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm) — πλήρης οδηγός του Aakash Gupta για το NotebookLM της Google, το εργαλείο πίσω από τα podcasts μου.
+- [Korinek — AI agents for economic research](https://www.genaiforecon.org/JEL-2025-Aug-AIAgents.pdf) — το άρθρο του Anton Korinek στο *Journal of Economic Literature* (Αύγουστος 2025) για τη χρήση AI agents στην έρευνα.
+- [Goldsmith-Pinkham — Using AI in research and teaching](https://paulgp.com/2024/06/24/llm_talk.html) — πρακτικός οδηγός για τη χρήση LLMs στην ακαδημαϊκή εργασία.
+- [Velikov — AI Econ Wiki](https://velikov-mihail.github.io/ai-econ-wiki/) — βάση γνώσεων για ροές εργασίας με AI στην επιχειρηματική και οικονομική έρευνα.
+- [Wharton — Prompt library](https://gail.wharton.upenn.edu/prompt-library/) — δοκιμασμένα prompts από τα Wharton Generative AI Labs.
+- [BYU Library — AI tools for economics](https://guides.lib.byu.edu/economics/ai) — οδηγός της βιβλιοθήκης του BYU για εργαλεία AI σε φοιτητές και ερευνητές οικονομικών.
 
 </details>
 
-<details class="res-group"><summary>Δεξιότητες (skills) του Claude Code για έρευνα <span class="res-count">(3)</span></summary>
+<details class="res-group"><summary>Δεξιότητες (skills) του Claude Code για έρευνα <span class="res-count">(5)</span></summary>
 
 - [Bäckman — Automated paper feedback](https://github.com/claesbackman/AI-research-feedback) — skill που αξιολογεί ένα προσχέδιο άρθρου και δίνει δομημένα σχόλια.
 - [Hirshleifer — Academic presentations skill](https://github.com/Gabberflast/academic-pptx-skill) — μετατρέπει ένα άρθρο σε ακαδημαϊκή παρουσίαση.
 - [Lopez-Lira — Research idea evaluation pipeline](https://github.com/alejandroll10/idea-evaluation-pipeline) — διαδικασία για τον κριτικό έλεγχο νέων ερευνητικών ιδεών.
+- [Barrios — Skills for economists and accountants](https://johnmbarrios.com/barrios-skills/skills.html) — βιβλιοθήκη με 46 έτοιμα AI skills για έρευνα στα οικονομικά και τη λογιστική.
+- [Koren — Theorist toolbox](https://github.com/morankor/theorist-toolbox) — Claude Code skills για οικονομική θεωρία: διατύπωση και έλεγχος αποδείξεων με LLMs.
 
 </details>
 

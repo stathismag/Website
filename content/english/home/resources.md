@@ -133,7 +133,7 @@ subtitle = ""
 
 </details>
 
-<details class="res-group"><summary>AI for research <span class="res-count">(10)</span></summary>
+<details class="res-group"><summary>AI for research <span class="res-count">(15)</span></summary>
 
 - [Bäckman — AI guides for academic economists](https://claesbackman.com/ai-guides.html) — practical guides to Claude Code and Codex for empirical research, including a 28-page PDF guide.
 - [Sant'Anna — My Claude Code setup](https://psantanna.com/claude-code-my-workflow/) — Pedro Sant'Anna's Claude Code workflow for research projects.
@@ -145,14 +145,21 @@ subtitle = ""
 - [Black — An AI-assisted research flow](https://black-jl.github.io/Research-Project-Flow/) — Jared Black's template for running a research project with AI.
 - [Bryan — Guide to AI, Git and LaTeX](https://kevinbryanecon.com/techstack.html) — Kevin Bryan's research tech stack.
 - [Guide to NotebookLM](https://www.news.aakashg.com/p/complete-guide-to-notebooklm) — Aakash Gupta's complete guide to Google's NotebookLM, the tool behind my podcasts.
+- [Korinek — AI agents for economic research](https://www.genaiforecon.org/JEL-2025-Aug-AIAgents.pdf) — Anton Korinek's *Journal of Economic Literature* article (August 2025) on using AI agents in research.
+- [Goldsmith-Pinkham — Using AI in research and teaching](https://paulgp.com/2024/06/24/llm_talk.html) — a practical guide to LLMs for academic work.
+- [Velikov — AI Econ Wiki](https://velikov-mihail.github.io/ai-econ-wiki/) — a knowledge base on AI workflows for business and economic research.
+- [Wharton — Prompt library](https://gail.wharton.upenn.edu/prompt-library/) — tested prompts from the Wharton Generative AI Labs.
+- [BYU Library — AI tools for economics](https://guides.lib.byu.edu/economics/ai) — a library guide to AI tools for economics students and researchers.
 
 </details>
 
-<details class="res-group"><summary>Claude Code skills for research <span class="res-count">(3)</span></summary>
+<details class="res-group"><summary>Claude Code skills for research <span class="res-count">(5)</span></summary>
 
 - [Bäckman — Automated paper feedback](https://github.com/claesbackman/AI-research-feedback) — a skill that reviews a draft paper and returns structured feedback.
 - [Hirshleifer — Academic presentations skill](https://github.com/Gabberflast/academic-pptx-skill) — turns a paper into an academic slide deck.
 - [Lopez-Lira — Research idea evaluation pipeline](https://github.com/alejandroll10/idea-evaluation-pipeline) — a pipeline for stress-testing new research ideas.
+- [Barrios — Skills for economists and accountants](https://johnmbarrios.com/barrios-skills/skills.html) — a library of 46 ready-made AI agent skills for economics and accounting research.
+- [Koren — Theorist toolbox](https://github.com/morankor/theorist-toolbox) — Claude Code skills for economic theory: writing and verifying proofs with LLMs.
 
 </details>
 
