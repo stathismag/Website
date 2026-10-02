@@ -51,7 +51,7 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "smagerakis@upatras.gr"
-phone = ""  # office phone number, e.g. "+30 2610 XXXXXX"; leave empty to hide
+phone = "+30 2610 962576"
 address = "Γραφείο 1.07 (1ος Όροφος), Τμήμα Οικονομικών Επιστημών, Πανεπιστήμιο Πατρών,  Πανεπιστημιούπολη, Ρίο Πατρών, Τ.Κ. 265 04, Αχαΐα, Ελλάδα"
 office_hours = ""
 
